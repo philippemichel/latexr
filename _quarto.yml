@@ -15,4 +15,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    toc_depth: 3
