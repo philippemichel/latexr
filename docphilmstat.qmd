@@ -4,7 +4,7 @@ title: "Ma proposition"
 
 Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.
 
-Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. C'est pourquoi je vous propose de vous accompagner dans la partie statistique de votre travail & celà à trois moments du long processus d'écriture : 
+Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. C'est pourquoi je vous propose de vous accompagner dans votre travail & cela à trois moments du long processus d'écriture ([La chronologie en détail](chronologie.html)) : 
 
 # Méthodologie
 
@@ -22,6 +22,11 @@ Ces variables il va falloir les stocker quelque part. Deux solutions pratiques :
 
 Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. Et je ne comprends pas pourquoi on demande à de futurs médecins de faire des statistiques. C'est comme si on demandait à un statisticien de faire une appendicectomie. N'oubliez pas que les PUPH qui vont vous juger, pour tous leurs travaux passent par un labo de statistique. 
 
-Vous devez avoir des bases en statistiques pour pouvoir lire un article correctement mais c'est tout. 
+Vous devez avoir de bonnes bases en statistiques pour pouvoir lire un article correctement mais c'est tout. 
 
-Et c'est là que j'interviens. Dans un premier temps même sur des données correctements stockées il y a un travail de  nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
+Et c'est là que j'interviens. Dans un premier temps même sur des données correctement stockées il y a un travail de  nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
+
+
+
+
+Si je me permets de vous proposer mes services c'est que j'ai une bonne [formation en statistiques](presentation.html)  & Une grosse expérience de ce type de travail.

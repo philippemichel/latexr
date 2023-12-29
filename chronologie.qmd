@@ -1,0 +1,97 @@
+---
+title: "Déroulé de votre étude"
+subtitle: "Au travail !"
+---
+
+
+Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même prévoir au minimum 1 an. Voyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse. 
+
+
+::: {.callout-note}
+## Exemple
+
+Nous allons prendre comme exemple un travail su le BPCO aux urgences. 
+
+La question posée est *"Est-ce que la SpO~2~ est un bon marqueur de la sévérité de la BPCO aux urgences ?"* (spoiler : c'est un très mauvais critère).
+:::
+
+# Introduction & Bibliographie
+
+Vous avez une idée de départ il vous faut l'affiner. Dans notre exemple, sévérité OK mais quel critère ? . On peut par exemple prendre le nombre de recours à la ventilation invasive ou non. Mais la ventilation aux urgences ? Après transfert en réa, dans quel délai ? etc. Il vous faut arriver à une formulation claire de votre question : *Est-ce que la SpO~2~ est un bon marqueur du recours rapide (moins de 48 h) à la ventilation invasive chez les BPCO GOLD II ou plus ?*
+
+Même en admettant que vous connaissiez bien votre sujet, il vous faut faire une revue de la littérature. Ça affinera votre vision du problème, vous donnera des idées, des méthodes pour aborder le problème. Cette étape revient à rédiger la partie *Introduction* de votre travail.
+
+::: {.callout-tip}
+## Mon apport
+
+Il s'agit là de vous approprier le sujet. C'est un travail personnel, je ne peux rien faire pour vous. 
+:::
+
+# Matériel et Méthodes
+
+C'est la partie la plus importante de votre travail. C'est là que vous allez décrire votre population, vos critères d'inclusion et d'exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc. Mais aussi la plus rébarbative à lire & la plus complexe à écrire.
+
+La première étapde est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ? (Souvenez-vous de vos cours de LCA !). 
+
+Ensuite, il vous faut définir votre population. Dans notre exemple, on va prendre tous les patients qui ont été admis aux urgences pour une BPCO. Mais qu'est-ce qu'une BPCO ? Il faut définir les critères d'inclusion et d'exclusion.
+
+À cette étape le cadre de l'étude est posé. Il faut maintenant définir les variables que vous allez devoir collecter. Ni trop, ni trop peu. Il vous faudra bien entendu la SpO~2~ à l'admission mais aussi d'autres variables permettant de chercher si certains groupes de malades bénéficieraient plus de cette approche (âge, gravité, certains antécédents...). Sans oublier que plus il y a de variables plus il y aura de travail à fournir. Idéalement il faudrait faire une liste des variables (*codebook*) avec leur nom, l'unité, le type de variable (numérique, catégorielle, etc.) etc. 
+
+Le seul calcul qui doit être fait à ce stade est le nombre de cas nécessaires. On se base sur la bibliographie & des méthodes statistiques.
+
+::: {.callout-tip}
+## Mon apport
+
+C'est à vous de définir votre type d'étude selon les possibilités locales etc.
+
+Ensuite je peux vous aider à rédiger le protocole, à définir les variables, à les coder, à les collecter, à les analyser, etc. 
+
+Bien entendu je peux calculer le nombre des cas & rédiger la plan d'analyse statistique. 
+:::
+
+Tout cela vous donnera une bonne base pour rédiger votre partie *Matériel et Méthodes*.
+
+## Base de données
+
+Toutes ces données il va falloir les stocker. Deux solutions simples existent : 
+
+- Un formulaire en ligne type [Google Forms](https://www.google.fr/intl/fr/forms/about/) ou = [LymeSurvey](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit.  
+- Un tableur (type Excel). Ça peut paraître simple mais c'est plein de pièges & la saisie peut être longue & source d'erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.
+
+::: {.callout-tip}
+## Mon apport
+
+Pour un formulaire en ligne je peux me charger de le configurer. 
+
+Pour un tableur je peux soit le créer complètement soit simplement améliorer votre travail. 
+:::
+
+::: {.callout-warning}
+## Attention !
+
+Il ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d'autorisation au CPP. Là je ne peux rien pour vous si ce n'est vous aider à rédiger la demande pour le CPP qui ce résume (presque) à l'Introduction & les Matériel et Méthodes.
+:::
+
+## recueil des données
+
+Là, c'est à vous de bosser. 
+
+# Résultats
+
+L'analyse des données commence toujours par un nettoyage & une mise en forme même si le recueil a été très bien fait. Il faut vérifier les valeurs aberrantes, les doublons, les valeurs manquantes, mettre en forme les données catégorielles... Bien entendu si je doit récupérer un classeur Excel mal organisé je vais y passer beaucoup, beaucoup plus de temps  &  je vais vous facturer beaucoup, beaucoup plus. UN graphique ou un tableau récapitulatif de létude avec le nombre de variables par catégorie, le nombre de valeurs manquantes sera réalisé & un résumé rapide des résultats rendu au plus vite
+
+Ensuite on commence par un ou plusieurs tableaux descriptifs & des graphiques pour les valeurs essentielles. Puis, enfin, la réponse à la question principale (le p< 0,05). Outre ce chiffre, on recherchera souvent des corrélations avec d'autres évènements, des facteurs  favorisants (*Est-ce que la SpO~2~ est un meilleur facteur prédictif chez les patients Gold4 ?*)*. Pour une analyse essez simple on rendra un tableau récapitulatif des résultats avec les p-values item apr item puis une analyse multivariée par régression (logistique, linéaire, etc.) avec les odds-ratio, les intervalles de confiance, les p-values, etc. Dans d'autres cas un score de propension pourra être calculé, le design de l'analyse dépent du travail. Bien entendu des graphiques seront réalisés pour illustrer les résultats.
+
+::: {.callout-tip}
+## Mon apport
+
+Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiqument à la partie *Résultats* de votre travail.
+:::
+
+# Discussion & Conclusion
+
+À  vous de travailler. Je peux éventuellement relire mais l'avis de votre directeur de thèse ou d'un collègue sera plus utile.
+
+
+
+

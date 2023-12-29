@@ -1,6 +1,6 @@
 ---
-title: "latexr"
-subtitle: "Sommaire"
+title: "LaTeXR"
+subtitle: "En travaux"
 ---
 
 Ce site est en réfection complète afin d'accueillir les nouveaux trucs pour LaTeX & R mais surtout la présentation de mon activité (en projet) de méthodo-statisticien en ligne & en freelance dans le domaine médical. 
