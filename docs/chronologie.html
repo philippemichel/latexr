@@ -111,27 +111,14 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction-bibliographie" id="toc-introduction-bibliographie" class="nav-link active" data-scroll-target="#introduction-bibliographie">Introduction &amp; Bibliographie</a></li>
-  <li><a href="#matériel-et-méthodes" id="toc-matériel-et-méthodes" class="nav-link" data-scroll-target="#matériel-et-méthodes">Matériel et Méthodes</a>
-  <ul class="collapse">
-  <li><a href="#base-de-données" id="toc-base-de-données" class="nav-link" data-scroll-target="#base-de-données">Base de données</a></li>
-  <li><a href="#recueil-des-données" id="toc-recueil-des-données" class="nav-link" data-scroll-target="#recueil-des-données">recueil des données</a></li>
-  </ul></li>
-  <li><a href="#résultats" id="toc-résultats" class="nav-link" data-scroll-target="#résultats">Résultats</a></li>
-  <li><a href="#discussion-conclusion" id="toc-discussion-conclusion" class="nav-link" data-scroll-target="#discussion-conclusion">Discussion &amp; Conclusion</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -166,8 +153,10 @@ Exemple
 <p>La question posée est <em>“Est-ce que la SpO<sub>2</sub> est un bon marqueur de la sévérité de la BPCO aux urgences ?”</em> (spoiler : c’est un très mauvais critère).</p>
 </div>
 </div>
-<section id="introduction-bibliographie" class="level1">
-<h1>Introduction &amp; Bibliographie</h1>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Introduction &amp; Bibliographie</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Matériel et Méthodes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Résultats</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Discussion &amp; Conclusion</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Vous avez une idée de départ il vous faut l’affiner. Dans notre exemple, sévérité OK mais quel critère ? . On peut par exemple prendre le nombre de recours à la ventilation invasive ou non. Mais la ventilation aux urgences ? Après transfert en réa, dans quel délai ? etc. Il vous faut arriver à une formulation claire de votre question : <em>Est-ce que la SpO<sub>2</sub> est un bon marqueur du recours rapide (moins de 48 h) à la ventilation invasive chez les BPCO GOLD II ou plus ?</em></p>
 <p>Même en admettant que vous connaissiez bien votre sujet, il vous faut faire une revue de la littérature. Ça affinera votre vision du problème, vous donnera des idées, des méthodes pour aborder le problème. Cette étape revient à rédiger la partie <em>Introduction</em> de votre travail.</p>
 <div class="callout-tip callout callout-style-default callout-captioned">
@@ -183,9 +172,8 @@ Mon apport
 <p>Il s’agit là de vous approprier le sujet. C’est un travail personnel, je ne peux rien faire pour vous.</p>
 </div>
 </div>
-</section>
-<section id="matériel-et-méthodes" class="level1">
-<h1>Matériel et Méthodes</h1>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>C’est la partie la plus importante de votre travail. C’est là que vous allez décrire votre population, vos critères d’inclusion et d’exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc. Mais aussi la plus rébarbative à lire &amp; la plus complexe à écrire.</p>
 <p>La première étapde est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ? (Souvenez-vous de vos cours de LCA !).</p>
 <p>Ensuite, il vous faut définir votre population. Dans notre exemple, on va prendre tous les patients qui ont été admis aux urgences pour une BPCO. Mais qu’est-ce qu’une BPCO ? Il faut définir les critères d’inclusion et d’exclusion.</p>
@@ -247,9 +235,8 @@ Attention !
 <h2 class="anchored" data-anchor-id="recueil-des-données">recueil des données</h2>
 <p>Là, c’est à vous de bosser.</p>
 </section>
-</section>
-<section id="résultats" class="level1">
-<h1>Résultats</h1>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>L’analyse des données commence toujours par un nettoyage &amp; une mise en forme même si le recueil a été très bien fait. Il faut vérifier les valeurs aberrantes, les doublons, les valeurs manquantes, mettre en forme les données catégorielles… Bien entendu si je doit récupérer un classeur Excel mal organisé je vais y passer beaucoup, beaucoup plus de temps &amp; je vais vous facturer beaucoup, beaucoup plus. UN graphique ou un tableau récapitulatif de létude avec le nombre de variables par catégorie, le nombre de valeurs manquantes sera réalisé &amp; un résumé rapide des résultats rendu au plus vite</p>
 <p>Ensuite on commence par un ou plusieurs tableaux descriptifs &amp; des graphiques pour les valeurs essentielles. Puis, enfin, la réponse à la question principale (le p&lt; 0,05). Outre ce chiffre, on recherchera souvent des corrélations avec d’autres évènements, des facteurs favorisants (<em>Est-ce que la SpO<sub>2</sub> est un meilleur facteur prédictif chez les patients Gold4 ?</em>)*. Pour une analyse essez simple on rendra un tableau récapitulatif des résultats avec les p-values item apr item puis une analyse multivariée par régression (logistique, linéaire, etc.) avec les odds-ratio, les intervalles de confiance, les p-values, etc. Dans d’autres cas un score de propension pourra être calculé, le design de l’analyse dépent du travail. Bien entendu des graphiques seront réalisés pour illustrer les résultats.</p>
 <div class="callout-tip callout callout-style-default callout-captioned">
@@ -265,13 +252,14 @@ Mon apport
 <p>Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiqument à la partie <em>Résultats</em> de votre travail.</p>
 </div>
 </div>
-</section>
-<section id="discussion-conclusion" class="level1">
-<h1>Discussion &amp; Conclusion</h1>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p>À vous de travailler. Je peux éventuellement relire mais l’avis de votre directeur de thèse ou d’un collègue sera plus utile.</p>
+</div>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
