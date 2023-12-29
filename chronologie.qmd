@@ -72,6 +72,8 @@ Pour un tableur je peux soit le créer complètement soit simplement améliorer 
 ## Attention !
 
 Il ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d'autorisation au CPP. Là je ne peux rien pour vous si ce n'est vous aider à rédiger la demande pour le CPP qui ce résume (presque) à l'Introduction & les Matériel et Méthodes.
+
+Et ne perdez pas de temps : il est hors de question d'inclure le moindre patient dans l’étude avant d'avoir l'accord du CPP.
 :::
 
 ## recueil des données

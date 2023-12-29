@@ -1,0 +1,20 @@
+---
+title: "Matériel & Logiciels"
+---
+ Petite présentation de mon matériel & des logiciels que j'utilise. 
+ 
+# Matériel
+ 
+ De nos jours n'importe quel ordinateur récent fera l'affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent. Prévoir juste de la mémoire vive pour R (au moins 16 Go).
+ 
+ Deux écrans me parait être un minimum (je n'ai pas encore essayé les grands écrans courbes). Un pour le code, un secondaire pour les résultats, la doc, les mails...
+ 
+ Un réseau correct, un clavier & une souris qui vous conviennent (très personnel) & voilà. Sans oublier un système de sauvegarde local.
+ 
+ 
+ 
+# Logiciels
+ 
+ Je fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j'utilise selon mon humeur RStudio ou Visual Studio Code, parfois Emacs avec ESS. Les rapports (et ce site) sont rédigés grâce à Quarto. 
+ 
+ Pour les autres langages en particulier $\LaTeX$, je reste fidèle à Emacs. Pour le reste que du très classique. 
