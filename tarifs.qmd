@@ -18,14 +18,15 @@ library(tidyverse)
 library(kableExtra)
 
 tarifs <- data.frame(
-  tache = c("Méthodologie", "Questionnaire en ligne", "Tableur : rédaction complète", "Tableur : correction", "Analyse statistique simple", "Analyse statistique complexe", "Travail complet"),
-  tarif = c("200 €","100 €","200 €","100 €","200 €","300 €","500 €"),
+  Tache = c("Méthodologie", "Questionnaire en ligne", "Tableur : rédaction complète", "Tableur : correction", "Analyse statistique simple", "Analyse statistique complexe", "Travail complet"),
+  Tarif = c("200 €","100 €","200 €","100 €","200 €","300 €","500 €"),
   stringsAsFactors = TRUE
 )
 
 kable(tarifs, format = "html", align = "l") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = FALSE) |> 
-    row_spec(7, bold = T, color = "white", background = "#D7261E")
+    row_spec(7, bold = T, color = "white", background = "#D7261E") |> 
+  row_spec(2:4, bold = F, color = "black", background = "#CCC6FF")
 ```
 
 

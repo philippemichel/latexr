@@ -15,6 +15,6 @@ title: "Matériel & Logiciels"
  
 # Logiciels
  
- Je fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j'utilise selon mon humeur RStudio ou Visual Studio Code, parfois Emacs avec ESS. Les rapports (et ce site) sont rédigés grâce à Quarto. 
+ Je fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j'utilise selon mon humeur [RStudio](https://posit.co/download/rstudio-desktop/) ou [Visual Studio Code](https://code.visualstudio.com/), parfois [Emacs](https://www.gnu.org/s/emacs/) avec [ESS](https://ess.r-project.org/. Les rapports (et ce site) sont rédigés grâce à [Quarto](https://quarto.org/). 
  
  Pour les autres langages en particulier $\LaTeX$, je reste fidèle à Emacs. Pour le reste que du très classique. 

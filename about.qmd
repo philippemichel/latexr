@@ -1,15 +1,20 @@
 ---
-title: "About"
+title: "À propos"
 ---
 Deux parties dans ce site :
 
 - Présentation de mon offre de soutien **DocPhilStat** en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large.
 
-- Des conseils, trucs et astuces pour R & $\LaTeX$.
+- Des [conseils, trucs et astuces](blog.html) pour R & $\LaTeX$.
 
 
 ::: {.callout-tip}
 ## TECHNIQUE
 
-Ce site est généré avec [Quarto](https://quarto.org/docs/websites/), un outil de publication de documents scientifiques. Il est écrit en Markdown & R.  
+Ce site est généré avec [Quarto](https://quarto.org/docs/websites/), un outil de publication de documents scientifiques qui utilise Markdown & R.  
 :::
+
+
+# Pour me joindre
+
+Un simple mail à `docphilstat-at-gmail.com` (en remplaçant -at- par @   bien sûr) ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.

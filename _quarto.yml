@@ -1,22 +1,41 @@
 project:
   type: website
   output-dir: "docs"
+lang: fr
 website:
   title: "LaTeXR"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
       - docphilmstat.qmd
       - chronologie.qmd
+      - presentation.qmd
       - tarifs.qmd
+      - materiel.qmd
+      - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "DocPhilmStat"
+        contents:
+          - docphilmstat.qmd
+          - chronologie.qmd
+          - presentation.qmd
+          - tarifs.qmd
+          - materiel.qmd
+          - about.qmd
+      - section: "Blog"
+        contents:
+          - blog.qmd
 format:
   html:
     page-layout: full
     theme:
-     light: flatly
-     dark: darkly
+     light: sandstone
+     dark: cyborg
     css: styles.css
     toc: true
     links:
@@ -26,3 +45,6 @@ format:
     - icon: github
       text: Github
       # href: https://github.com/philippemichel
+
+
+
