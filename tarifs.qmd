@@ -4,7 +4,7 @@ subtitle: "provisoires, prévisionels & non contractuels"
 format: html
 ---
 
-Je ne facture pas à l'heure car si je vais très vite pour certaines tâches c'est que j'ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement. Voir l'[histoire du coup de marteau](https://www.map-consult.com/fr/savoir-faire/le-coup-de-marteau.html).
+Je ne facture pas à l'heure car si je vais très vite pour certaines tâches c'est que j'ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement.<br> Voir l'[histoire du coup de marteau](https://www.map-consult.com/fr/savoir-faire/le-coup-de-marteau.html).
 
 Voici donc mes tarifs prévisionnels. Ils sont donnés à titre indicatif. 
 
@@ -44,7 +44,9 @@ Ronald A. Fisher, FRS (1890-1962)
 
 - **Analyse simple** : Études observationnelles, sondages, analyse de pratique
 
-- **Analyse complexe** : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec dcore de propension. *TextMiming* (analyse en plein texte)
+- **Analyse complexe** : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. *TextMining* (analyse en plein texte)
 
+# Pour me joindre
 
+Un simple mail à `docphilmstat-at-gmail.com` (en remplaçant -at- par @   bien sûr) ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
 

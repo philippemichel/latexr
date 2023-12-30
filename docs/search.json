@@ -39,7 +39,7 @@
     "href": "blog/index.html",
     "title": "Trucs LaTeX & R",
     "section": "",
-    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\n\n\n\n\n\n\n\n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\ntechnique\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\n\n\n\n\n\n\n\n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "about.html",
@@ -88,14 +88,7 @@
     "href": "tarifs.html",
     "title": "Tarifs",
     "section": "",
-    "text": "Je ne facture pas à l’heure car si je vais très vite pour certaines tâches c’est que j’ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement. Voir l’histoire du coup de marteau.\nVoici donc mes tarifs prévisionnels. Ils sont donnés à titre indicatif.\n\n\n\n\n \n  \n    Tache \n    Tarif \n  \n \n\n  \n    Méthodologie \n    200 € \n  \n  \n    Questionnaire en ligne \n    100 € \n  \n  \n    Tableur : rédaction complète \n    200 € \n  \n  \n    Tableur : correction \n    100 € \n  \n  \n    Analyse statistique simple \n    200 € \n  \n  \n    Analyse statistique complexe \n    300 € \n  \n  \n    Travail complet \n    500 € \n  \n\n\n\n\n\nComme vous le devinez je préfère travailler sur des projets du début à la fin. C’est plus intéressant pour vous & pour moi. Mais je peux aussi vous aider sur une partie seulement.\n\n\n\n\n\n\n\n\n\n\n“Appeler un statisticien après que l’expérience est terminée, c’est comme lui demander de faire une autopsie ; il pourra seulement déterminer la cause de l’échec de l’expérience.”\nRonald A. Fisher, FRS (1890-1962)\n\n\n\nQuelques précisions\n\nAnalyse simple : Études observationnelles, sondages, analyse de pratique\nAnalyse complexe : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec dcore de propension. TextMiming (analyse en plein texte)"
-  },
-  {
-    "objectID": "sommaire.html",
-    "href": "sommaire.html",
-    "title": "Sommaire",
-    "section": "",
-    "text": "About\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nDéroulé de votre étude\n\n\nAu travail !\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLaTeXR\n\n\nEn travaux\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLaTeXmk\n\n\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nMa proposition\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nMatériel & Logiciels\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nQui suis-je ?\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nTarifs\n\n\nprovisoires, prévisionels & non contractuels\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nTrucs LaTeX & R\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nÀ propos\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nAucun article correspondant"
+    "text": "Je ne facture pas à l’heure car si je vais très vite pour certaines tâches c’est que j’ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement. Voir l’histoire du coup de marteau.\nVoici donc mes tarifs prévisionnels. Ils sont donnés à titre indicatif.\n\n\n\n\n \n  \n    Tache \n    Tarif \n  \n \n\n  \n    Méthodologie \n    200 € \n  \n  \n    Questionnaire en ligne \n    100 € \n  \n  \n    Tableur : rédaction complète \n    200 € \n  \n  \n    Tableur : correction \n    100 € \n  \n  \n    Analyse statistique simple \n    200 € \n  \n  \n    Analyse statistique complexe \n    300 € \n  \n  \n    Travail complet \n    500 € \n  \n\n\n\n\n\nComme vous le devinez je préfère travailler sur des projets du début à la fin. C’est plus intéressant pour vous & pour moi. Mais je peux aussi vous aider sur une partie seulement.\n\n\n\n\n\n\n\n\n\n\n“Appeler un statisticien après que l’expérience est terminée, c’est comme lui demander de faire une autopsie ; il pourra seulement déterminer la cause de l’échec de l’expérience.”\nRonald A. Fisher, FRS (1890-1962)\n\n\n\nQuelques précisions\n\nAnalyse simple : Études observationnelles, sondages, analyse de pratique\nAnalyse complexe : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. TextMining (analyse en plein texte)\n\n\n\nPour me joindre\nUn simple mail à docphilmstat-at-gmail.com (en remplaçant -at- par @ bien sûr) ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
   },
   {
     "objectID": "materiel.html",

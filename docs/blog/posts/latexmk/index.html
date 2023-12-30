@@ -151,10 +151,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="nav-link active" href="../../../index.html" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../sommaire.html">
- <span class="menu-text">Sommaire</span></a>
-  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text">sommaire.qmd</span></li>
   <li class="nav-item">
     <a class="nav-link" href="../../../docphilmstat.html">
  <span class="menu-text">Ma proposition</span></a>
@@ -208,7 +206,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">latex</div>
-                <div class="quarto-category">technique</div>
               </div>
                   </div>
   </div>
@@ -323,8 +320,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<p>Pour compiler un document <span class="math inline">\(\LaTeX\)</span> il faut lancer plusieurs commandes successives. En général, on lance <code>pdflatex</code> pour compiler le document, <code>bibtex</code> pour compiler la bibliographie, <code>pdflatex</code> pour mettre à jour les références, <code>pdflatex</code> pour mettre à jour la table des matières et les références croisées. Mais il existe un outil qui fait tout cela pour nous : <code>latexmk</code>.</p>
+<p>Pour compiler un document <span class="math inline">\(\LaTeX\)</span> il faut lancer plusieurs commandes successives. En général, on lance <code>pdflatex</code> pour compiler le document, <code>bibtex</code> pour compiler la bibliographie, <code>pdflatex</code> pour mettre à jour les références, <code>pdflatex</code> pour mettre à jour la table des matières et les références croisées. Mais il existe un outil qui fait tout cela pour nous : <strong>latexmk</strong>.</p>
 <p>À noter : Quarto (donc Pandoc) utilise <code>latexmk</code> pour compiler les documents via <span class="math inline">\(\LaTeX\)</span> vers du pdf.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Un défaut
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Je ne saurais pas l’expliquer techniquement mais il y a beaucoup plus d’erreurs bloquantes qu’avec une compilation standard : certains fichiers qui bloquent à la compilation avec <code>latexmk</code> passent sans problème avec une compilation standard.</p>
+<p>À savoir.</p>
+</div>
+</div>
 <section id="installation" class="level1">
 <h1>Installation</h1>
 <section id="windows" class="level2">
