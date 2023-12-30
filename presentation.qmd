@@ -2,16 +2,18 @@
 title: "Qui suis-je ?"
 ---
 
-Un petit CV rapide pour vous expliquer pourquoi je peux vous être utile de par ma double compétence en médecine & en statistiques. Les détails & ma bibliographie sur [ORCID](https://orcid.org/0000-0002-1825-0097).
+Un petit CV rapide pour vous expliquer pourquoi je peux vous être utile de par ma double compétence en médecine & en statistiques. 
 
-# statistiques
+Les détails & ma bibliographie sur [ORCID](https://orcid.org/0000-0002-1825-0097).
+
+# Statistiques
 - 1982 : Première approche des stat en laboratoire lors d'un travail sur la régénération hépatique chez le rat (calculs sur une TI-59 !)
-- 1992 : CESAM (Centre d'Etude Statistique Appliquée à la Médecine).
+- 1992 : CESAM (Certificat d’Étude Statistique Appliquée à la Médecine).
 -  2005 : mes premiers pas en R.
 - 2010 : École d'été de statistiques & santé publique (Paris XI)
 - 2012 : Master I de santé publique (Paris XI) options recherche clinique & statistiques.
 - 2015-2019 : Membre de la Commission d'Épidémiologie & de Recherche Clinique (CERC) de la [SRLF](https://www.srlf.org/) (Société de Réanimation de Langue Française) où j'ai participé à la mise en place de plusieurs études multicentriques en particulier en soins infirmiers.   
-- 2018-2023 : memebre du conseil scientifique de la Société Française de l'Escarre (SFE) où j'ai participé à la mise en place d'une étude multicentrique sur les escarres en réanimation.
+- 2018-2023 : Membre du conseil scientifique de la Société Française de l'Escarre (SFE) où j'ai participé à la mise en place d'une étude multicentrique sur les escarres en réanimation.
 - Depuis 2011 : Méthodologiste & statisticien au sein de l'[Unité de Soutien à la Recherche Clinique](https://hopital-novo.fr/ch-pontoise/la-recherche-clinique-2/) (USRC) de l'hôpital NOVO - Pontoise.
 - Participation régulière aux [rencontres R](https://rr2024.sciencesconf.org/) & aux réunions [Raddict](https://www.meetup.com/fr-FR/rparis/).
 

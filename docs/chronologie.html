@@ -89,6 +89,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./sommaire.html">
+ <span class="menu-text">Sommaire</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./docphilmstat.html">
  <span class="menu-text">Ma proposition</span></a>
   </li>  
@@ -194,8 +198,10 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
-  blog.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -265,8 +271,8 @@ Mon apport
 <p>C’est la partie la plus importante de votre travail. Vous allez décrire votre population, vos critères d’inclusion et d’exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc. Mais aussi la plus rébarbative à lire &amp; la plus complexe à écrire.</p>
 <p>La première étape est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ? Souvenez-vous de vos cours de LCA !</p>
 <p>Ensuite, il vous faut définir votre population. Dans notre exemple, on va prendre tous les patients qui ont été admis aux urgences pour une BPCO. Mais qu’est-ce qu’une BPCO ? Il faut définir les critères d’inclusion et d’exclusion.</p>
-<p>Il faut maintenant définir les variables que vous allez devoir collecter. Ni trop, ni trop peu. Il vous faudra bien entendu la SpO<sub>2</sub> à l’admission mais aussi d’autres variables permettant de chercher si certains groupes de malades bénéficieraient plus de cette approche (âge, gravité, certains antécédents…). Sans oublier que plus il y a de variables plus il y aura de travail à fournir. Idéalement il faudrait faire une liste des variables (<em>codebook</em>) avec leur nom, l’unité, le type de variable (numérique, catégorielle, etc.) etc.</p>
-<div class="cell" data-tbl-name="Codebook">
+<p>Il faut maintenant définir les variables que vous allez devoir collecter. Ni trop, ni trop peu. Il vous faudra bien entendu la SpO<sub>2</sub> à l’admission mais aussi d’autres variables permettant de chercher si certains groupes de malades bénéficieraient plus de cette approche (âge, gravité, certains antécédents…). Sans oublier que plus il y a de variables plus il y aura de travail à fournir. Idéalement il faudrait faire une liste des variables (<strong>codebook</strong>) avec leur nom, l’unité, le type de variable (numérique, catégorielle, etc.) etc.</p>
+<div class="cell" data-tbl-name="Codebook" data-hash="chronologie_cache/html/codebook_3f015570842512f6b0834aee2b7f5bd5">
 <div class="cell-output-display">
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -329,7 +335,7 @@ Mon apport
 <h2 class="anchored" data-anchor-id="base-de-données">Base de données</h2>
 <p>Toutes ces données il va falloir les stocker. Deux solutions simples existent :</p>
 <ul>
-<li>Un formulaire en ligne type <a href="https://www.google.fr/intl/fr/forms/about/">Google Forms</a> ou = <a href="https://www.limesurvey.org/fr">LymeSurvey</a> par ex.). C’est simple, rapide, gratuit mais attention à la sécurité.</li>
+<li>Un formulaire en ligne type <a href="https://www.google.fr/intl/fr/forms/about/">Google Forms</a> ou = <a href="https://www.limesurvey.org/fr">LymeSurvey</a> par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg &amp; hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouvé de qui il s’agit).</li>
 <li>Un tableur (type Excel). Ça peut paraître simple mais c’est plein de pièges &amp; la saisie peut être longue &amp; source d’erreurs. Quelques trucs &amp; techniques permettent de pallier à beaucoup de ces erreurs.</li>
 </ul>
 <div class="callout-tip callout callout-style-default callout-captioned">
@@ -649,6 +655,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2024, philippe MICHEL</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/philippemichel">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/PhiippeMICHEL">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

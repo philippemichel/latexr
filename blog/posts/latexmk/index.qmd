@@ -1,0 +1,56 @@
+---
+title: "LaTeXmk"
+description: "Automatiser la compilation de LaTeX avec latexmk"
+author: "Philippe MICHEL"
+categories:
+  - latex
+  - technique
+---
+
+
+Pour compiler un document $\LaTeX$ il faut lancer plusieurs commandes successives. En général, on lance `pdflatex` pour compiler le document, `bibtex` pour compiler la bibliographie, `pdflatex` pour mettre à jour les références, `pdflatex` pour mettre à jour la table des matières et les références croisées. Mais il existe un outil qui fait tout cela pour nous : `latexmk`.
+
+À noter : Quarto (donc Pandoc) utilise `latexmk` pour compiler les documents via $\LaTeX$ vers du pdf. 
+
+# Installation
+
+## Windows
+
+IL s'agit d'un script PERL donc il faut installer [Strawberry Perl](http://strawberryperl.com/). 
+Ensuite, vous pourrez installer `latexmk` avec la commande `cpan install latexmk`.
+
+## Mac
+
+PERL est installé par défaut. Pour installer `latexmk` il suffit de lancer la commande `sudo tlmgr install latexmk`.
+
+## Linux
+
+PERL est installé par défaut
+
+Sous Debian ou dérivé, il faut installer `latexmk` avec la commande `sudo apt-get install latexmk`. À adapter pour les autres distributions.
+
+# Configuration & Usage
+
+Ce script ets un peu ancien & va par défaut utilise latex pour générer du dvi. 
+
+La commande de base est simple. Pour produire un pdf à partir du fichier *foo.tex* il suffit de lancer la commande  :
+
+```bash
+> latexmk -pdf -c foo.tex
+```
+Le `-c` permet de supprimer les fichiers temporaires.
+
+Soyons un peu moderne : pour utiliser LuaLaTeX il suffit de complèter :
+
+```bash
+> latexmk -pdf -c - pdflua foo.tex
+```
+L'option `-c` permet de supprimer les fichiers temporaires.
+
+Il est possible de créer un fichier de configuration `.latexmkrc` pour éviter de taper les options à chaque fois. cela peut être utile si vous cumuler les options, pour ma part je n'en ai pas l'usage. J'ai juste créer un alias :
+
+```bash
+> alias lmk='latexmk -pdf -c -pdflua'
+```
+
+

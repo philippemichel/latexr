@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/latexmk/index.html"
+    ]
+  },
+  {
+    "listing": "/sommaire.html",
+    "items": [
+      "/blog/about.html",
+      "/chronologie.html",
+      "/index.html",
+      "/blog/posts/latexmk/index.html",
+      "/docphilmstat.html",
+      "/materiel.html",
+      "/presentation.html",
+      "/tarifs.html",
+      "/blog/index.html",
+      "/about.html"
+    ]
+  }
+]

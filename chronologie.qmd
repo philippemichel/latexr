@@ -39,12 +39,13 @@ Souvenez-vous de vos cours de LCA !
 
 Ensuite, il vous faut définir votre population. Dans notre exemple, on va prendre tous les patients qui ont été admis aux urgences pour une BPCO. Mais qu'est-ce qu'une BPCO ? Il faut définir les critères d'inclusion et d'exclusion.
 
-Il faut maintenant définir les variables que vous allez devoir collecter. Ni trop, ni trop peu. Il vous faudra bien entendu la SpO~2~ à l'admission mais aussi d'autres variables permettant de chercher si certains groupes de malades bénéficieraient plus de cette approche (âge, gravité, certains antécédents...). Sans oublier que plus il y a de variables plus il y aura de travail à fournir. Idéalement il faudrait faire une liste des variables (*codebook*) avec leur nom, l'unité, le type de variable (numérique, catégorielle, etc.) etc. 
+Il faut maintenant définir les variables que vous allez devoir collecter. Ni trop, ni trop peu. Il vous faudra bien entendu la SpO~2~ à l'admission mais aussi d'autres variables permettant de chercher si certains groupes de malades bénéficieraient plus de cette approche (âge, gravité, certains antécédents...). Sans oublier que plus il y a de variables plus il y aura de travail à fournir. Idéalement il faudrait faire une liste des variables (**codebook**) avec leur nom, l'unité, le type de variable (numérique, catégorielle, etc.) etc. 
 
 
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 #| label: codebook
 #| tbl-name: Codebook
+#| cache: TRUE
 
 library(tidyverse)
 library(kableExtra)
@@ -78,7 +79,7 @@ Tout cela vous donnera une bonne base pour rédiger votre partie *Matériel et M
 
 Toutes ces données il va falloir les stocker. Deux solutions simples existent : 
 
-- Un formulaire en ligne type [Google Forms](https://www.google.fr/intl/fr/forms/about/) ou = [LymeSurvey](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit mais attention à la sécurité.
+- Un formulaire en ligne type [Google Forms](https://www.google.fr/intl/fr/forms/about/) ou = [LymeSurvey](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit mais attention à la sécurité : Google Form est conforme au RGDP mais n'est pas conforme  à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n'est pas anonyme, on peut retrouvé de qui il s'agit).
 - Un tableur (type Excel). Ça peut paraître simple mais c'est plein de pièges & la saisie peut être longue & source d'erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.
 
 ::: {.callout-tip}

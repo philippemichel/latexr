@@ -4,29 +4,36 @@ title: "Ma proposition"
 
 Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.
 
-Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. C'est pourquoi je vous propose de vous accompagner dans votre travail & cela à trois moments du long processus d'écriture ([La chronologie en détail](chronologie.html)) : 
+Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. C'est pourquoi je vous propose de vous accompagner dans votre travail & cela à trois moments du long processus d'écriture ([La chronologie en détail](chronologie.html)) :
 
-# Méthodologie
+## Méthodologie
 
-Au début de votre travail, pour vous aider à définir votre étude : le type d'étude (observationnelle, cohorte... vous vous souvenez de vos cours de LCA ?), le nombre de sujets à inclure, les variables à étudier tout ça doit être défini avec rigueur & précision avant tout.
+Au début de votre travail, pour vous aider à définir votre étude : le type d'étude, le nombre de sujets à inclure, les variables à étudier...
 
-# Gestion des données
+## Gestion des données
 
 Ces variables il va falloir les stocker quelque part. Deux solutions pratiques :
 
-- **Un formulaire en ligne** (Google Forms par ex.) qui permettra à vos sujets ou à vous-même de remplir directement sur internet. Vous pourrez ensuite récupérer les données sous forme de fichier Excel.
+-   **Un formulaire en ligne**
 
-- **Un tableur** type Excell ou Google Sheet que vous remplirez vous-même. Même si cette solution paraity simple on arrive rapidement à des erreurs de saisie, des données manquantes, des incohérences... Il est donc important de bien définir les variables et de les coder de façon rigoureuse.
+-   **Un tableur**
 
-# Analyse statistique
+## Analyse statistique
 
-Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. Et je ne comprends pas pourquoi on demande à de futurs médecins de faire des statistiques. C'est comme si on demandait à un statisticien de faire une appendicectomie. N'oubliez pas que les PUPH qui vont vous juger, pour tous leurs travaux passent par un labo de statistique. 
+Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. Et je ne comprends pas pourquoi on demande à de futurs médecins de faire des statistiques. C'est comme si on demandait à un statisticien de faire une appendicectomie. N'oubliez pas que les PUPH qui vont vous juger pour tous leurs travaux passent par un labo de statistique.
 
-Vous devez avoir de bonnes bases en statistiques pour pouvoir lire un article correctement mais c'est tout. 
+Vous devez avoir de bonnes bases en statistiques pour pouvoir lire un article correctement mais c'est tout.
 
-Et c'est là que j'interviens. Dans un premier temps même sur des données correctement stockées il y a un travail de  nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
+Et c'est là que j'interviens. Dans un premier temps même sur des données correctement stockées il y a un travail de nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
+
+Si je me permets de vous proposer mes services c'est que j'ai une bonne [formation en statistiques & Une grosse expérience](presentation.html) de ce type de travail.
+
+# Mes limites
+
+Tout seul dans mon coin je ne vais pas gérer un PHRC ou une étude interventionnelle avec du médicament. 
+
+Je n'interviens donc que sur des études [RIPH-3](moz-extension://12959df1-7aeb-4e99-a041-ebf819bc5934/content/web/viewer.html?file=https%3A%2F%2Fsfar.org%2Fwp-content%2Fuploads%2F2018%2F10%2F3-Recherche-clinique-en-anesthesie-reanimation-la-loi-Jarde-en-pratique.pdf) ou non-RIPH. Je peux éventuellement faire uniquement la partie statistique d'une RIPH-2 mais pas la partie méthodologique.
 
 
 
 
-Si je me permets de vous proposer mes services c'est que j'ai une bonne [formation en statistiques](presentation.html)  & Une grosse expérience de ce type de travail.

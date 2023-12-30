@@ -1,0 +1,16 @@
+---
+title: "Trucs LaTeX & R"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+**Quelques trucs & astuces en $\LaTeX$ et en $\mathsf{R}$. Pour être franc, je me fais un aide-mémoire que je partage avec vous.**
+
+

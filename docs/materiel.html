@@ -87,6 +87,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./sommaire.html">
+ <span class="menu-text">Sommaire</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./docphilmstat.html">
  <span class="menu-text">Ma proposition</span></a>
   </li>  
@@ -192,8 +196,10 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
-  blog.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -233,12 +239,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Petite présentation de mon matériel &amp; des logiciels que j’utilise.</p>
 <section id="matériel" class="level1">
 <h1>Matériel</h1>
-<p>De nos jours n’importe quel ordinateur récent fera l’affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent. Prévoir juste de la mémoire vive pour R (au moins 16 Go).</p>
+<p>De nos jours n’importe quel ordinateur récent fera l’affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent.</p>
+<p>R travaille uniquement en mémoire vive. il faut donc prévoir large, 46 Go est un strict minimum.</p>
 <p>Deux écrans me parait être un minimum (je n’ai pas encore essayé les grands écrans courbes). Un pour le code, un secondaire pour les résultats, la doc, les mails…</p>
 <p>Un réseau correct, un clavier &amp; une souris qui vous conviennent (très personnel) &amp; voilà. Sans oublier un système de sauvegarde local.</p>
 </section>
 <section id="logiciels" class="level1">
 <h1>Logiciels</h1>
+<p>En vieux libriste j’utilise une distribution Linux à savoir une Debian Testing avec un bureau i3.</p>
 <p>Je fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j’utilise selon mon humeur <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> ou <a href="https://code.visualstudio.com/">Visual Studio Code</a>, parfois <a href="https://www.gnu.org/s/emacs/">Emacs</a> avec [ESS](https://ess.r-project.org/. Les rapports (et ce site) sont rédigés grâce à <a href="https://quarto.org/">Quarto</a>.</p>
 <p>Pour les autres langages en particulier <span class="math inline">\(\LaTeX\)</span>, je reste fidèle à Emacs. Pour le reste que du très classique.</p>
 
@@ -495,6 +503,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2024, philippe MICHEL</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/philippemichel">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/PhiippeMICHEL">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
