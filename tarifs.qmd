@@ -42,11 +42,11 @@ Ronald A. Fisher, FRS (1890-1962)
 
 # Quelques précisions 
 
-- **Analyse simple** : Études observationnelles, sondages, analyse de pratique
+- **Analyse simple** : Études observationnelles, sondages, analyse de pratique...
 
-- **Analyse complexe** : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. *TextMining* (analyse en plein texte)
+- **Analyse complexe** : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. *TextMining* (analyse en plein texte) ou autre technique complexe ou exotique.
 
 # Pour me joindre
 
-Un simple mail à `docphilmstat-at-gmail.com` (en remplaçant -at- par @   bien sûr) ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
 

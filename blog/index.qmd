@@ -14,3 +14,6 @@ title-block-banner: true
 **Quelques trucs & astuces en $\LaTeX$ et en $\mathsf{R}$. Pour être franc, je me fais un aide-mémoire que je partage avec vous.**
 
 
+# Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.

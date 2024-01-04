@@ -2,6 +2,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/posts/tableau/index.html",
       "/blog/posts/latexmk/index.html"
     ]
   }

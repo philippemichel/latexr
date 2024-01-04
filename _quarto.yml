@@ -8,11 +8,9 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - sommaire.qmd
-      - docphilmstat.qmd
       - chronologie.qmd
-      - presentation.qmd
       - tarifs.qmd
+      - presentation.qmd
       - materiel.qmd
       - about.qmd
   page-footer:
@@ -22,6 +20,9 @@ website:
         href: https://github.com/philippemichel
       - icon: twitter
         href: https://twitter.com/PhiippeMICHEL
+      - icon: mailbox
+        text: mail
+        href: mailto:docphilmstat@gmail.com
   sidebar:
     style: "docked"
     search: true
@@ -29,7 +30,6 @@ website:
       - index.qmd
       - section: "DocPhilmStat"
         contents:
-          - docphilmstat.qmd
           - chronologie.qmd
           - presentation.qmd
           - tarifs.qmd
@@ -42,21 +42,11 @@ format:
   html:
     page-layout: full
     theme:
-     light:
-       - sandstone
-       - custom.scss
-     dark: cyborg
+      light:
+        - sandstone
+        - custom.scss
+      dark: cyborg
     css: styles.css
 
     fontsize: 1.1em
     toc: true
-    links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/PhiippeMICHEL
-    - icon: github
-      text: Github
-      # href: https://github.com/philippemichel
-
-
-

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LaTeXR</title>
+<title>LaTeXR - Ma proposition</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -57,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "correspondances de plus dans ce document",
     "search-clear-button-title": "Effacer",
     "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer"
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
   }
 }</script>
 
@@ -76,54 +77,53 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">LaTeXR</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
-  <li class="dropdown-header">
- <span class="menu-text">sommaire.qmd</span></li>
   <li class="nav-item">
-    <a class="nav-link" href="./docphilmstat.html">
- <span class="menu-text">Ma proposition</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./chronologie.html">
+    <a class="nav-link" href="./chronologie.html" rel="" target="">
  <span class="menu-text">Déroulé de votre étude</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentation.html">
- <span class="menu-text">Qui suis-je ?</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tarifs.html">
+    <a class="nav-link" href="./tarifs.html" rel="" target="">
  <span class="menu-text">Tarifs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materiel.html">
+    <a class="nav-link" href="./presentation.html" rel="" target="">
+ <span class="menu-text">Qui suis-je ?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./materiel.html" rel="" target="">
  <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">LaTeXR</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Ma proposition</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -131,70 +131,74 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
-      <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Recherche"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">LaTeXR</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Ma proposition</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">DocPhilmStat</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">DocPhilmStat</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./docphilmstat.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
+  <a href="./chronologie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Déroulé de votre étude</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chronologie.html" class="sidebar-item-text sidebar-link">Déroulé de votre étude</a>
+  <a href="./presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Qui suis-je ?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
+  <a href="./tarifs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tarifs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
+  <a href="./materiel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">À propos</a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">À propos</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Blog</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Blog</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
+  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Trucs LaTeX &amp; R</span></a>
   </div>
 </li>
       </ul>
@@ -202,17 +206,27 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#méthodologie" id="toc-méthodologie" class="nav-link active" data-scroll-target="#méthodologie">Méthodologie</a></li>
+  <li><a href="#gestion-des-données" id="toc-gestion-des-données" class="nav-link" data-scroll-target="#gestion-des-données">Gestion des données</a></li>
+  <li><a href="#analyse-statistique" id="toc-analyse-statistique" class="nav-link" data-scroll-target="#analyse-statistique">Analyse statistique</a></li>
+  <li><a href="#mes-limites" id="toc-mes-limites" class="nav-link" data-scroll-target="#mes-limites">Mes limites</a></li>
+  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">LaTeXR</h1>
-<p class="subtitle lead">En travaux</p>
+<h1 class="title">Ma proposition</h1>
 </div>
 
 
@@ -227,10 +241,33 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Ce site est en réfection complète afin d’accueillir les nouveaux trucs pour LaTeX &amp; R mais surtout la présentation de mon activité (en projet) de méthodo-statisticien en ligne &amp; en freelance dans le domaine médical.</p>
-<p><strong>L’offre de service n’est pas encore opérationnelle.</strong></p>
+<p>Vous avez une thèse, un mémoire à écrire &amp; la partie statistique vous effraie ? Je vous comprends.</p>
+<p>Les statistiques c’est un métier et il est normal de ne pas être à l’aise avec. C’est pourquoi je vous propose de vous accompagner dans votre travail &amp; cela à trois moments du long processus d’écriture (<a href="chronologie.html">La chronologie en détail</a>) :</p>
+<section id="méthodologie" class="level2">
+<h2 class="anchored" data-anchor-id="méthodologie">Méthodologie</h2>
+<p>Au début de votre travail, pour vous aider à définir votre étude : le type d’étude, le nombre de sujets à inclure, les variables à étudier…</p>
+</section>
+<section id="gestion-des-données" class="level2">
+<h2 class="anchored" data-anchor-id="gestion-des-données">Gestion des données</h2>
+<p>Ces variables il va falloir les stocker quelque part. Ce qui n’est pas aussi simple que’on pourrait le penser.</p>
+</section>
+<section id="analyse-statistique" class="level2">
+<h2 class="anchored" data-anchor-id="analyse-statistique">Analyse statistique</h2>
+<p>Une fois les données collectées, il faut les analyser. C’est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages… Et surtout il faut interpréter les résultats. Ça ne s’improvise pas, c’est un métier. N’oubliez pas que les PUPH qui vont vous juger passent par un labo de statistiques pour tous leurs travaux.</p>
+<p>Et c’est là que j’interviens. Dans un premier temps même sur des données correctement stockées il y a un travail de nettoyage &amp; de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux &amp; des graphiques qu’il faut interpréter.</p>
+</section>
+<section id="mes-limites" class="level1">
+<h1>Mes limites</h1>
+<p>Si je me permets de vous proposer mes services c’est que j’ai une bonne <a href="presentation.html">formation en statistiques &amp; Une grosse expérience</a> de ce type de travail.</p>
+<p>Mais tout seul dans mon coin je ne vais pas gérer un PHRC ou une étude interventionnelle avec du médicament.</p>
+<p>Je n’interviens donc que sur des études <a href="moz-extension://12959df1-7aeb-4e99-a041-ebf819bc5934/content/web/viewer.html?file=https%3A%2F%2Fsfar.org%2Fwp-content%2Fuploads%2F2018%2F10%2F3-Recherche-clinique-en-anesthesie-reanimation-la-loi-Jarde-en-pratique.pdf">RIPH-3</a> ou non-RIPH. Je peux éventuellement faire uniquement la partie statistique d’une RIPH-2 mais pas la partie méthodologique.</p>
+</section>
+<section id="pour-me-joindre" class="level1">
+<h1>Pour me joindre</h1>
+<p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -375,9 +412,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -442,6 +493,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -485,6 +622,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2024, philippe MICHEL</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -498,6 +638,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <i class="bi bi-twitter" role="img">
 </i> 
     </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:docphilmstat@gmail.com">mail</a>
   </li>  
 </ul>
     </div>

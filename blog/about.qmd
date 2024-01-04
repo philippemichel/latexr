@@ -1,5 +1,14 @@
 ---
-title: "About"
+title: "À propos"
+subtitle: "Renseignements pratiques & administratifs" 
 ---
 
-About this blog
+Ce service est proposé par  le Dr Philippe MICHEL, autoentrepreneur.
+
+Entreprise créée le 01/01/2024
+
+Numéro SIRET : 37751357700033
+
+# Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
