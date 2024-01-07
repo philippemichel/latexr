@@ -7,11 +7,8 @@ categories:
   - Organisation du travail
 ---
 
-Un tableur comme Excel® est un outil de comptabilité analytique
-& n’a jamais été conçu pour stocker des données. Néanmoins ces
-logiciels sont puissants, versatiles, très pratiques, semblent simples
-d’emploi & permettent, sous certaines conditions, de stocker des tableaux simples. Un peu de réflexion & de travail préparatoire vous
-feront gagner beaucoup de temps.
+Un tableur comme Excel® est un outil de comptabilité analytique & n’a jamais été conçu pour stocker des données. Néanmoins ces
+logiciels sont puissants, versatiles, très pratiques, semblent simples d’emploi & permettent, sous certaines conditions, de stocker des tableaux simples. Un peu de réflexion & de travail préparatoire vous feront gagner beaucoup de temps.
 
 Dans tous les cas on ne travaille jamais seul, le data-manager ou le
 statisticien peuvent à tout moment vous conseiller.
@@ -25,11 +22,9 @@ Vos résultats doivent rentrer dans un seul tableau. Dans certains
 cas c’est impossible. Dans ce cas c’est un tableau par onglet (avec un
 nom clair pour l’onglet). 
 
-Par exemple, un travail sur la prise en charge d’une pathologie dans les services d’un hôpital. Vous n’allez pas res-
-saisir les caractéristiques du service pour chaque patient. Vous aurez
-donc un tableau Patients avec une variable Service qui permettra de
+Par exemple, un travail sur la prise en charge d’une pathologie dans les services d’un hôpital. Vous n’allez pas ressaisir les caractéristiques du service pour chaque patient. Vous aurez donc un tableau Patients avec une variable `Service` qui permettra de
 rattacher ce patient aux données du service contenus dans un autre
-tableau nommé Service.
+tableau nommé `Service`.
 
 # Un tableau c’est un rectangle plein
 
@@ -56,7 +51,7 @@ mais l’important est de toujours utiliser le même code.
 
 ## Nom des variables
 
-Le nom de la variable va être utiliser ensuite pour écrire le code. Par exemple pour calculer la moyenne de l’âge (variable `age` du tableau `patients`):
+Le nom de la variable va être utilisé pour écrire le code. Par exemple pour calculer la moyenne de l’âge (variable `age` du tableau `patients`):
 
 ```r
 mean(patients$age)
@@ -114,7 +109,7 @@ Beaucoup de personnes, souvent beaucoup plus jeunes que moi, sont persuadées qu
 Grande nouvelle, c’est faux ! Et votre tableau sera plus clair avec des intulés en clair (Homme, Femme) qu’avec des chiffres (1, 0). Même les
 scores ou échelles doivent être notés en texte. Les coder en numérique
 revient à dire que passer de 1 à 2 est ausi grave que de passer de 6 à 7.
-Vous en être sûr ? Pensez à un score de Glasgow par ex.
+Vous en être sûr ? Pensez à un score de Glasgow par ex. Bien entendu il y aura des cas où on sera plus à l'aise avec des données pseudo numériques. Il sera alors facile d'effectuer la conversion. 
 
 Il reste à éviter les erreurs de saisie. On voit souvent dans la même
 colonne des |oui| , |Oui| , |OUI| & surtout | oui| avec une espace avant ou après . On
@@ -125,7 +120,7 @@ l’outil *Validation de données* dans Excel®. Ça vous évitera aussi des
 ## Des nombres
 
 Une variable numérique ne doit contenir que des nombres ! Et
-> 5 ou 5 mmol/L ne sont pas des nombres ! L’unité de mesure n’ pas à
+> 5 ou 5 mmol/L ne sont pas des nombres ! L’unité de mesure n’a pas à
 être présente sur le tableau final, ni dans le titre, ni dans les données.
 Utilisez la validation de données aussi pour vos variables numériques.
 C’est un peu de travail au début mais un gain de temps & de sécurité
@@ -134,11 +129,10 @@ ensuite.
 ## Date & Heure
 
 Les dates & heures sont une source d’erreur constante. Il exite au
-moins trois maière d’écrire les dates d’usage courant (tableau6). La
+moins trois manière d’écrire les dates d’usage courant. La
 solution est de ne pas laisser Excel® choisir & d’entrer les dates en
-format texte ou de faire très attention au codage. En particulierdeux
-colonnes peuvent être codées différement sans que vous l’ayez de-
-mandé. De toute façon il faudra convertir les dates pour le logiciel de
+format texte ou de faire très attention au codage. En particulier deux
+colonnes peuvent être codées différement sans que vous l’ayez demandé. De toute façon il faudra convertir les dates pour le logiciel de
 statistique donc choisissez une norme, n’importe laquelle, mais n’en
 changez pas en route.
 
@@ -163,8 +157,8 @@ tibble(
 
 
 ## Comment préparer son tableau
-Vous comprenez bien qu’on improvise pas un tableau de données. La bonne solution, un peu lourde mais si pratique, est d’écrire
-un tableau de ses variables (CodeBook) avec toutes les
+Vous comprenez bien qu’on improvise pas un tableau de données. La bonne solution, un peu lourde mais si pratique est d’écrire
+un tableau de ses variables (*CodeBook*) avec toutes les
 informations :
 
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
@@ -193,7 +187,7 @@ tibble(
 Un ordinateur n’est qu’une machine & est sujet à la panne. Un
 disque dur est une mécanique fragile (qu’il soit mécanique ou SSD).
 Une tasse de café peut se renverser. Donc on fait des sauvegardes !
-Sur plusieurs supports 4 en local & à distance. Il existe des solutions
+Sur plusieurs supports en local & à distance. Il existe des solutions
 simples de sauvegarde (TimeMachinel® sur MacOS® ou rsync sur
 Linux par ex.).
 
