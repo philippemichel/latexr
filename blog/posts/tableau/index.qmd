@@ -1,6 +1,6 @@
 ---
 title: "Organiser son tableau de données"
-description: "Cpmment ne pas faire trop de bêtises avec Excel®"
+description: "Comment ne pas faire trop de bêtises avec Excel®"
 author: "Philippe MICHEL"
 categories:
   - R

@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "blog/posts/pyramide/index.html",
+    "href": "blog/posts/pyramide/index.html",
+    "title": "Pyramide des âges",
+    "section": "",
+    "text": "Un des graphiques les plus classiques & les normés en démographie ou en médecine est la pyramide des âges. Il s’agit d’un graphique en barres qui représente la répartition de la population par âge et par sexe. Sa réalisation en R peut être en R classique ou en R saveur tidyverse."
+  },
+  {
+    "objectID": "blog/posts/pyramide/index.html#en-r-classique",
+    "href": "blog/posts/pyramide/index.html#en-r-classique",
+    "title": "Pyramide des âges",
+    "section": "En R classique",
+    "text": "En R classique\nOn utilise le package epiDisplay qui contient une fonction fort pratique :\n\nepiDisplay::pyramid(pat$age, pat$sexe, \n        main = \"Pyramide des âges\", \n        binwidth = 10,\n        col.gender = c(\"pink\", \"lightblue\"))\n\n\n\n\nFigure 1: Pyramide des âges en R classique"
+  },
+  {
+    "objectID": "blog/posts/pyramide/index.html#en-r-saveur-tidyverse",
+    "href": "blog/posts/pyramide/index.html#en-r-saveur-tidyverse",
+    "title": "Pyramide des âges",
+    "section": "En R saveur tidyverse",
+    "text": "En R saveur tidyverse\nPour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10 ans. Pour cela nous allons utiliser la fonction cut du package dplyr. Puis tracer le graphique grâge à la fonction age_pyramid du package apyramid.\n\npat |>\n    mutate(agerec = cut(age,\n    breaks = c(0, 20, 30, 40, 50, 60, 70, 80, 90),\n    labels = c(\"< 20\", \"21-30\", \"31,40\", \"41-50\", \"51-60\", \"61-70\", \"71,80\", \"> 80\")\n))|>\nmutate(agerec = as.factor(agerec)) |>\n# Tracé du graphique\nage_pyramid(age_group = \"agerec\",\n            split_by = \"sexe\",\n            pal = c(\"pink\", \"lightblue\") )\n\n\n\n\nFigure 2: Pyramide des âges en R saveur tidyverse"
+  },
+  {
     "objectID": "blog/posts/tableau/index.html",
     "href": "blog/posts/tableau/index.html",
     "title": "Organiser son tableau de données",
@@ -102,14 +123,14 @@
     "href": "blog/index.html",
     "title": "Trucs LaTeX & R",
     "section": "",
-    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nCpmment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nPyramide des âges\n\n\n\nR\n\n\nGraphiques\n\n\n\nUn graphique usuel\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nComment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "À propos",
     "section": "",
-    "text": "Deux parties dans ce site :\n\nPrésentation de mon offre de soutien DocPhilStat en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large.\nDes conseils, trucs et astuces pour R & \\(\\LaTeX\\).\n\n\n\n\n\n\n\nTECHNIQUE\n\n\n\nCe site est généré avec Quarto, un outil de publication de documents scientifiques qui utilise Markdown & R.\n\n\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\nDocPhilmStat\n\n\n\nIdentifiant SIRET 377 513 577 00033 Entreprise créée le 01/01/2024"
+    "text": "Deux parties dans ce site :\n\nPrésentation de mon offre de soutien DocPhilStat en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large.\nDes conseils, trucs et astuces pour R & \\(\\LaTeX\\).\n\n\n\n\n\n\n\nTECHNIQUE\n\n\n\nCe site est généré avec Quarto, un outil de publication de documents scientifiques qui utilise Markdown & R.\n\n\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\nDocPhilmStat\n\n\n\nIdentifiant SIRET 377 513 577 00033\nEntreprise créée le 01/01/2024"
   },
   {
     "objectID": "presentation.html",
