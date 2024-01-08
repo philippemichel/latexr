@@ -1,0 +1,16 @@
+{
+  "hash": "df16d9ca458c1c4da18c78b71b97cace",
+  "result": {
+    "markdown": "---\ntitle: \"Pyramide des âges\"\n---\n\n\nUn des graphiques les plus classiques & les normés en démographie ou en médecine est la pyramide des âges. Il s'agit d'un graphique en barres qui représente la répartition de la population par âge et par sexe. Sa réalisation en R peut être en R classique ou en R saveur tidyverse.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(epiDisplay)\nlibrary(apyramid)\n\npat <- read_csv(\"data/patients.csv\") %>%\nmutate_if(is.character, as.factor) \n```\n:::\n\n\n## En R classique\n\nOn utilise le package `epiDisplay` qui contient une fonction fort pratique :\n\n\n::: {.cell}\n\n```{.r .cell-code}\nepiDisplay::pyramid(pat$age, pat$sexe, \n        main = \"Pyramide des âges\", \n        binwidth = 10,\n        col.gender = c(\"pink\", \"lightblue\"))\n```\n\n::: {.cell-output-display}\n![Pyramide des âges en R classique](index_files/figure-html/fig-pyramide-classique-1.png){#fig-pyramide-classique width=672}\n:::\n:::\n\n\n\n## En R saveur tidyverse\n\nPour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10  ans. Pour cela nous allons utiliser la fonction `cut` du package `dplyr`. Puis tracer le graphique grâge à la fonction `age_pyramid` du package `apyramid`.\n\n\n::: {.cell}\n\n```{.r .cell-code}\npat |>\n    mutate(agerec = cut(age,\n    breaks = c(0, 20, 30, 40, 50, 60, 70, 80, 90),\n    labels = c(\"< 20\", \"21-30\", \"31,40\", \"41-50\", \"51-60\", \"61-70\", \"71,80\", \"> 80\")\n))|>\nmutate(agerec = as.factor(agerec)) |>\n# Tracé du graphique\nage_pyramid(age_group = \"agerec\",\n            split_by = \"sexe\",\n            pal = c(\"pink\", \"lightblue\") )\n```\n\n::: {.cell-output-display}\n![Pyramide des âges en R saveur tidyverse](index_files/figure-html/fig-pyramide-tidyverse-1.png){#fig-pyramide-tidyverse width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

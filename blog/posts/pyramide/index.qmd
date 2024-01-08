@@ -1,0 +1,61 @@
+---
+title: "Pyramide des âges"
+description: "Un graphique usuel"
+author: "Philippe MICHEL"
+categories:
+  - R
+  - Graphiques
+---
+
+Un des graphiques les plus classiques & les normés en démographie ou en médecine est la pyramide des âges. Il s'agit d'un graphique en barres qui représente la répartition de la population par âge et par sexe. Sa réalisation en R peut être en R classique ou en R saveur tidyverse.
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+library(epiDisplay)
+library(apyramid)
+
+pat <- read_csv("data/patients.csv") %>%
+mutate_if(is.character, as.factor) 
+
+
+``` 
+
+## En R classique
+
+On utilise le package `epiDisplay` qui contient une fonction fort pratique :
+
+```{r}
+#| label: fig-pyramide-classique
+#| fig.cap: "Pyramide des âges en R classique"
+
+epiDisplay::pyramid(pat$age, pat$sexe, 
+        main = "Pyramide des âges", 
+        binwidth = 10,
+        col.gender = c("pink", "lightblue"))
+```
+
+
+## En R saveur tidyverse
+
+Pour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10  ans. Pour cela nous allons utiliser la fonction `cut` du package `dplyr`. Puis tracer le graphique grâge à la fonction `age_pyramid` du package `apyramid`.
+
+```{r}
+#| label: fig-pyramide-tidyverse
+#| fig.cap: "Pyramide des âges en R saveur tidyverse"
+#| 
+pat |>
+    mutate(agerec = cut(age,
+    breaks = c(0, 20, 30, 40, 50, 60, 70, 80, 90),
+    labels = c("< 20", "21-30", "31,40", "41-50", "51-60", "61-70", "71,80", "> 80")
+))|>
+mutate(agerec = as.factor(agerec)) |>
+# Tracé du graphique
+age_pyramid(age_group = "agerec",
+            split_by = "sexe",
+            pal = c("pink", "lightblue") )
+
+
+```
