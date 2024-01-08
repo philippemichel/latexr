@@ -12,14 +12,13 @@ Au début de votre travail, pour vous aider à définir votre étude : le type d
 
 ## Gestion des données
 
-Ces variables il va falloir les stocker quelque part. Ce qui n'est pas aussi simple que'on pourrait le penser.
+Ces variables il va falloir les stocker quelque part. Ce qui n'est pas aussi simple que'on pourrait le penser &prsente de nombreux pièges. Il faut aussi penser à la sécurité des données, à la sauvegarde, à la confidentialité...
 
 ## Analyse statistique
 
 Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. N'oubliez pas que les PUPH qui vont vous juger passent par un labo de statistiques pour tous leurs travaux.
 
-
-Et c'est là que j'interviens. Dans un premier temps même sur des données correctement stockées il y a un travail de nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
+Dans un premier temps même sur des données correctement stockées il y a un travail de nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
 
 
 # Mes limites

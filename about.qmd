@@ -17,4 +17,13 @@ Ce site est généré avec [Quarto](https://quarto.org/docs/websites/), un outil
 
 # Pour me joindre
 
-Un simple mail à `docphilstat-at-gmail.com` (en remplaçant -at- par @   bien sûr) ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+
+
+
+:::{.callout-tip}
+## DocPhilmStat
+
+Identifiant SIRET 377 513 577 00033
+Entreprise créée le 01/01/2024
+:::

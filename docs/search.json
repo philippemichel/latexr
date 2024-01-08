@@ -1,96 +1,5 @@
 [
   {
-    "objectID": "materiel.html",
-    "href": "materiel.html",
-    "title": "Matériel & Logiciels",
-    "section": "",
-    "text": "Petite présentation de mon matériel & des logiciels que j’utilise.\n\nMatériel\nDe nos jours n’importe quel ordinateur récent fera l’affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent.\nR travaille uniquement en mémoire vive. il faut donc prévoir large, 46 Go est un strict minimum.\nDeux écrans me parait être un minimum (je n’ai pas encore essayé les grands écrans courbes). Un pour le code, un secondaire pour les résultats, la doc, les mails…\nUn réseau correct, un clavier & une souris qui vous conviennent (très personnel) & voilà. Sans oublier un système de sauvegarde local.\n\n\nLogiciels\nEn vieux libriste j’utilise une distribution Linux à savoir une Debian Testing avec un bureau i3.\nJe fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j’utilise selon mon humeur RStudio ou Visual Studio Code, parfois Emacs avec [ESS](https://ess.r-project.org/. Les rapports (et ce site) sont rédigés grâce à Quarto.\nPour les autres langages en particulier \\(\\LaTeX\\), je reste fidèle à Emacs. Pour le reste que du très classique."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "À propos",
-    "section": "",
-    "text": "Deux parties dans ce site :\n\nPrésentation de mon offre de soutien DocPhilStat en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large.\nDes conseils, trucs et astuces pour R & \\(\\LaTeX\\).\n\n\n\n\n\n\n\nTECHNIQUE\n\n\n\nCe site est généré avec Quarto, un outil de publication de documents scientifiques qui utilise Markdown & R.\n\n\n\nPour me joindre\nUn simple mail à docphilstat-at-gmail.com (en remplaçant -at- par @ bien sûr) ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ma proposition",
-    "section": "",
-    "text": "Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.\nLes statistiques c’est un métier et il est normal de ne pas être à l’aise avec. C’est pourquoi je vous propose de vous accompagner dans votre travail & cela à trois moments du long processus d’écriture (La chronologie en détail) :"
-  },
-  {
-    "objectID": "index.html#méthodologie",
-    "href": "index.html#méthodologie",
-    "title": "Ma proposition",
-    "section": "Méthodologie",
-    "text": "Méthodologie\nAu début de votre travail, pour vous aider à définir votre étude : le type d’étude, le nombre de sujets à inclure, les variables à étudier…"
-  },
-  {
-    "objectID": "index.html#gestion-des-données",
-    "href": "index.html#gestion-des-données",
-    "title": "Ma proposition",
-    "section": "Gestion des données",
-    "text": "Gestion des données\nCes variables il va falloir les stocker quelque part. Ce qui n’est pas aussi simple que’on pourrait le penser."
-  },
-  {
-    "objectID": "index.html#analyse-statistique",
-    "href": "index.html#analyse-statistique",
-    "title": "Ma proposition",
-    "section": "Analyse statistique",
-    "text": "Analyse statistique\nUne fois les données collectées, il faut les analyser. C’est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages… Et surtout il faut interpréter les résultats. Ça ne s’improvise pas, c’est un métier. N’oubliez pas que les PUPH qui vont vous juger passent par un labo de statistiques pour tous leurs travaux.\nEt c’est là que j’interviens. Dans un premier temps même sur des données correctement stockées il y a un travail de nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu’il faut interpréter."
-  },
-  {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Qui suis-je ?",
-    "section": "",
-    "text": "Un petit CV rapide pour vous expliquer pourquoi je peux vous être utile de par ma double compétence en médecine & en statistiques.\nLes détails & ma bibliographie sur ORCID.\n\nStatistiques\n\n1982 : Première approche des stat en laboratoire lors d’un travail sur la régénération hépatique chez le rat (calculs sur une TI-59 !)\n1992 : CESAM (Certificat d’Étude Statistique Appliquée à la Médecine).\n2005 : mes premiers pas en R.\n2010 : École d’été de statistiques & santé publique (Paris XI)\n2012 : Master I de santé publique (Paris XI) options recherche clinique & statistiques.\n2015-2019 : Membre de la Commission d’Épidémiologie & de Recherche Clinique (CERC) de la SRLF (Société de Réanimation de Langue Française) où j’ai participé à la mise en place de plusieurs études multicentriques en particulier en soins infirmiers.\n\n2018-2023 : Membre du conseil scientifique de la Société Française de l’Escarre (SFE) où j’ai participé à la mise en place d’une étude multicentrique sur les escarres en réanimation.\nDepuis 2011 : Méthodologiste & statisticien au sein de l’Unité de Soutien à la Recherche Clinique (USRC) de l’hôpital NOVO - Pontoise.\nParticipation régulière aux rencontres R & aux réunions Raddict.\n\n\n\nMédecine\n\n1977-1983 : Études de médecine, CHU Bicètre (Paris XI)\n1983-1986 : Internat (hématologie, réanimation, médecine interne, urgences)\n1985 -1986 : Médecin-adjoint au 23e BIMa (DAKAR, Sénégal)\n1987 : Doctorat en médecine (Paris XI)\n1987-1989 : Assistant en réanimation médicale (Hôpital des Diaconnesses, Paris)\n1989-2000 : Médecin généraliste (Herblay)\n1995-2004 : Attaché en réanimation (Hôpital de St Germain en Laye)\n2000-2004 : PHC au SAMU 95\nDepuis 2004 : PH en réanimation médico-chirurgicale (Hôpital NOVO - Pontoise)\n\n\n\nDivers\n\n2012-2021 : Secrétaire de l’association GUTenberg (Groupe des Utilisateur de \\(\\TeX, \\LaTeX\\) & dérivés)\n\n\n\nPour me joindre\nUn simple mail à docphilmstat-at-gmail.com (en remplaçant -at- par @ bien sûr) ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
-  },
-  {
-    "objectID": "tarifs.html",
-    "href": "tarifs.html",
-    "title": "Tarifs",
-    "section": "",
-    "text": "Je ne facture pas à l’heure car si je vais très vite pour certaines tâches c’est que j’ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement. Voir l’histoire du coup de marteau.\nVoici donc mes tarifs prévisionnels. Ils sont donnés à titre indicatif.\n\n\n\n\n \n  \n    Tache \n    Tarif \n  \n \n\n  \n    Méthodologie \n    200 € \n  \n  \n    Questionnaire en ligne \n    100 € \n  \n  \n    Tableur : rédaction complète \n    200 € \n  \n  \n    Tableur : correction \n    100 € \n  \n  \n    Analyse statistique simple \n    200 € \n  \n  \n    Analyse statistique complexe \n    300 € \n  \n  \n    Travail complet \n    500 € \n  \n\n\n\n\n\nComme vous le devinez je préfère travailler sur des projets du début à la fin. C’est plus intéressant pour vous & pour moi. Mais je peux aussi vous aider sur une partie seulement.\n\n\n\n\n\n\n\n\n\n\n“Appeler un statisticien après que l’expérience est terminée, c’est comme lui demander de faire une autopsie ; il pourra seulement déterminer la cause de l’échec de l’expérience.”\nRonald A. Fisher, FRS (1890-1962)\n\n\n\nQuelques précisions\n\nAnalyse simple : Études observationnelles, sondages, analyse de pratique…\nAnalyse complexe : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. TextMining (analyse en plein texte) ou autre technique complexe ou exotique.\n\n\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
-  },
-  {
-    "objectID": "chronologie.html",
-    "href": "chronologie.html",
-    "title": "Déroulé de votre étude",
-    "section": "",
-    "text": "Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même un an au minimum.\nVoyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse."
-  },
-  {
-    "objectID": "chronologie.html#base-de-données",
-    "href": "chronologie.html#base-de-données",
-    "title": "Déroulé de votre étude",
-    "section": "Base de données",
-    "text": "Base de données\nToutes ces données il va falloir les stocker. Deux solutions simples existent :\n\nUn formulaire en ligne type Google Forms® ou = LymeSurvey® par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouvé de qui il s’agit).\nUn tableur (type Excel®). Ça peut paraître simple mais c’est plein de pièges & la saisie peut être longue & source d’erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.\n\n\n\n\n\n\n\nMon apport\n\n\n\nPour un formulaire en ligne je peux me charger de le configurer.\nPour un tableur je peux soit le créer complètement soit simplement vérifier ou améliorer votre travail.\n\n\n\n\n\n\n\n\nAttention !\n\n\n\nIl ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d’autorisation au CPP. Là je ne peux rien pour vous si ce n’est vous aider à rédiger la demande pour le CPP qui ce résume (presque) à l’Introduction & les Matériel et Méthodes. Votre service (surtout en CHU) doit avoir un modèle pré-établit dans ses tiroirs.\nEt ne perdez pas de temps : il est hors de question d’inclure le moindre patient dans l’étude avant d’avoir l’accord du CPP."
-  },
-  {
-    "objectID": "chronologie.html#recueil-des-données",
-    "href": "chronologie.html#recueil-des-données",
-    "title": "Déroulé de votre étude",
-    "section": "recueil des données",
-    "text": "recueil des données\nLà, c’est à vous de bosser."
-  },
-  {
-    "objectID": "blog/about.html",
-    "href": "blog/about.html",
-    "title": "À propos",
-    "section": "",
-    "text": "Ce service est proposé par le Dr Philippe MICHEL, autoentrepreneur.\nEntreprise créée le 01/01/2024\nNuméro SIRET : 37751357700033\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Trucs LaTeX & R",
-    "section": "",
-    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nCpmment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
     "objectID": "blog/posts/tableau/index.html",
     "href": "blog/posts/tableau/index.html",
     "title": "Organiser son tableau de données",
@@ -180,5 +89,96 @@
     "title": "LaTeXmk",
     "section": "Linux",
     "text": "Linux\nPERL est installé par défaut\nSous Debian ou dérivé, il faut installer latexmk avec la commande sudo apt-get install latexmk. À adapter pour les autres distributions."
+  },
+  {
+    "objectID": "blog/about.html",
+    "href": "blog/about.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce service est proposé par le Dr Philippe MICHEL, autoentrepreneur.\nEntreprise créée le 01/01/2024\nNuméro SIRET : 37751357700033\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Trucs LaTeX & R",
+    "section": "",
+    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nCpmment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Deux parties dans ce site :\n\nPrésentation de mon offre de soutien DocPhilStat en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large.\nDes conseils, trucs et astuces pour R & \\(\\LaTeX\\).\n\n\n\n\n\n\n\nTECHNIQUE\n\n\n\nCe site est généré avec Quarto, un outil de publication de documents scientifiques qui utilise Markdown & R.\n\n\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\nDocPhilmStat\n\n\n\nIdentifiant SIRET 377 513 577 00033 Entreprise créée le 01/01/2024"
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Qui suis-je ?",
+    "section": "",
+    "text": "Un petit CV rapide pour vous expliquer pourquoi je peux vous être utile de par ma double compétence en médecine & en statistiques.\nLes détails & ma bibliographie sur ORCID.\n\nStatistiques\n\n1982 : Première approche des stat en laboratoire lors d’un travail sur la régénération hépatique chez le rat (calculs sur une TI-59 !)\n1992 : CESAM (Certificat d’Étude Statistique Appliquée à la Médecine).\n2005 : mes premiers pas en R.\n2010 : École d’été de statistiques & santé publique (Paris XI)\n2012 : Master I de santé publique (Paris XI) options recherche clinique & statistiques.\n2015-2019 : Membre de la Commission d’Épidémiologie & de Recherche Clinique (CERC) de la SRLF (Société de Réanimation de Langue Française) où j’ai participé à la mise en place de plusieurs études multicentriques en particulier en soins infirmiers.\n\n2018-2023 : Membre du conseil scientifique de la Société Française de l’Escarre (SFE) où j’ai participé à la mise en place d’une étude multicentrique sur les escarres en réanimation.\nDepuis 2011 : Méthodologiste & statisticien au sein de l’Unité de Soutien à la Recherche Clinique (USRC) de l’hôpital NOVO - Pontoise.\nParticipation régulière aux rencontres R & aux réunions Raddict.\n\n\n\nMédecine\n\n1977-1983 : Études de médecine, CHU Bicètre (Paris XI)\n1983-1986 : Internat (hématologie, réanimation, médecine interne, urgences)\n1985 -1986 : Médecin-adjoint au 23e BIMa (DAKAR, Sénégal)\n1987 : Doctorat en médecine (Paris XI)\n1987-1989 : Assistant en réanimation médicale (Hôpital des Diaconnesses, Paris)\n1989-2000 : Médecin généraliste (Herblay)\n1995-2004 : Attaché en réanimation (Hôpital de St Germain en Laye)\n2000-2004 : PHC au SAMU 95\nDepuis 2004 : PH en réanimation médico-chirurgicale (Hôpital NOVO - Pontoise)\n\n\n\nDivers\n\n2012-2021 : Secrétaire de l’association GUTenberg (Groupe des Utilisateur de \\(\\TeX, \\LaTeX\\) & dérivés)\n\n\n\nPour me joindre\nUn simple mail à docphilmstat-at-gmail.com (en remplaçant -at- par @ bien sûr) ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ma proposition",
+    "section": "",
+    "text": "Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.\nLes statistiques c’est un métier et il est normal de ne pas être à l’aise avec. C’est pourquoi je vous propose de vous accompagner dans votre travail & cela à trois moments du long processus d’écriture (La chronologie en détail) :"
+  },
+  {
+    "objectID": "index.html#méthodologie",
+    "href": "index.html#méthodologie",
+    "title": "Ma proposition",
+    "section": "Méthodologie",
+    "text": "Méthodologie\nAu début de votre travail, pour vous aider à définir votre étude : le type d’étude, le nombre de sujets à inclure, les variables à étudier…"
+  },
+  {
+    "objectID": "index.html#gestion-des-données",
+    "href": "index.html#gestion-des-données",
+    "title": "Ma proposition",
+    "section": "Gestion des données",
+    "text": "Gestion des données\nCes variables il va falloir les stocker quelque part. Ce qui n’est pas aussi simple que’on pourrait le penser &prsente de nombreux pièges. Il faut aussi penser à la sécurité des données, à la sauvegarde, à la confidentialité…"
+  },
+  {
+    "objectID": "index.html#analyse-statistique",
+    "href": "index.html#analyse-statistique",
+    "title": "Ma proposition",
+    "section": "Analyse statistique",
+    "text": "Analyse statistique\nUne fois les données collectées, il faut les analyser. C’est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages… Et surtout il faut interpréter les résultats. Ça ne s’improvise pas, c’est un métier. N’oubliez pas que les PUPH qui vont vous juger passent par un labo de statistiques pour tous leurs travaux.\nDans un premier temps même sur des données correctement stockées il y a un travail de nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu’il faut interpréter."
+  },
+  {
+    "objectID": "chronologie.html",
+    "href": "chronologie.html",
+    "title": "Déroulé de votre étude",
+    "section": "",
+    "text": "Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même un an au minimum.\nVoyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse."
+  },
+  {
+    "objectID": "chronologie.html#base-de-données",
+    "href": "chronologie.html#base-de-données",
+    "title": "Déroulé de votre étude",
+    "section": "Base de données",
+    "text": "Base de données\nToutes ces données il va falloir les stocker. Deux solutions simples existent :\n\nUn formulaire en ligne type Google Forms® ou = LymeSurvey® par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouvé de qui il s’agit).\nUn tableur (type Excel®). Ça peut paraître simple mais c’est plein de pièges & la saisie peut être longue & source d’erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.\n\n\n\n\n\n\n\nMon apport\n\n\n\nPour un formulaire en ligne je peux me charger de le configurer.\nPour un tableur je peux soit le créer complètement soit simplement vérifier ou améliorer votre travail.\n\n\n\n\n\n\n\n\nAttention !\n\n\n\nIl ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d’autorisation au CPP. Là je ne peux rien pour vous si ce n’est vous aider à rédiger la demande pour le CPP qui ce résume (presque) à l’Introduction & les Matériel et Méthodes. Votre service (surtout en CHU) doit avoir un modèle pré-établit dans ses tiroirs.\nEt ne perdez pas de temps : il est hors de question d’inclure le moindre patient dans l’étude avant d’avoir l’accord du CPP."
+  },
+  {
+    "objectID": "chronologie.html#recueil-des-données",
+    "href": "chronologie.html#recueil-des-données",
+    "title": "Déroulé de votre étude",
+    "section": "recueil des données",
+    "text": "recueil des données\nLà, c’est à vous de bosser."
+  },
+  {
+    "objectID": "tarifs.html",
+    "href": "tarifs.html",
+    "title": "Tarifs",
+    "section": "",
+    "text": "Je ne facture pas à l’heure car si je vais très vite pour certaines tâches c’est que j’ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement. Voir l’histoire du coup de marteau.\nVoici donc mes tarifs prévisionnels. Ils sont donnés à titre indicatif.\n\n\n\n\n \n  \n    Tache \n    Tarif \n  \n \n\n  \n    Méthodologie \n    200 € \n  \n  \n    Questionnaire en ligne \n    100 € \n  \n  \n    Tableur : rédaction complète \n    200 € \n  \n  \n    Tableur : correction \n    100 € \n  \n  \n    Analyse statistique simple \n    200 € \n  \n  \n    Analyse statistique complexe \n    300 € \n  \n  \n    Travail complet \n    500 € \n  \n\n\n\n\n\nComme vous le devinez je préfère travailler sur des projets du début à la fin. C’est plus intéressant pour vous & pour moi. Mais je peux aussi vous aider sur une partie seulement.\n\n\n\n\n\n\n\n\n\n\n“Appeler un statisticien après que l’expérience est terminée, c’est comme lui demander de faire une autopsie ; il pourra seulement déterminer la cause de l’échec de l’expérience.”\nRonald A. Fisher, FRS (1890-1962)\n\n\n\nQuelques précisions\n\nAnalyse simple : Études observationnelles, sondages, analyse de pratique…\nAnalyse complexe : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. TextMining (analyse en plein texte) ou autre technique complexe ou exotique.\n\n\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
+  },
+  {
+    "objectID": "materiel.html",
+    "href": "materiel.html",
+    "title": "Matériel & Logiciels",
+    "section": "",
+    "text": "Petite présentation de mon matériel & des logiciels que j’utilise.\n\nMatériel\nDe nos jours n’importe quel ordinateur récent fera l’affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent.\nR travaille uniquement en mémoire vive. il faut donc prévoir large, 46 Go est un strict minimum.\nDeux écrans me parait être un minimum (je n’ai pas encore essayé les grands écrans courbes). Un pour le code, un secondaire pour les résultats, la doc, les mails…\nUn réseau correct, un clavier & une souris qui vous conviennent (très personnel) & voilà. Sans oublier un système de sauvegarde local.\n\n\nLogiciels\nEn vieux libriste j’utilise une distribution Linux à savoir une Debian Testing avec un bureau i3.\nJe fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j’utilise selon mon humeur RStudio ou Visual Studio Code, parfois Emacs avec [ESS](https://ess.r-project.org/. Les rapports (et ce site) sont rédigés grâce à Quarto.\nPour les autres langages en particulier \\(\\LaTeX\\), je reste fidèle à Emacs. Pour le reste que du très classique."
   }
 ]
