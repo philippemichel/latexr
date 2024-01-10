@@ -22,3 +22,8 @@ title: "Matériel & Logiciels"
  Je fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j'utilise selon mon humeur [RStudio](https://posit.co/download/rstudio-desktop/) ou [Visual Studio Code](https://code.visualstudio.com/), parfois [Emacs](https://www.gnu.org/s/emacs/) avec [ESS](https://ess.r-project.org/. Les rapports (et ce site) sont rédigés grâce à [Quarto](https://quarto.org/). 
  
  Pour les autres langages en particulier $\LaTeX$, je reste fidèle à Emacs. Pour le reste que du très classique. 
+
+
+# Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.

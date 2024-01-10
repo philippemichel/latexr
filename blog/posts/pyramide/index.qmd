@@ -40,7 +40,7 @@ epiDisplay::pyramid(pat$age, pat$sexe,
 
 ## En R saveur tidyverse
 
-Pour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10  ans. Pour cela nous allons utiliser la fonction `cut` du package `dplyr`. Puis tracer le graphique grâge à la fonction `age_pyramid` du package `apyramid`.
+Pour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10  ans. Pour cela nous allons utiliser la fonction `cut` du package `dplyr`. Puis tracer le graphique grâce à la fonction `age_pyramid` du package `apyramid`.
 
 ```{r}
 #| label: fig-pyramide-tidyverse
