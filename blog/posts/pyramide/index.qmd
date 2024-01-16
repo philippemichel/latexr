@@ -59,3 +59,5 @@ age_pyramid(age_group = "agerec",
 
 
 ```
+
+![](pyr2.png){width=1%}

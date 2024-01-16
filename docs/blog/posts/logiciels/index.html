@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Philippe MICHEL">
+<meta name="description" content="Éditeurs de texte &amp; autres logiciels">
 
-<title>LaTeXR - Trucs LaTeX &amp; R</title>
+<title>LaTeXR - ÉDITEURS DE TEXTE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,39 +62,10 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Envoyer"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -104,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">LaTeXR</span>
     </a>
   </div>
@@ -114,27 +85,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" aria-current="page">
+    <a class="nav-link active" href="../../../index.html" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../chronologie.html">
+    <a class="nav-link" href="../../../chronologie.html">
  <span class="menu-text">Déroulé de votre étude</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tarifs.html">
+    <a class="nav-link" href="../../../tarifs.html">
  <span class="menu-text">Tarifs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../presentation.html">
+    <a class="nav-link" href="../../../presentation.html">
  <span class="menu-text">Qui suis-je ?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../materiel.html">
+    <a class="nav-link" href="../../../materiel.html">
  <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">
+    <a class="nav-link" href="../../../about.html">
  <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -147,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Trucs LaTeX &amp; R</h1>
+      <h1 class="quarto-secondary-nav-title">ÉDITEURS DE TEXTE</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -158,13 +129,29 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Trucs LaTeX &amp; R</h1>
-                      </div>
+      <h1 class="title d-none d-lg-block">ÉDITEURS DE TEXTE</h1>
+                  <div>
+        <div class="description">
+          Éditeurs de texte &amp; autres logiciels
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">latex</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Organisation du travail</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>Philippe MICHEL </p>
+            </div>
+    </div>
       
     
       
@@ -183,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -196,27 +183,27 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chronologie.html" class="sidebar-item-text sidebar-link">Déroulé de votre étude</a>
+  <a href="../../../chronologie.html" class="sidebar-item-text sidebar-link">Déroulé de votre étude</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
+  <a href="../../../presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
+  <a href="../../../tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
+  <a href="../../../materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">À propos</a>
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">À propos</a>
   </div>
 </li>
       </ul>
@@ -231,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../blog/index.html" class="sidebar-item-text sidebar-link active">Trucs LaTeX &amp; R</a>
+  <a href="../../../blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
   </div>
 </li>
       </ul>
@@ -245,152 +232,139 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link active" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r">R</a>
+  <ul class="collapse">
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link" data-scroll-target="#rstudio">RStudio</a></li>
+  <li><a href="#visual-studio-code-vsc" id="toc-visual-studio-code-vsc" class="nav-link" data-scroll-target="#visual-studio-code-vsc">Visual Studio Code (VSC)</a></li>
+  <li><a href="#emacs-ess" id="toc-emacs-ess" class="nav-link" data-scroll-target="#emacs-ess">Emacs + ESS <img src="emacs.jpeg" class="img-fluid" style="width:5.0%"></a></li>
+  <li><a href="#mon-usage" id="toc-mon-usage" class="nav-link" data-scroll-target="#mon-usage">Mon usage</a></li>
+  </ul></li>
+  <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex"><span class="math inline">\(\LaTeX\)</span></a>
+  <ul class="collapse">
+  <li><a href="#texmaker" id="toc-texmaker" class="nav-link" data-scroll-target="#texmaker">Texmaker</a></li>
+  <li><a href="#emacs-auctex" id="toc-emacs-auctex" class="nav-link" data-scroll-target="#emacs-auctex">Emacs + AucTeX</a></li>
+  <li><a href="#gedit-kate" id="toc-gedit-kate" class="nav-link" data-scroll-target="#gedit-kate">Gedit, Kate</a></li>
+  </ul></li>
+  <li><a href="#autres-logiciels-utiles" id="toc-autres-logiciels-utiles" class="nav-link" data-scroll-target="#autres-logiciels-utiles">Autres logiciels utiles</a>
+  <ul class="collapse">
+  <li><a href="#sauvegarde" id="toc-sauvegarde" class="nav-link" data-scroll-target="#sauvegarde">Sauvegarde</a></li>
+  <li><a href="#serveur-de-version" id="toc-serveur-de-version" class="nav-link" data-scroll-target="#serveur-de-version">Serveur de version</a></li>
+  <li><a href="#dessin" id="toc-dessin" class="nav-link" data-scroll-target="#dessin">Dessin</a></li>
+  <li><a href="#autre" id="toc-autre" class="nav-link" data-scroll-target="#autre">Autre</a></li>
+  </ul></li>
+  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Graphiques">Graphiques <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Organisation du travail">Organisation du travail <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="latex">latex <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
 
 
 
-<p><strong>Quelques trucs &amp; astuces en <span class="math inline">\(\LaTeX\)</span> et en <span class="math inline">\(\mathsf{R}\)</span>. Pour être franc, je me fais un aide-mémoire que je partage avec vous.</strong></p>
+<p><strong>R</strong> &amp; <span class="math inline">\(\LaTeX\)</span> sont des langages de programmation (au sens large). Pour écrire des documents dans ces langages on peut simplement utiliser le terminal (du moins pour <strong>R</strong>) mais on s’en lasse vite : aucune aide, pas de complétion automatique etc. On va donc utiliser un éditeur de de texte intégré (IDE) plus ou moins spécialisé. Voici ma petite sélection personnelle suivi de quelques logiciels tiers toujours utiles.</p>
+<p>Tous les éditeurs dont je parle ici possèdent les fonctions de base comme la complétion automatique, la coloration syntaxique, des raccourci-clavier configurables (snippets ou autre) etc. Sauf indication contraire ils sont disponibles pour Windows, Mac &amp; bien sûr Linux. Et pour éviter tout troll si je ne parle pas de Vim c’est que je n’en ai aucune expérience.</p>
+<p>Les “gros” IDE comme Eclipse ont des modules pour <strong>R</strong> ou <span class="math inline">\(\LaTeX\)</span> mais ne sont pas développés pour. Si vous les utilisez déjà pour du Java par ex. OK, allez y, vous l’avez dans les doigts, profitez-en. Sinon ce n’est pas un bon choix.</p>
+<section id="r" class="level1">
+<h1>R</h1>
+<p>On oublie <strong>RCommander</strong>, fournit avec toute distribution R, c’est une catastrophe. Il reste trois solutions</p>
+<section id="rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio">RStudio</h2>
+<p>Utilisé par plus de 80 % des utilisateurs réguliers deR &amp; près de 100 % des utilisateurs occasionnels <a href="https://posit.co/">RStudio</a> est un IDE très spécialisé dans <strong>R</strong> très bien conçu &amp; relativement intuitif. Le support de <code>Quarto</code> est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l’éditeur de texte au sens strict est un peu basique en <strong>R</strong> &amp; franchement simplissime pour du <span class="math inline">\(\LaTeX\)</span>.</p>
+</section>
+<section id="visual-studio-code-vsc" class="level2">
+<h2 class="anchored" data-anchor-id="visual-studio-code-vsc">Visual Studio Code (VSC)</h2>
+<p>L’IDE de Microsoft est un outil remarquable pour écrire du <strong>R</strong> (natif ou Quarto) après un peu de configuration (les tutos pullulent en particulier sur Youtube). La saisie est bien aidée si on a installé les bons packages. Pour ma part j’utilise :</p>
+<ul>
+<li><strong>R</strong></li>
+<li><strong>Quarto</strong></li>
+<li><strong>LaTeX Workshop</strong></li>
+<li><strong>Prettier</strong> Mise en forme du code</li>
+<li><strong>GitHub Copilot</strong> copilot, indispensable</li>
+<li><strong>GitLens</strong> Affichage de l’historique Git</li>
+<li><strong>Error Lens</strong> Meilleur affichage des erreurs</li>
+<li><strong>French Language patch</strong></li>
+</ul>
+</section>
+<section id="emacs-ess" class="level2">
+<h2 class="anchored" data-anchor-id="emacs-ess">Emacs + ESS <img src="emacs.jpeg" class="img-fluid" style="width:5.0%"></h2>
+<p>Bien entendu <a href="https://posit.co/">Emacs</a> demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) &amp; ses défauts (il faut réellement des mains de pianiste &amp; six doigts par main !). On utilisera le package <a href="https://ess.r-project.org/">ESS (Emacs Speaks Statistics)</a> pour avoir un environnement de travail complet pour R.</p>
+</section>
+<section id="mon-usage" class="level2">
+<h2 class="anchored" data-anchor-id="mon-usage">Mon usage</h2>
+<p>J’ai vraiment du mal à me décidé. J’utilise RStudio ou VSC en routine selon mon humeur du jour. Si je dois travailler toute la journée sur un seul fichier (ou presque), je ressort mon Emacs. Pour créer un package je dois avouer que j’apprécie le coté “clickodrome” de RStudio.</p>
+<p>Et depuis quelques mois j’ai découvert <a href="https://github.com/features/copilot">Copilot</a>, l’IA de GitHub, qui apporte une aide énorme même si tout n’est pas encore parfait (sur RStudio &amp; VSC).</p>
+</section>
+</section>
+<section id="latex" class="level1">
+<h1><span class="math inline">\(\LaTeX\)</span></h1>
+<section id="texmaker" class="level2">
+<h2 class="anchored" data-anchor-id="texmaker">Texmaker</h2>
+<p><strong><a href="https://www.xm1math.net/texmaker/">Texmaker</a></strong> est très pratique d’emploi avec beaucoup de fonctions ou de symboles directement accessibles d’un clic, des raccourcis-clavier configurables etc. Je le rapprocherai pour sa philosophie de RStudio.</p>
+<p><strong><a href="https://www.texstudio.org/">TeXsudio</a></strong> en est très proche.</p>
+</section>
+<section id="emacs-auctex" class="level2">
+<h2 class="anchored" data-anchor-id="emacs-auctex">Emacs + AucTeX</h2>
+<p>Autant pour <strong>R</strong> je suis hésitant autant pour <span class="math inline">\(\LaTeX\)</span> je n’ai aucun doute : <code>Emacs</code> est le meilleur éditeur de texte au mondes surtout couplé à <a href="https://www.gnu.org/software/auctex/"><code>AucTeX</code></a> (package dédié à <span class="math inline">\(\LaTeX\)</span> &amp; autres). Mais je dois préciser que je connais des utilisateurs de <span class="math inline">\(\LaTeX\)</span> autrement plus experts que moi qui utilisent au quotidien <code>Texmaker</code> ou <code>Texstudio</code>.</p>
+<p>J’ai entendu dire que l’installation d’<code>Emacs</code> sur Windows est une horreur. Sur Mac il existe <a href="https://aquamacs.org/">Aquamacs</a> qui est un Emacs avec, entre autres, AucTeX pré-installé &amp; très bien intégré dans l’interface MacOS.</p>
+</section>
+<section id="gedit-kate" class="level2">
+<h2 class="anchored" data-anchor-id="gedit-kate">Gedit, Kate</h2>
+<p>Ces éditeurs spécifiques à Linux (Dessinés respectivement pour les bureaux Gnome &amp; KDE) ne m’ont pas convaincu : simplistes, pas d’aides à la saisie sauf configuration perso, je dois avouer ne pas avoir beaucoup pousser mes essais.</p>
+</section>
+</section>
+<section id="autres-logiciels-utiles" class="level1">
+<h1>Autres logiciels utiles</h1>
+<section id="sauvegarde" class="level2">
+<h2 class="anchored" data-anchor-id="sauvegarde">Sauvegarde</h2>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Un fichier non sauvegardé n’existe pas
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>Je ne le répéterai jamais assez : sauvegardez vos fichiers. En local (disque dur externe, serveur etc.) ET en ligne (Dropbox, Google Drive par ex).</p>
+</section>
+<section id="serveur-de-version" class="level2">
+<h2 class="anchored" data-anchor-id="serveur-de-version">Serveur de version</h2>
+<p>Même si vous travaillez seul versionner vos travaux vous servira rarement certe, mais ce jour là vous serez bien content de pouvoir revenir avant vos bêtises !</p>
+<p>Deux avantages secondaires non négligeables :</p>
+<ul>
+<li>Ça fait une sauvegarde</li>
+<li>La création d’un site web statique est quasiment automatique (comme le site que vous êtes en train de lire &amp; je vous en remercie).</li>
+</ul>
+</section>
+<section id="dessin" class="level2">
+<h2 class="anchored" data-anchor-id="dessin">Dessin</h2>
+<p>Même si <strong>R</strong> est un remarquable grapheur il vous faudra de temps en temps reprendre des dessins.</p>
+<ul>
+<li><p><strong>Dessin vectoriel</strong> Un graphique <strong>R</strong> sauvegradé en pdf peut être repris , corrigé etc. via un logiciel de dessin vectoriel comme Inkscape par ex. Chaque tetxe, trait en figure est un élément séparé que vous pouvez travailler.</p></li>
+<li><p><strong>Dessin matriciel</strong> Moins indispensable mais pour retravailler une image ou autre…</p></li>
+</ul>
+</section>
+<section id="autre" class="level2">
+<h2 class="anchored" data-anchor-id="autre">Autre</h2>
+<ul>
+<li>Une suite bureautique</li>
+</ul>
+<hr>
+</section>
+</section>
 <section id="pour-me-joindre" class="level1">
 <h1>Pour me joindre</h1>
 <p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
 
 
-
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Graphiques" data-listing-file-modified-sort="1705439629183" data-listing-reading-time-sort="1.305">
-<a href="../blog/posts/pyramide/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/pyramide/pyr2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pyramide des âges
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Graphiques'); return false;">
-Graphiques
-</div>
-</div>
-<div class="card-text listing-description">
-Un graphique usuel
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="R,Organisation du travail" data-listing-file-modified-sort="1705437690666" data-listing-reading-time-sort="5.405">
-<a href="../blog/posts/tableau/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/tableau/tab1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Organiser son tableau de données
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Organisation du travail'); return false;">
-Organisation du travail
-</div>
-</div>
-<div class="card-text listing-description">
-Comment ne pas faire trop de bêtises avec Excel®
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="latex" data-listing-file-modified-sort="1705439520584" data-listing-reading-time-sort="1.495">
-<a href="../blog/posts/latexmk/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/latexmk/latex.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LaTeXmk
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
-latex
-</div>
-</div>
-<div class="card-text listing-description">
-Automatiser la compilation de LaTeX avec latexmk
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="latex,R,Organisation du travail" data-listing-file-modified-sort="1705439421887" data-listing-reading-time-sort="4.215">
-<a href="../blog/posts/logiciels/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/logiciels/emacs.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ÉDITEURS DE TEXTE
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
-latex
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Organisation du travail'); return false;">
-Organisation du travail
-</div>
-</div>
-<div class="card-text listing-description">
-Éditeurs de texte &amp; autres logiciels
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -6,6 +6,7 @@ categories:
   - latex
 ---
 
+![](latex.png){width=15%}
 
 Pour compiler un document $\LaTeX$ il faut lancer plusieurs commandes successives. En général, on lance `pdflatex` pour compiler le document, `bibtex` pour compiler la bibliographie, `pdflatex` pour mettre à jour les références, `pdflatex` pour mettre à jour la table des matières et les références croisées. Mais il existe un outil qui fait tout cela pour nous : **latexmk**.
 

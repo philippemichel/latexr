@@ -18,7 +18,7 @@
     "href": "blog/posts/pyramide/index.html#en-r-saveur-tidyverse",
     "title": "Pyramide des âges",
     "section": "En R saveur tidyverse",
-    "text": "En R saveur tidyverse\nPour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10 ans. Pour cela nous allons utiliser la fonction cut du package dplyr. Puis tracer le graphique grâge à la fonction age_pyramid du package apyramid.\n\npat |>\n    mutate(agerec = cut(age,\n    breaks = c(0, 20, 30, 40, 50, 60, 70, 80, 90),\n    labels = c(\"< 20\", \"21-30\", \"31,40\", \"41-50\", \"51-60\", \"61-70\", \"71,80\", \"> 80\")\n))|>\nmutate(agerec = as.factor(agerec)) |>\n# Tracé du graphique\nage_pyramid(age_group = \"agerec\",\n            split_by = \"sexe\",\n            pal = c(\"pink\", \"lightblue\") )\n\n\n\n\nFigure 2: Pyramide des âges en R saveur tidyverse"
+    "text": "En R saveur tidyverse\nPour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10 ans. Pour cela nous allons utiliser la fonction cut du package dplyr. Puis tracer le graphique grâce à la fonction age_pyramid du package apyramid.\n\npat |>\n    mutate(agerec = cut(age,\n    breaks = c(0, 20, 30, 40, 50, 60, 70, 80, 90),\n    labels = c(\"< 20\", \"21-30\", \"31,40\", \"41-50\", \"51-60\", \"61-70\", \"71,80\", \"> 80\")\n))|>\nmutate(agerec = as.factor(agerec)) |>\n# Tracé du graphique\nage_pyramid(age_group = \"agerec\",\n            split_by = \"sexe\",\n            pal = c(\"pink\", \"lightblue\") )\n\n\n\n\nFigure 2: Pyramide des âges en R saveur tidyverse"
   },
   {
     "objectID": "blog/posts/tableau/index.html",
@@ -112,6 +112,90 @@
     "text": "Linux\nPERL est installé par défaut\nSous Debian ou dérivé, il faut installer latexmk avec la commande sudo apt-get install latexmk. À adapter pour les autres distributions."
   },
   {
+    "objectID": "blog/posts/logiciels/index.html",
+    "href": "blog/posts/logiciels/index.html",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "",
+    "text": "R & \\(\\LaTeX\\) sont des langages de programmation (au sens large). Pour écrire des documents dans ces langages on peut simplement utiliser le terminal (du moins pour R) mais on s’en lasse vite : aucune aide, pas de complétion automatique etc. On va donc utiliser un éditeur de de texte intégré (IDE) plus ou moins spécialisé. Voici ma petite sélection personnelle suivi de quelques logiciels tiers toujours utiles.\nTous les éditeurs dont je parle ici possèdent les fonctions de base comme la complétion automatique, la coloration syntaxique, des raccourci-clavier configurables (snippets ou autre) etc. Sauf indication contraire ils sont disponibles pour Windows, Mac & bien sûr Linux. Et pour éviter tout troll si je ne parle pas de Vim c’est que je n’en ai aucune expérience.\nLes “gros” IDE comme Eclipse ont des modules pour R ou \\(\\LaTeX\\) mais ne sont pas développés pour. Si vous les utilisez déjà pour du Java par ex. OK, allez y, vous l’avez dans les doigts, profitez-en. Sinon ce n’est pas un bon choix."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#rstudio",
+    "href": "blog/posts/logiciels/index.html#rstudio",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "RStudio",
+    "text": "RStudio\nUtilisé par plus de 80 % des utilisateurs réguliers deR & près de 100 % des utilisateurs occasionnels RStudio est un IDE très spécialisé dans R très bien conçu & relativement intuitif. Le support de Quarto est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l’éditeur de texte au sens strict est un peu basique en R & franchement simplissime pour du \\(\\LaTeX\\)."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#visual-studio-code-vsc",
+    "href": "blog/posts/logiciels/index.html#visual-studio-code-vsc",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Visual Studio Code (VSC)",
+    "text": "Visual Studio Code (VSC)\nL’IDE de Microsoft est un outil remarquable pour écrire du R (natif ou Quarto) après un peu de configuration (les tutos pullulent en particulier sur Youtube). La saisie est bien aidée si on a installé les bons packages. Pour ma part j’utilise :\n\nR\nQuarto\nLaTeX Workshop\nPrettier Mise en forme du code\nGitHub Copilot copilot, indispensable\nGitLens Affichage de l’historique Git\nError Lens Meilleur affichage des erreurs\nFrench Language patch"
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#emacs-ess",
+    "href": "blog/posts/logiciels/index.html#emacs-ess",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Emacs + ESS ",
+    "text": "Emacs + ESS \nBien entendu Emacs demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) & ses défauts (il faut réellement des mains de pianiste & six doigts par main !). On utilisera le package ESS (Emacs Speaks Statistics) pour avoir un environnement de travail complet pour R."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#mon-usage",
+    "href": "blog/posts/logiciels/index.html#mon-usage",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Mon usage",
+    "text": "Mon usage\nJ’ai vraiment du mal à me décidé. J’utilise RStudio ou VSC en routine selon mon humeur du jour. Si je dois travailler toute la journée sur un seul fichier (ou presque), je ressort mon Emacs. Pour créer un package je dois avouer que j’apprécie le coté “clickodrome” de RStudio.\nEt depuis quelques mois j’ai découvert Copilot, l’IA de GitHub, qui apporte une aide énorme même si tout n’est pas encore parfait (sur RStudio & VSC)."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#texmaker",
+    "href": "blog/posts/logiciels/index.html#texmaker",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Texmaker",
+    "text": "Texmaker\nTexmaker est très pratique d’emploi avec beaucoup de fonctions ou de symboles directement accessibles d’un clic, des raccourcis-clavier configurables etc. Je le rapprocherai pour sa philosophie de RStudio.\nTeXsudio en est très proche."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#emacs-auctex",
+    "href": "blog/posts/logiciels/index.html#emacs-auctex",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Emacs + AucTeX",
+    "text": "Emacs + AucTeX\nAutant pour R je suis hésitant autant pour \\(\\LaTeX\\) je n’ai aucun doute : Emacs est le meilleur éditeur de texte au mondes surtout couplé à AucTeX (package dédié à \\(\\LaTeX\\) & autres). Mais je dois préciser que je connais des utilisateurs de \\(\\LaTeX\\) autrement plus experts que moi qui utilisent au quotidien Texmaker ou Texstudio.\nJ’ai entendu dire que l’installation d’Emacs sur Windows est une horreur. Sur Mac il existe Aquamacs qui est un Emacs avec, entre autres, AucTeX pré-installé & très bien intégré dans l’interface MacOS."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#gedit-kate",
+    "href": "blog/posts/logiciels/index.html#gedit-kate",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Gedit, Kate",
+    "text": "Gedit, Kate\nCes éditeurs spécifiques à Linux (Dessinés respectivement pour les bureaux Gnome & KDE) ne m’ont pas convaincu : simplistes, pas d’aides à la saisie sauf configuration perso, je dois avouer ne pas avoir beaucoup pousser mes essais."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#sauvegarde",
+    "href": "blog/posts/logiciels/index.html#sauvegarde",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Sauvegarde",
+    "text": "Sauvegarde\n\n\n\n\n\n\nUn fichier non sauvegardé n’existe pas\n\n\n\n\n\n\nJe ne le répéterai jamais assez : sauvegardez vos fichiers. En local (disque dur externe, serveur etc.) ET en ligne (Dropbox, Google Drive par ex)."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#serveur-de-version",
+    "href": "blog/posts/logiciels/index.html#serveur-de-version",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Serveur de version",
+    "text": "Serveur de version\nMême si vous travaillez seul versionner vos travaux vous servira rarement certe, mais ce jour là vous serez bien content de pouvoir revenir avant vos bêtises !\nDeux avantages secondaires non négligeables :\n\nÇa fait une sauvegarde\nLa création d’un site web statique est quasiment automatique (comme le site que vous êtes en train de lire & je vous en remercie)."
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#dessin",
+    "href": "blog/posts/logiciels/index.html#dessin",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Dessin",
+    "text": "Dessin\nMême si R est un remarquable grapheur il vous faudra de temps en temps reprendre des dessins.\n\nDessin vectoriel Un graphique R sauvegradé en pdf peut être repris , corrigé etc. via un logiciel de dessin vectoriel comme Inkscape par ex. Chaque tetxe, trait en figure est un élément séparé que vous pouvez travailler.\nDessin matriciel Moins indispensable mais pour retravailler une image ou autre…"
+  },
+  {
+    "objectID": "blog/posts/logiciels/index.html#autre",
+    "href": "blog/posts/logiciels/index.html#autre",
+    "title": "ÉDITEURS DE TEXTE",
+    "section": "Autre",
+    "text": "Autre\n\nUne suite bureautique"
+  },
+  {
     "objectID": "blog/about.html",
     "href": "blog/about.html",
     "title": "À propos",
@@ -123,7 +207,7 @@
     "href": "blog/index.html",
     "title": "Trucs LaTeX & R",
     "section": "",
-    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nPyramide des âges\n\n\n\nR\n\n\nGraphiques\n\n\n\nUn graphique usuel\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nComment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Quelques trucs & astuces en \\(\\LaTeX\\) et en \\(\\mathsf{R}\\). Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\nPour me joindre\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPyramide des âges\n\n\n\nR\n\n\nGraphiques\n\n\n\nUn graphique usuel\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nComment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÉDITEURS DE TEXTE\n\n\n\nlatex\n\n\nR\n\n\nOrganisation du travail\n\n\n\nÉditeurs de texte & autres logiciels\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "about.html",

@@ -333,7 +333,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="en-r-saveur-tidyverse" class="level2">
 <h2 class="anchored" data-anchor-id="en-r-saveur-tidyverse">En R saveur tidyverse</h2>
-<p>Pour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10 ans. Pour cela nous allons utiliser la fonction <code>cut</code> du package <code>dplyr</code>. Puis tracer le graphique grâge à la fonction <code>age_pyramid</code> du package <code>apyramid</code>.</p>
+<p>Pour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10 ans. Pour cela nous allons utiliser la fonction <code>cut</code> du package <code>dplyr</code>. Puis tracer le graphique grâce à la fonction <code>age_pyramid</code> du package <code>apyramid</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>pat <span class="sc">|&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">agerec =</span> <span class="fu">cut</span>(age,</span>
@@ -354,6 +354,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
+<p><img src="pyr2.png" class="img-fluid" style="width:1.0%"></p>
 
 
 </section>
