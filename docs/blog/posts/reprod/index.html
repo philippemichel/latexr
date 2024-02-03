@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Philippe MICHEL">
+<meta name="description" content="Comment refaire ses calculs deux ans plus tard">
 
-<title>LaTeXR - Trucs LaTeX &amp; R</title>
+<title>LaTeXR - Reproductible</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,39 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Envoyer"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -103,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">LaTeXR</span>
     </a>
   </div>
@@ -113,27 +83,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" aria-current="page">
+    <a class="nav-link active" href="../../../index.html" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../chronologie.html">
+    <a class="nav-link" href="../../../chronologie.html">
  <span class="menu-text">Déroulé de votre étude</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tarifs.html">
+    <a class="nav-link" href="../../../tarifs.html">
  <span class="menu-text">Tarifs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../presentation.html">
+    <a class="nav-link" href="../../../presentation.html">
  <span class="menu-text">Qui suis-je ?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../materiel.html">
+    <a class="nav-link" href="../../../materiel.html">
  <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">
+    <a class="nav-link" href="../../../about.html">
  <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -146,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Trucs LaTeX &amp; R</h1>
+      <h1 class="quarto-secondary-nav-title">Reproductible</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -157,13 +127,27 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Trucs LaTeX &amp; R</h1>
-                      </div>
+      <h1 class="title d-none d-lg-block">Reproductible</h1>
+                  <div>
+        <div class="description">
+          Comment refaire ses calculs deux ans plus tard
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>Philippe MICHEL </p>
+            </div>
+    </div>
       
     
       
@@ -182,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -195,27 +179,27 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chronologie.html" class="sidebar-item-text sidebar-link">Déroulé de votre étude</a>
+  <a href="../../../chronologie.html" class="sidebar-item-text sidebar-link">Déroulé de votre étude</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
+  <a href="../../../presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
+  <a href="../../../tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
+  <a href="../../../materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">À propos</a>
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">À propos</a>
   </div>
 </li>
       </ul>
@@ -230,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../blog/index.html" class="sidebar-item-text sidebar-link active">Trucs LaTeX &amp; R</a>
+  <a href="../../../blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
   </div>
 </li>
       </ul>
@@ -244,179 +228,62 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link active" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Graphiques">Graphiques <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Organisation du travail">Organisation du travail <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="latex">latex <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
 
 
 
-<p><strong>Quelques trucs &amp; astuces en <span class="math inline">\(\LaTeX\)</span> et en <span class="math inline">\(\mathsf{R}\)</span>. Pour être franc, je me fais un aide-mémoire que je partage avec vous.</strong></p>
-<section id="pour-me-joindre" class="level1">
-<h1>Pour me joindre</h1>
-<p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
-
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+En travaux
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cette page est encore un peu vide.</p>
+<p>Les exemples de code vont suivre.</p>
+</div>
+</div>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Après quelques années de travail en statistiques j’ai été confronté plusieurs fois aux situations suivantes :</p>
+<ul>
+<li>“j’ai rajouté dix cas, tu peux me refaire les stats ?”</li>
+<li>“tu te souviens de l’analyse qu’on a faite il y a deux ans ? il faudrait la refaire en ajoutant…”</li>
+<li>“Sympa ta présentation des résultats, on pourrai en faire un surveillance mensuelle” (de la part du chef, impossible dire non)</li>
+</ul>
+<p>À l’époque je travaillait avec des scripts R soigneusement stockés dans mes dossiers avec souvent plusieurs versions de chaque etc.</p>
+<p>En direct, lors de écriture des scripts il me fallait en extraire les résultats (chiffres, tableaux, graphiques etc.) pour les incorporer dans le rapport final à grand coup de copier/coller.</p>
+<p>Autant vous dire que deux ans plus tard, le plus simple était de repartir de zéro et là impossible de retomber sur les mêmes résultats.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Et on oublie pas de sauvegarder ses données, hein ?</p>
+<p><strong>Un fichier non sauvegardé n’existe pas</strong>[.center]</p>
+</div>
+</div>
+<p>Donc plusieurs problèmes qui ont chacun des solutions au bout du compte assez simples.</p>
+<p>1- <em>Générer des rapports quasi-automatiquement avec mes scripts bien rangés.</em> Facile dés qu’on utilise Rmarkdown ou <a href="https://quarto.org/">Quarto</a>. c’est à dire un fichier en Markdown qui contient des bouts de code appelés “chunks”. On compile &amp; on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu’elle garde la même structure).</p>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Graphiques" data-listing-file-modified-sort="1705439629183" data-listing-reading-time-sort="1.305">
-<a href="../blog/posts/pyramide/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/pyramide/pyr2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pyramide des âges
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Graphiques'); return false;">
-Graphiques
-</div>
-</div>
-<div class="card-text listing-description">
-Un graphique usuel
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="R,Organisation du travail" data-listing-file-modified-sort="1705437690666" data-listing-reading-time-sort="5.405">
-<a href="../blog/posts/tableau/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/tableau/tab1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Organiser son tableau de données
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Organisation du travail'); return false;">
-Organisation du travail
-</div>
-</div>
-<div class="card-text listing-description">
-Comment ne pas faire trop de bêtises avec Excel®
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="R" data-listing-file-modified-sort="1706998868463" data-listing-reading-time-sort="1.32">
-<a href="../blog/posts/reprod/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-img-bg" style="height: 150px;">
-&nbsp;
-</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reproductible
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-Comment refaire ses calculs deux ans plus tard
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="latex" data-listing-file-modified-sort="1705439520584" data-listing-reading-time-sort="1.495">
-<a href="../blog/posts/latexmk/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/latexmk/latex.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LaTeXmk
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
-latex
-</div>
-</div>
-<div class="card-text listing-description">
-Automatiser la compilation de LaTeX avec latexmk
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="latex,R,Organisation du travail" data-listing-file-modified-sort="1705439421887" data-listing-reading-time-sort="4.215">
-<a href="../blog/posts/logiciels/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../blog/posts/logiciels/emacs.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ÉDITEURS DE TEXTE
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
-latex
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Organisation du travail'); return false;">
-Organisation du travail
-</div>
-</div>
-<div class="card-text listing-description">
-Éditeurs de texte &amp; autres logiciels
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Philippe MICHEL
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

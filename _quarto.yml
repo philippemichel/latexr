@@ -4,7 +4,10 @@ project:
 lang: fr
 website:
   title: "LaTeXR"
+
   navbar:
+    background: info
+    foreground: light
     right:
       - href: index.qmd
         text: Home
@@ -25,6 +28,7 @@ website:
         href: mailto:docphilmstat@gmail.com
   sidebar:
     style: "docked"
+    pinned: true
     search: true
     contents:
       - index.qmd

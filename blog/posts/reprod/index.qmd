@@ -1,0 +1,42 @@
+---
+title: "Reproductible"
+description: "Comment refaire ses calculs deux ans plus tard"
+author: "Philippe MICHEL"
+categories:
+  - R
+---
+
+::: {.callout-tip}
+## En travaux
+
+Cette page est encore un peu vide. 
+
+Les exemples de code vont suivre.
+:::
+
+# Introduction
+
+Après quelques années de travail en statistiques j'ai été confronté plusieurs fois aux situations suivantes :
+
+- "j'ai rajouté dix cas, tu peux me refaire les stats ?"
+- "tu te souviens de l'analyse qu'on a faite il y a deux ans ? il faudrait la refaire en ajoutant..."
+- "Sympa ta présentation des résultats, on pourrai en faire un surveillance mensuelle" (de la part du chef, impossible dire non)
+
+À l'époque je travaillait avec des scripts R soigneusement stockés dans mes dossiers avec souvent plusieurs versions de chaque etc. 
+
+En direct, lors de écriture des scripts il me fallait en extraire les résultats (chiffres, tableaux, graphiques etc.) pour les incorporer dans le rapport final à grand coup de copier/coller.
+
+Autant vous dire que deux ans plus tard, le plus simple était de repartir de zéro et là impossible de retomber sur les mêmes résultats. 
+
+:::{.callout-warning}
+Et on oublie pas de sauvegarder ses données, hein ?
+
+**Un fichier non sauvegardé n'existe pas**[.center]
+:::
+
+Donc plusieurs problèmes qui ont chacun des solutions au bout du compte assez simples.
+
+1- *Générer des rapports quasi-automatiquement avec mes scripts bien rangés.* Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à dire un fichier en Markdown qui contient des bouts de code appelés "chunks". On compile & on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu'elle garde la même structure).
+
+
+
