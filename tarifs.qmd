@@ -44,6 +44,10 @@ Ronald A. Fisher, FRS (1890-1962)
 
 - **Analyse complexe** : Études interventionnelles sans risque pour le patient, sans médicament. Analyse rétrospective avec score de propension. *TextMining* (analyse en plein texte) ou autre technique complexe ou exotique.
 
+# Formations
+
+Me joindre pour en discuter.
+
 # Pour me joindre
 
 Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.

@@ -4,6 +4,9 @@ description: "Comment refaire ses calculs deux ans plus tard"
 author: "Philippe MICHEL"
 categories:
   - R
+echo : true
+execute: 
+  enabled: false
 ---
 
 ::: {.callout-tip}
@@ -36,7 +39,39 @@ Et on oublie pas de sauvegarder ses données, hein ?
 
 Donc plusieurs problèmes qui ont chacun des solutions au bout du compte assez simples.
 
-1- *Générer des rapports quasi-automatiquement avec mes scripts bien rangés.* Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à dire un fichier en Markdown qui contient des bouts de code appelés "chunks". On compile & on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu'elle garde la même structure).
+# Les solutions
 
+
+## Générer des rapports quasi-automatiquement avec mes scripts bien rangés.
+
+Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à dire un fichier en Markdown qui contient des bouts de code appelés "chunks". On compile & on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu'elle garde la même structure).
+
+En jouant sur les réglages (simples) on peut avoir une belle version avec les résultats (tableaux, graphiques...) pour rendre à son client ou collègue mais aussi une plus complète avec le code, les numéros de version des packages utilisés etc.
+
+Le seul commandement à respecter est d'avoir des chuncks brefs : une figure égale un chunk, un tableau égale un chunk etc. 
+Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez à relancer à chaque fois que ce chunk court donc simple. 
+
+## Un seul script sera autonome
+
+Un truc pas indispensable mais que je trouve bien pratique.  Le plus gros chunk que vous aurez à écrire est celui qui charge les données & les met en forme : préciser les NA, avoir des noms de variables utilisables, décider qui est numérique ou factoriel, régler l'ordre des niveaux dans les variables vectorielles, traduire les dates etc.
+
+De plus si vous avez plusieurs rapports à rédiger avec le même jeux de données il vous faudra le recopier au début de chaque travail. Sans oublier que si un import à prtir d'un cvs est quasi instantané, un import depuis une base de données ou un tableau Excell peut être long.
+
+Il y a plus simple : un script qui fait tout ça & stocke le résultat dans un format R. Ça donnera :
+
+```{r}
+# On charge les données
+df <-  readr::read_csv("datas/mesdonnnees.csv") |> 
+  janitor::clean_names()
+...
+# On sauvegarde le résultat
+  saveRDS(df, "data.rds")
+```
+  
+Et dans vos rapports vous n'aurez qu'à commencer par :
+
+```{r}
+df <- readRDS("data.rds")
+```
 
 
