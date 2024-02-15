@@ -66,7 +66,7 @@ De plus si vous avez plusieurs rapports à rédiger avec le même jeux de donné
 Il y a plus simple : un script qui fait tout ça & stocke le résultat dans un format R. Ça donnera :
 
 ```{r}
-# On charge &met en forme les données
+# On charge & met en forme les données
 df <-  readr::read_csv("datas/mesdonnnees.csv") |> 
   janitor::clean_names() |>
 ...

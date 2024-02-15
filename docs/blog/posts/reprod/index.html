@@ -349,7 +349,7 @@ Avertissement
 <p>De plus si vous avez plusieurs rapports à rédiger avec le même jeux de données il vous faudra le recopier au début de chaque travail. Sans oublier que si un import à partir d’un cvs est quasi instantané, un import depuis une base de données ou un tableau Excel peut être long.</p>
 <p>Il y a plus simple : un script qui fait tout ça &amp; stocke le résultat dans un format R. Ça donnera :</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># On charge &amp;met en forme les données</span></span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># On charge &amp; met en forme les données</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span>  readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"datas/mesdonnnees.csv"</span>) <span class="sc">|&gt;</span> </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>...</span>
