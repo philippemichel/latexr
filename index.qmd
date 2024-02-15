@@ -4,21 +4,15 @@ title: "Ma proposition"
 
 Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.
 
-Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. C'est pourquoi je vous propose de vous accompagner dans votre travail & cela à trois moments du long processus d'écriture ([La chronologie en détail](chronologie.html)) :
+Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. C'est pourquoi je vous propose de vous accompagner dans votre travail & cela au début & à la fin du [long processus d'écriture](chronologie.html)) :
 
 ## Méthodologie
 
 Au début de votre travail, pour vous aider à définir votre étude : le type d'étude, le nombre de sujets à inclure, les variables à étudier...
 
-## Gestion des données
-
-Ces variables il va falloir les stocker quelque part. Ce qui n'est pas aussi simple que'on pourrait le penser &prsente de nombreux pièges. Il faut aussi penser à la sécurité des données, à la sauvegarde, à la confidentialité...
-
 ## Analyse statistique
 
 Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. N'oubliez pas que les PUPH qui vont vous juger passent par un labo de statistiques pour tous leurs travaux.
-
-Dans un premier temps même sur des données correctement stockées il y a un travail de nettoyage & de mise en forme qui est souvent le plus chronophage. Ensuite il faut décrire sa population puis faire quelques tests. Tout ça génère des tableaux & des graphiques qu'il faut interpréter.
 
 
 # Mes limites
@@ -27,7 +21,7 @@ Si je me permets de vous proposer mes services c'est que j'ai une bonne [formati
 
 Mais tout seul dans mon coin je ne vais pas gérer un PHRC ou une étude interventionnelle avec du médicament. 
 
-Je n'interviens donc que sur des études [RIPH-3](moz-extension://12959df1-7aeb-4e99-a041-ebf819bc5934/content/web/viewer.html?file=https%3A%2F%2Fsfar.org%2Fwp-content%2Fuploads%2F2018%2F10%2F3-Recherche-clinique-en-anesthesie-reanimation-la-loi-Jarde-en-pratique.pdf) ou non-RIPH. Je peux éventuellement faire uniquement la partie statistique d'une RIPH-2 mais pas la partie méthodologique.
+Je n'interviens donc que sur des études [RIPH-3](moz-extension://12959df1-7aeb-4e99-a041-ebf819bc5934/content/web/viewer.html?file=https%3A%2F%2Fsfar.org%2Fwp-content%2Fuploads%2F2018%2F10%2F3-Recherche-clinique-en-anesthesie-reanimation-la-loi-Jarde-en-pratique.pdf) ou RNIPH. Je peux éventuellement faire uniquement la partie statistique d'une RIPH-2 mais pas la partie méthodologique.
 
 # Formations
 

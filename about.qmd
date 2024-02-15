@@ -3,7 +3,7 @@ title: "À propos"
 ---
 Deux parties dans ce site :
 
-- Présentation de mon offre de soutien **DocPhilStat** en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large.
+- Présentation de mon offre de soutien **DocPhilStat** en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large ainsi qu ede la formation à R ou $\LaTeX$.
 
 - Des [conseils, trucs et astuces](blog.html) pour R & $\LaTeX$.
 

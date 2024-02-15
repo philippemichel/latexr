@@ -9,6 +9,10 @@ execute:
   enabled: false
 ---
 
+
+![](reprod.png){width=15%}
+ 
+ 
 ::: {.callout-tip}
 ## En travaux
 
@@ -16,6 +20,8 @@ Cette page est encore un peu vide.
 
 Les exemples de code vont suivre.
 :::
+
+
 
 # Introduction
 
@@ -27,12 +33,12 @@ Après quelques années de travail en statistiques j'ai été confronté plusieu
 
 À l'époque je travaillait avec des scripts R soigneusement stockés dans mes dossiers avec souvent plusieurs versions de chaque etc. 
 
-En direct, lors de écriture des scripts il me fallait en extraire les résultats (chiffres, tableaux, graphiques etc.) pour les incorporer dans le rapport final à grand coup de copier/coller.
+En direct, lors de écriture des scripts il me fallait en extraire les résultats (chiffres, tableaux, graphiques etc.) pour les incorporer dans le rapport final à grands coups de copier/coller.
 
 Autant vous dire que deux ans plus tard, le plus simple était de repartir de zéro et là impossible de retomber sur les mêmes résultats. 
 
 :::{.callout-warning}
-Et on oublie pas de sauvegarder ses données, hein ?
+Et on n'oublie pas de sauvegarder ses données, hein ?
 
 **Un fichier non sauvegardé n'existe pas**[.center]
 :::
@@ -55,14 +61,16 @@ Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez
 
 Un truc pas indispensable mais que je trouve bien pratique.  Le plus gros chunk que vous aurez à écrire est celui qui charge les données & les met en forme : préciser les NA, avoir des noms de variables utilisables, décider qui est numérique ou factoriel, régler l'ordre des niveaux dans les variables vectorielles, traduire les dates etc.
 
-De plus si vous avez plusieurs rapports à rédiger avec le même jeux de données il vous faudra le recopier au début de chaque travail. Sans oublier que si un import à prtir d'un cvs est quasi instantané, un import depuis une base de données ou un tableau Excell peut être long.
+De plus si vous avez plusieurs rapports à rédiger avec le même jeux de données il vous faudra le recopier au début de chaque travail. Sans oublier que si un import à partir d'un cvs est quasi instantané, un import depuis une base de données ou un tableau Excel peut être long.
 
 Il y a plus simple : un script qui fait tout ça & stocke le résultat dans un format R. Ça donnera :
 
 ```{r}
-# On charge les données
+# On charge &met en forme les données
 df <-  readr::read_csv("datas/mesdonnnees.csv") |> 
-  janitor::clean_names()
+  janitor::clean_names() |>
+...
+
 ...
 # On sauvegarde le résultat
   saveRDS(df, "data.rds")

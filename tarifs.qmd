@@ -26,7 +26,7 @@ kable(format = "html", align = "l") %>%
 **10 % de réduction pour les premiers clients (jusqu'à la fin mars 2024)**
 
 
-Comme vous le devinez je préfère travailler sur des projets du début à la fin. C'est plus intéressant pour vous & pour moi.  Mais je peux aussi vous aider sur une partie seulement.
+Comme vous le devinez je préfère travailler sur un projet du début à la fin. C'est plus intéressant pour vous & pour moi.  Mais je peux aussi vous aider sur une partie seulement.
 
 
 ::: {.callout-tip}
