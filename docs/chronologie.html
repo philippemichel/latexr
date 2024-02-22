@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LaTeXR - Déroulé de votre étude</title>
+<title>\(\LaTeX \mathbb{R}\) - Déroulé de votre étude</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,14 +17,13 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -42,11 +41,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 20,
   "language": {
     "search-no-results-text": "Pas de résultats",
@@ -57,15 +56,22 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "correspondances de plus dans ce document",
     "search-clear-button-title": "Effacer",
     "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer"
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
   }
 }</script>
 
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="\(\LaTeX \mathbb{R}\) - Déroulé de votre étude">
+<meta property="og:description" content="Au travail !">
+<meta property="og:site-name" content="DocPhilmStat">
+<meta property="og:locale" content="fr_FR">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -75,52 +81,59 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./violons.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">LaTeXR</span>
+    <span class="navbar-title"><span class="math inline">\(\LaTeX \mathbb{R}\)</span></span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./chronologie.html">
+    <a class="nav-link" href="./chronologie.html" rel="" target="">
  <span class="menu-text">Déroulé de votre étude</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tarifs.html">
+    <a class="nav-link" href="./tarifs.html" rel="" target="">
  <span class="menu-text">Tarifs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentation.html">
+    <a class="nav-link" href="./presentation.html" rel="" target="">
  <span class="menu-text">Qui suis-je ?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materiel.html">
+    <a class="nav-link" href="./materiel.html" rel="" target="">
  <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Déroulé de votre étude</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chronologie.html">DocPhilmStat</a></li><li class="breadcrumb-item"><a href="./chronologie.html">Déroulé de votre étude</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -128,65 +141,74 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
-      <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Recherche"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ma proposition</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">DocPhilmStat</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">DocPhilmStat</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chronologie.html" class="sidebar-item-text sidebar-link active">Déroulé de votre étude</a>
+  <a href="./chronologie.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Déroulé de votre étude</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
+  <a href="./presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Qui suis-je ?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
+  <a href="./tarifs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tarifs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
+  <a href="./materiel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">À propos</a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">À propos</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Blog</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Blog</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
+  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Trucs LaTeX &amp; R</span></a>
   </div>
 </li>
       </ul>
@@ -194,22 +216,17 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link active" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Déroulé de votre étude</h1>
+<h1 class="title">Déroulé de votre étude</h1>
 <p class="subtitle lead">Au travail !</p>
 </div>
 
@@ -225,14 +242,14 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même un an au minimum.</p>
+<p>Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même compter un an au minimum.</p>
 <p>Voyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Exemple
 </div>
 </div>
@@ -241,18 +258,18 @@ Exemple
 <p>La question posée est <em>“Est-ce que la SpO<sub>2</sub> est un bon marqueur de la sévérité de la BPCO aux urgences ?”</em> (spoiler : c’est un très mauvais critère).</p>
 </div>
 </div>
-<div class="panel-tabset">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Introduction</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Matériel et Méthodes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Résultats</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Discussion</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Divers</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Vous avez une idée de départ il vous faut l’affiner. Dans notre exemple, sévérité OK mais quel critère ? . On peut par exemple prendre le nombre de recours à la ventilation invasive ou non. On prend en compte une VNI brève aux urgences ? Après transfert en réa, dans quel délai ? etc. Il vous faut arriver à une formulation claire de votre question : <em>Est-ce que la SpO<sub>2</sub> est un bon marqueur du recours rapide (moins de 48 h) à la ventilation invasive chez les BPCO GOLD II ou plus ?</em></p>
+<p>Vous avez une idée de départ il vous faut l’affiner. Dans notre exemple, sévérité OK mais quel critère ? On peut par exemple prendre le nombre de recours à la ventilation invasive ou non. On prend en compte une VNI brève aux urgences ? Après transfert en réa, dans quel délai ? etc. Il vous faut arriver à une formulation claire de votre question : <em>Est-ce que la SpO<sub>2</sub> est un bon marqueur du recours rapide (moins de 48 h) à la ventilation invasive chez les BPCO GOLD II ou plus ?</em></p>
 <p>Même en admettant que vous connaissiez bien votre sujet, il vous faut faire une revue de la littérature. Ça affinera votre vision du problème, vous donnera des idées, des méthodes pour aborder le problème. Cette étape revient à rédiger la partie <em>Introduction</em> de votre travail.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Mon apport
 </div>
 </div>
@@ -263,58 +280,61 @@ Mon apport
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>C’est la partie la plus importante de votre travail. Vous allez décrire votre population, vos critères d’inclusion et d’exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc. Mais aussi la plus rébarbative à lire &amp; la plus complexe à écrire.</p>
-<p>La première étape est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ? Souvenez-vous de vos cours de LCA !</p>
+<p>La première étape est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ?</p>
+<p>Souvenez-vous de vos cours de LCA !</p>
 <p>Ensuite, il vous faut définir votre population. Dans notre exemple, on va prendre tous les patients qui ont été admis aux urgences pour une BPCO. Mais qu’est-ce qu’une BPCO ? Il faut définir les critères d’inclusion et d’exclusion.</p>
 <p>Il faut maintenant définir les variables que vous allez devoir collecter. Ni trop, ni trop peu. Il vous faudra bien entendu la SpO<sub>2</sub> à l’admission mais aussi d’autres variables permettant de chercher si certains groupes de malades bénéficieraient plus de cette approche (âge, gravité, certains antécédents…). Sans oublier que plus il y a de variables plus il y aura de travail à fournir. Idéalement il faudrait faire une liste des variables (<strong>codebook</strong>) avec leur nom, l’unité, le type de variable (numérique, catégorielle, etc.) etc.</p>
 <div class="cell" data-tbl-name="Codebook" data-hash="chronologie_cache/html/codebook_3f015570842512f6b0834aee2b7f5bd5">
 <div class="cell-output-display">
-
-<table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> variable </th>
-   <th style="text-align:left;"> description </th>
-   <th style="text-align:left;"> unite </th>
-   <th style="text-align:left;"> limite </th>
-  </tr>
- </thead>
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">variable</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">description</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">unite</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">limite</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> date_adm </td>
-   <td style="text-align:left;"> Date d'admission </td>
-   <td style="text-align:left;"> DD/MM/YY </td>
-   <td style="text-align:left;"> 01/01/2022 - 31/12/2024 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> age </td>
-   <td style="text-align:left;"> Âge </td>
-   <td style="text-align:left;"> années </td>
-   <td style="text-align:left;"> 18 - 110 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sexe </td>
-   <td style="text-align:left;"> Sexe </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> F ou M </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> spo2 </td>
-   <td style="text-align:left;"> SpO2 à l'admission </td>
-   <td style="text-align:left;"> % </td>
-   <td style="text-align:left;"> 50 - 100 </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">date_adm</td>
+<td style="text-align: left;">Date d'admission</td>
+<td style="text-align: left;">DD/MM/YY</td>
+<td style="text-align: left;">01/01/2022 - 31/12/2024</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">age</td>
+<td style="text-align: left;">Âge</td>
+<td style="text-align: left;">années</td>
+<td style="text-align: left;">18 - 110</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sexe</td>
+<td style="text-align: left;">Sexe</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">F ou M</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">spo2</td>
+<td style="text-align: left;">SpO2 à l'admission</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">50 - 100</td>
+</tr>
 </tbody>
 </table>
+</div>
+
 
 </div>
 </div>
 <p>Le seul calcul qui doit être fait à ce stade est le nombre de cas nécessaires. On se base sur la bibliographie &amp; des méthodes statistiques.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Mon apport
 </div>
 </div>
@@ -329,29 +349,29 @@ Mon apport
 <h2 class="anchored" data-anchor-id="base-de-données">Base de données</h2>
 <p>Toutes ces données il va falloir les stocker. Deux solutions simples existent :</p>
 <ul>
-<li>Un formulaire en ligne type <a href="https://www.google.fr/intl/fr/forms/about/">Google Forms®</a> ou = <a href="https://www.limesurvey.org/fr">LymeSurvey®</a> par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg &amp; hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouvé de qui il s’agit).</li>
+<li>Un formulaire en ligne type <a href="https://www.google.fr/intl/fr/forms/about/">Google Forms®</a> ou <a href="https://www.limesurvey.org/fr">LymeSurvey®</a> par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg &amp; hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouver de qui il s’agit).</li>
 <li>Un tableur (type Excel®). Ça peut paraître simple mais c’est plein de pièges &amp; la saisie peut être longue &amp; source d’erreurs. Quelques trucs &amp; techniques permettent de pallier à beaucoup de ces erreurs.</li>
 </ul>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Mon apport
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>Pour un formulaire en ligne je peux me charger de le configurer.</p>
-<p>Pour un tableur je peux soit le créer complètement soit simplement vérifier ou améliorer votre travail.</p>
+<p>Pour un tableur je peux soit le créer complètement (mauvaise solution) soit simplement vérifier ou améliorer votre travail.</p>
 </div>
 </div>
-<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Attention !
 </div>
 </div>
@@ -367,41 +387,53 @@ Attention !
 </section>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>L’analyse des données commence toujours par un nettoyage &amp; une mise en forme même si le recueil a été très bien fait. Il faut vérifier les valeurs aberrantes, les doublons, les valeurs manquantes, mettre en forme les données catégorielles… Bien entendu si je doit récupérer un classeur Excel mal organisé je vais y passer beaucoup, beaucoup plus de temps &amp; je vais vous facturer beaucoup, beaucoup plus. Un graphique ou un tableau récapitulatif de l’étude avec le nombre de variables par catégorie, le nombre de valeurs manquantes &amp; un résumé rapide des résultats seront rendus au plus vite.</p>
-<p>Ensuite on commence par un ou plusieurs tableaux descriptifs &amp; des graphiques pour les valeurs essentielles. Puis, enfin, la réponse à la question principale (le <code>p&lt; 0,05</code>). Outre ce chiffre, on recherchera souvent des corrélations avec d’autres évènements, des facteurs favorisants (<em>Est-ce que la SpO<sub>2</sub> est un meilleur facteur prédictif chez les patients Gold4 ?</em>)*. Pour une analyseassez simple on rendra un tableau récapitulatif des résultats avec les p-values item par item puis une analyse multivariée par régression (logistique, linéaire, etc.). Dans d’autres cas un score de propension pourra être calculé ou autre, le design de l’analyse dépend du travail. Bien entendu des graphiques seront réalisés pour illustrer les résultats.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<p>L’analyse des données commence toujours par un nettoyage &amp; une mise en forme même si le recueil a été très bien fait. Il faut vérifier les valeurs aberrantes, les doublons, les valeurs manquantes, mettre en forme les données catégorielles<span class="math inline">\(\dots\)</span> Bien entendu si je doit récupérer un classeur Excel mal organisé je vais y passer beaucoup, beaucoup plus de temps &amp; je vais vous facturer beaucoup, beaucoup plus. Un graphique ou un tableau récapitulatif de l’étude avec le nombre de variables par catégorie, le nombre de valeurs manquantes &amp; un résumé rapide des résultats seront rendus au plus vite.</p>
+<p>Ensuite on commence par un ou plusieurs tableaux descriptifs &amp; des graphiques pour les valeurs essentielles. Puis, enfin, la réponse à la question principale (le <code>p&lt; 0,05</code>). Outre ce chiffre, on recherchera souvent des corrélations avec d’autres évènements, des facteurs favorisants (<em>Est-ce que la SpO<sub>2</sub> est un meilleur facteur prédictif chez les patients Gold4 ?</em>)*. Pour une analyse assez simple on rendra un tableau récapitulatif des résultats avec les p-values item par item puis une analyse multivariée par régression (logistique, linéaire, etc.). Dans d’autres cas un score de propension pourra être calculé ou autre, le design de l’analyse dépend du travail. Bien entendu des graphiques seront réalisés pour illustrer les résultats.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Mon apport
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiquent à la partie <em>Résultats</em> de votre travail.</p>
+<p>Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiquement à la partie <em>Résultats</em> de votre travail.</p>
 </div>
 </div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p>À vous de travailler. Je peux éventuellement relire mais l’avis de votre directeur de thèse ou d’un collègue sera plus utile.</p>
+<p>À vous de travailler. Je peux éventuellement relire mais l’avis de votre directeur de thèse ou d’un collègue sera plus pertinent.</p>
 </div>
 <div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
 <p><strong>Points de détail</strong></p>
 <ul>
 <li><p>Je travaille vite : pour une analyse statistique simple je peux rendre un rapport dans la semaine. De votre coté vous vous devez d’être réactif si je vous demande des précisions.</p></li>
-<li><p>Comme vous pouvez le deviner en lisant ce site si je maîtrise à peu près correctement la technique le coté esthétique m’échappe complètement. Les graphiques que je vais vous rendre seront, je l’espère, clairs &amp; informatifs mais ni très originaux ni fignolés dans l’esthétique. Maintenant, si vous le souhaitez, je peux modifier certaines choses par ex. mettre une image en fond (très moche à mon avis) ou remplacer les rectangles des histogrammes par des figures etc. À vous de voir.</p></li>
-<li><p>De base j’utilise des échelles de couleurs compatibles avec les troubles de la vision des couleurs.</p></li>
+<li><p>Comme vous pouvez le deviner en lisant ce site si je maîtrise à peu près correctement la technique le coté esthétique m’échappe complètement. Les graphiques que je vais vous rendre seront, je l’espère, clairs &amp; informatifs mais ni très originaux ni fignolés dans l’esthétique.</p></li>
+</ul>
+<p>Maintenant, si vous le souhaitez, je peux modifier certaines choses par ex. mettre une image en fond (très moche à mon avis) ou remplacer les rectangles des histogrammes par des figures etc. À vous de voir.</p>
+<ul>
+<li>De base j’utilise des échelles de couleurs compatibles avec les troubles de la vision des couleurs.</li>
 </ul>
 </div>
 </div>
 </div>
-<section id="pour-me-joindre" class="level1">
-<h1>Pour me joindre</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pour me joindre
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -546,9 +578,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -613,6 +659,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -656,6 +788,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2024, philippe MICHEL</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

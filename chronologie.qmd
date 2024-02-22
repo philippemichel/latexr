@@ -4,7 +4,7 @@ subtitle: "Au travail !"
 ---
 
 
-Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même un an au minimum. 
+Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même compter un an au minimum. 
 
 Voyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse. 
 
@@ -21,7 +21,7 @@ La question posée est *"Est-ce que la SpO~2~ est un bon marqueur de la sévéri
 
 # Introduction
 
-Vous avez une idée de départ il vous faut l'affiner. Dans notre exemple, sévérité OK mais quel critère ? . On peut par exemple prendre le nombre de recours à la ventilation invasive ou non. On prend en compte une VNI brève aux urgences ? Après transfert en réa, dans quel délai ? etc. Il vous faut arriver à une formulation claire de votre question :
+Vous avez une idée de départ il vous faut l'affiner. Dans notre exemple, sévérité OK mais quel critère ? On peut par exemple prendre le nombre de recours à la ventilation invasive ou non. On prend en compte une VNI brève aux urgences ? Après transfert en réa, dans quel délai ? etc. Il vous faut arriver à une formulation claire de votre question :
 *Est-ce que la SpO~2~ est un bon marqueur du recours rapide (moins de 48 h) à la ventilation invasive chez les BPCO GOLD II ou plus ?*
 
 Même en admettant que vous connaissiez bien votre sujet, il vous faut faire une revue de la littérature. Ça affinera votre vision du problème, vous donnera des idées, des méthodes pour aborder le problème. Cette étape revient à rédiger la partie *Introduction* de votre travail.
@@ -37,6 +37,7 @@ Il s'agit là de vous approprier le sujet. C'est un travail personnel, je ne peu
 C'est la partie la plus importante de votre travail. Vous allez décrire votre population, vos critères d'inclusion et d'exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc. Mais aussi la plus rébarbative à lire & la plus complexe à écrire.
 
 La première étape est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ? 
+
 Souvenez-vous de vos cours de LCA !
 
 Ensuite, il vous faut définir votre population. Dans notre exemple, on va prendre tous les patients qui ont été admis aux urgences pour une BPCO. Mais qu'est-ce qu'une BPCO ? Il faut définir les critères d'inclusion et d'exclusion.
@@ -89,7 +90,7 @@ Toutes ces données il va falloir les stocker. Deux solutions simples existent :
 
 Pour un formulaire en ligne je peux me charger de le configurer. 
 
-Pour un tableur je peux soit le créer complètement soit simplement vérifier ou améliorer votre travail. 
+Pour un tableur je peux soit le créer complètement (mauvaise solution) soit simplement vérifier ou améliorer votre travail. 
 :::
 
 ::: {.callout-warning}
@@ -106,7 +107,7 @@ Là, c'est à vous de bosser.
 
 # Résultats
 
-L'analyse des données commence toujours par un nettoyage & une mise en forme même si le recueil a été très bien fait. Il faut vérifier les valeurs aberrantes, les doublons, les valeurs manquantes, mettre en forme les données catégorielles... Bien entendu si je doit récupérer un classeur Excel mal organisé je vais y passer beaucoup, beaucoup plus de temps  &  je vais vous facturer beaucoup, beaucoup plus. Un graphique ou un tableau récapitulatif de l'étude avec le nombre de variables par catégorie, le nombre de valeurs manquantes & un résumé rapide des résultats seront rendus au plus vite.
+L'analyse des données commence toujours par un nettoyage & une mise en forme même si le recueil a été très bien fait. Il faut vérifier les valeurs aberrantes, les doublons, les valeurs manquantes, mettre en forme les données catégorielles$\dots$ Bien entendu si je doit récupérer un classeur Excel mal organisé je vais y passer beaucoup, beaucoup plus de temps  &  je vais vous facturer beaucoup, beaucoup plus. Un graphique ou un tableau récapitulatif de l'étude avec le nombre de variables par catégorie, le nombre de valeurs manquantes & un résumé rapide des résultats seront rendus au plus vite.
 
 Ensuite on commence par un ou plusieurs tableaux descriptifs & des graphiques pour les valeurs essentielles. Puis, enfin, la réponse à la question principale (le `p< 0,05`). Outre ce chiffre, on recherchera souvent des corrélations avec d'autres évènements, des facteurs  favorisants (*Est-ce que la SpO~2~ est un meilleur facteur prédictif chez les patients Gold4 ?*)*. Pour une analyse assez simple on rendra un tableau récapitulatif des résultats avec les p-values item par item puis une analyse multivariée par régression (logistique, linéaire, etc.). Dans d'autres cas un score de propension pourra être calculé ou autre, le design de l'analyse dépend du travail. Bien entendu des graphiques seront réalisés pour illustrer les résultats.
 
@@ -133,6 +134,9 @@ Maintenant, si vous le souhaitez, je peux modifier certaines choses par ex. mett
 - De base j'utilise des échelles de couleurs compatibles avec les troubles de la vision des couleurs.
 :::
 
-# Pour me joindre
+:::{.callout-tip}
+## Pour me joindre
 
 Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::
+

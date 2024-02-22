@@ -1,27 +1,32 @@
 ---
 title: "À propos"
+about:
+  image: violons.png
+  template: marquee
+  links:
+    - icon: github
+      href: https://github.com/philippemichel
+    - icon: twitter
+      href: https://twitter.com/PhiippeMICHEL
+    - icon: mailbox
+      text: mail
+      href: mailto:docphilmstat@gmail.com
 ---
 Deux parties dans ce site :
 
-- Présentation de mon offre de soutien **DocPhilStat** en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large ainsi qu ede la formation à R ou $\LaTeX$.
+- Présentation de mon offre de soutien **DocPhilStat** en méthodologie & statistique dans le cadre de la rédaction de mémoires et thèses mais aussi de projets de recherche dans le domaine médical ou paramédical au sens large ainsi que de la formation à R ou $\LaTeX$.
 
-- Des [conseils, trucs et astuces](blog.html) pour R & $\LaTeX$.
-
-
-::: {.callout-tip}
-## TECHNIQUE
-
-Ce site est généré avec [Quarto](https://quarto.org/docs/websites/), un outil de publication de documents scientifiques qui utilise Markdown & R.  
-:::
-
-
-# Pour me joindre
-
-Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
-
+- Des [conseils, trucs et astuces](blog.html) pour $\mathbb{R}$ & $\LaTeX$.
 
 
 :::{.callout-tip}
+## Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::
+
+
+:::{.callout-note}
 ## DocPhilmStat
 
 Identifiant SIRET 377 513 577 00033

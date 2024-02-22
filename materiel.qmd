@@ -7,7 +7,7 @@ title: "Matériel & Logiciels"
  
  De nos jours n'importe quel ordinateur récent fera l'affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent. 
  
- R travaille uniquement en mémoire vive. il faut donc prévoir large, 46 Go est un strict minimum.
+ $\mathbb{R}$ travaille uniquement en mémoire vive. il faut donc prévoir large, 16 Go est un strict minimum.
  
  Deux écrans me parait être un minimum (je n'ai pas encore essayé les grands écrans courbes). Un pour le code, un secondaire pour les résultats, la doc, les mails...
  
@@ -19,11 +19,15 @@ title: "Matériel & Logiciels"
  
  En vieux libriste j'utilise une distribution Linux à savoir une Debian Testing avec un bureau i3.
  
- Je fais tous mes travaux statistiques avec R saveur tidyverse. Comme IDE j'utilise selon mon humeur [RStudio](https://posit.co/download/rstudio-desktop/) ou [Visual Studio Code](https://code.visualstudio.com/), parfois [Emacs](https://www.gnu.org/s/emacs/) avec [ESS](https://ess.r-project.org/. Les rapports (et ce site) sont rédigés grâce à [Quarto](https://quarto.org/). 
+ Je fais tous mes travaux statistiques avec $\mathbb{R}$ saveur tidyverse. Comme IDE j'utilise selon mon humeur [RStudio](https://posit.co/download/rstudio-desktop/) ou [Visual Studio Code](https://code.visualstudio.com/), parfois [Emacs](https://www.gnu.org/s/emacs/) avec [ESS](https://ess.r-project.org/). 
+ 
+ Les rapports (et ce site) sont rédigés grâce à [Quarto](https://quarto.org/). 
  
  Pour les autres langages en particulier $\LaTeX$, je reste fidèle à Emacs. Pour le reste que du très classique. 
 
 
-# Pour me joindre
+:::{.callout-tip}
+## Pour me joindre
 
 Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::

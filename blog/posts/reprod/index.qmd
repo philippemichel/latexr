@@ -82,4 +82,11 @@ Et dans vos rapports vous n'aurez qu'à commencer par :
 df <- readRDS("data.rds")
 ```
 
+Mais n'oubliez pas, outre les sauvegardes, d'utiliser un gestionnaire de version (Git ou autre) & d'avoir une gestion des fichiers un peu réfléchie, ne pas avoir plusieurs versions du même document dans le même dossier par ex.
 
+
+:::{.callout-tip}
+## Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::

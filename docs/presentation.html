@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LaTeXR - Qui suis-je ?</title>
+<title>\(\LaTeX \mathbb{R}\) - Qui suis-je ?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,6 +28,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="site_libs/quarto-search/autocomplete-preset-algolia.umd.js"></script>
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -41,12 +42,20 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 20,
+  "algolia": {
+    "application-id": "<my-application-id>",
+    "search-only-api-key": "<my-search-only-api-key>",
+    "index-name": "<my-index-name>",
+    "analytics-events": false,
+    "show-logo": false,
+    "libDir": "site_libs"
+  },
   "language": {
     "search-no-results-text": "Pas de résultats",
     "search-matching-documents-text": "documents trouvés",
@@ -60,11 +69,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="\(\LaTeX \mathbb{R}\) - Qui suis-je ?">
+<meta property="og:description" content="">
+<meta property="og:site-name" content="DocPhilmStat">
+<meta property="og:locale" content="fr_FR">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -74,11 +88,13 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./violons.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">LaTeXR</span>
+    <span class="navbar-title"><span class="math inline">\(\LaTeX \mathbb{R}\)</span></span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Recherche"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -217,7 +233,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#statistiques" id="toc-statistiques" class="nav-link active" data-scroll-target="#statistiques">Statistiques</a></li>
   <li><a href="#médecine" id="toc-médecine" class="nav-link" data-scroll-target="#médecine">Médecine</a></li>
   <li><a href="#divers" id="toc-divers" class="nav-link" data-scroll-target="#divers">Divers</a></li>
-  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
   </ul>
 </nav>
     </div>
@@ -248,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>1982 : Première approche des stat en laboratoire lors d’un travail sur la régénération hépatique chez le rat (calculs sur une TI-59 !)</li>
 <li>1992 : CESAM (Certificat d’Étude Statistique Appliquée à la Médecine).</li>
-<li>2005 : mes premiers pas en R.</li>
+<li>2005 : mes premiers pas en <span class="math inline">\(\mathbb{R}\)</span>.</li>
 <li>2010 : École d’été de statistiques &amp; santé publique (Paris XI)</li>
 <li>2012 : Master I de santé publique (Paris V/XI) options recherche clinique &amp; statistiques.</li>
 <li>2015-2019 : Membre de la Commission d’Épidémiologie &amp; de Recherche Clinique (CERC) de la <a href="https://www.srlf.org/">SRLF</a> (Société de Réanimation de Langue Française) où j’ai participé à la mise en place de plusieurs études multicentriques en particulier en soins infirmiers.<br>
@@ -266,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
 <li>1985 -1986 : Médecin-adjoint au 23e BIMa (DAKAR, Sénégal)</li>
 <li>1987 : Doctorat en médecine (Paris XI)</li>
 <li>1987-1989 : Assistant en réanimation médicale (Hôpital des Diaconnesses, Paris)</li>
-<li>1989-2000 : Médecin généraliste</li>
+<li>1989-2000 : Médecin généraliste (Herblay)</li>
 <li>1995-2004 : Attaché en réanimation (Hôpital de St Germain en Laye)</li>
 <li>2000-2004 : PHC au SAMU 95</li>
 <li>Depuis 2004 : PH en réanimation médico-chirurgicale (Hôpital NOVO - Pontoise)</li>
@@ -275,13 +290,22 @@ ul.task-list li input[type="checkbox"] {
 <section id="divers" class="level1">
 <h1>Divers</h1>
 <ul>
-<li>2012-2021 : Secrétaire de l’association <a href="https://www.gutenberg-asso.fr/">GUTenberg</a> (Groupe des Utilisateur de <span class="math inline">\(\TeX, \LaTeX\)</span> &amp; dérivés)</li>
+<li>2012-2021 : Secrétaire de l’association <a href="https://www.gutenberg-asso.fr/">GUTenberg</a><br> (Groupe des Utilisateur de <span class="math inline">\(\TeX, \LaTeX\)</span> &amp; dérivés)</li>
 <li>Membre de la Société Française de Statistiques (<a href="https://www.sfds.asso.fr/">SFdS</a>)</li>
 </ul>
-</section>
-<section id="pour-me-joindre" class="level1">
-<h1>Pour me joindre</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pour me joindre
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
+</div>
+</div>
 
 
 </section>

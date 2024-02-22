@@ -25,21 +25,23 @@ Je n'interviens donc que sur des études [RIPH-3](moz-extension://12959df1-7aeb-
 
 # Formations
 
-Je peux assurer des formations en petit groupe à R :
+Je peux assurer des formations en petit groupe à $\mathbb{R}$ :
 
 - Initiation
-- gestion des données (nettoyage des bases, mise en forme, sauvegarde, sécurité)
+- Gestion des données (nettoyage des bases, mise en forme, sauvegarde, sécurité)
 - Analyse statistique de base (description, tests, graphiques) 
 
 :::{callout-tip}
-Il s'agit de formations sur la technique, sur le langage R, pas de cours de statistiques !
-:::
+Il s'agit de formations sur la technique, sur le langage $\mathbb{R}$, pas de cours de statistiques !
+:::"
 
 Formations en présentiel (toujours préférable) ou à distance.
 
-# Pour me joindre
+:::{.callout-tip}
+## Pour me joindre
 
 Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::
 
 
 
