@@ -2,6 +2,7 @@
 title: "À propos"
 about:
   image: violons.png
+  image-shape: round
   template: marquee
   links:
     - icon: github

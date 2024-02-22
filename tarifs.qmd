@@ -4,7 +4,7 @@ subtitle: "provisoires, prévisionels & non contractuels"
 format: html
 ---
 
-Je ne facture pas à l'heure car si je vais très vite pour certaines tâches c'est que j'ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement mais que dois prendre en compte.<br> Voir l'[histoire du coup de marteau](https://www.map-consult.com/fr/savoir-faire/le-coup-de-marteau.html).
+Je ne facture pas à l'heure car si je vais très vite pour certaines tâches c'est que j'ai passé beaucoup de temps à me former mais aussi à rédiger mes macros & mes scripts, temps que je ne vous facture pas directement mais que je dois prendre en compte.<br> Voir l'[histoire du coup de marteau](https://www.map-consult.com/fr/savoir-faire/le-coup-de-marteau.html).
 
 
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE, cache= TRUE}
@@ -23,7 +23,7 @@ kable(format = "html", align = "l") %>%
   row_spec(2:4, bold = F, color = "black", background = "#CCC6FF")
 ```
 
-**10 % de réduction pour les premiers clients (jusqu'à la fin mars 2024)**
+**10 % de réduction pour les premiers clients (jusqu'à la fin mai 2024)**
 
 
 Comme vous le devinez je préfère travailler sur un projet du début à la fin. C'est plus intéressant pour vous & pour moi.  Mais je peux aussi vous aider sur une partie seulement.

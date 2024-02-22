@@ -3,6 +3,7 @@ project:
   output-dir: "docs"
 lang: fr
 website:
+  image: violons.png
   title: "$\\LaTeX \\mathbb{R}$"
   search:
     location: sidebar
