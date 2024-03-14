@@ -1,0 +1,128 @@
+---
+title: "Des labels trop longs"
+description: ""
+author: "Philippe MICHEL"
+categories:
+  - R
+  - Graphiques
+warning: false
+---
+
+Vous avez un beau graphique mmais les labels (souvent sur l'axe des X) sont trop longs, se superposent...
+
+:::{.callout-note}
+Les graphiques qui suivent sont volontairement très simple afin d'avoir le code le plus court possible. 
+
+J'utilise ici la base de données `penguins` où j'ai juste créer des labels immondes; très très longs.
+:::
+
+```{r}
+#| label: intro
+
+library(ggplot2)
+library(palmerpenguins)
+levels(penguins$species) <- paste0(levels(penguins$species)," ",
+                                   levels(penguins$species)," ",levels(penguins$species)," ",levels(penguins$species))
+```
+
+```{r}
+#| label: fig-laid
+#| fig-cap: Ça embouteille
+
+ggplot(penguins, aes(x = species, y = body_mass_g)) +
+  geom_boxplot() +
+  theme(
+    axis.text.x = element_text(size = 12)
+  )
+```
+
+Nous allons présenter trois solutions : 
+
+- Réduire la taille des caractères. Simple, efficace mais a ses limites !
+- Faire pivoter les labels. Plus élégant mais pas toujours possible.
+- Mettre le texte sur deux lignes.  Lourd mais parfois nécessaire.
+- Décaler un label sur deux
+
+Mais n'oubliez pas qu'un graphique doit tout d'abord être simple & rapide à lire. La meilleure solution est toujours de réduire la longueur des labels.
+
+::: {.panel-tabset}
+
+# Faire pivoter les labels
+
+On trouve le bon angle par tâtonnement. Ne pas oublier d'ajuster le centrage (`hjust`) pour que le label soit bien positionné.
+
+```{r}
+#| label: fig-angle
+#| fig-cap: Labels pivotés
+
+ggplot(penguins, aes(x = species, y = body_mass_g)) +
+  geom_boxplot() +
+  theme(
+    axis.text.x = element_text(size = 12, angle = 20, hjust = 1)
+  )
+```
+
+# Mettre le texte sur deux lignes. 
+
+Certes souvent efficace mais peu lisible. À combiner le plus souvent avec un peu d'angle.
+
+```{r}
+#| label: fig-lignes
+#| fig-cap: Labels sur deux lignes
+
+library(scales) # Pour la fonction label_wrap
+
+ggplot(penguins, aes(x = species, y = body_mass_g)) +
+  geom_boxplot() +
+  theme(
+    axis.text.x = element_text(size = 12)
+  ) +
+   scale_x_discrete(labels = label_wrap(20)) # On choisit la longueur des lignes
+```
+
+# Décaler un label sur deux
+
+Solution souvent élégante, facile à mettre en place depuis la nouvelle version de ggplot2.
+
+```{r}
+#| label: fig-decal
+#| fig-cap: Labels alternés
+
+
+ggplot(penguins, aes(x = species, y = body_mass_g)) +
+  geom_boxplot() +
+  theme(
+    axis.text.x = element_text(size = 12)
+  ) +
+    scale_x_discrete(guide = guide_axis(n.dodge = 2))
+```
+
+# Autres solutions
+
+- Pour les variables numériques il suffit souvent de modifier les labels : afficher de 20 en 20 est parfois plus clair que de 10 en 10.
+
+## Pivoter
+
+Une solution radicale est de pivoter tout le graphique quitte à l'utiliser en combinaison avec les propositions précédentes sous peine d'avoir la légende qui prend toute la page.
+
+```{r}
+#| label: fig-pivotc
+#| fig-cap: Graphique pivoté
+
+ggplot(penguins, aes(x = species, y = body_mass_g)) +
+  geom_boxplot() +
+  theme(
+    axis.text.x = element_text(size = 12)
+  ) +
+  coord_flip()
+```
+
+
+:::
+
+:::{.callout-tip}
+## Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::
+

@@ -179,9 +179,6 @@ tibble(
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = FALSE)
 ```
 
-
-
-
 # des Sauvegardes !
 
 Un ordinateur n’est qu’une machine & est sujet à la panne. Un
