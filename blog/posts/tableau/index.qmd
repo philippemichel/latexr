@@ -7,14 +7,7 @@ categories:
   - Organisation du travail
 ---
 
-Un tableur comme Excel® est un outil de comptabilité analytique & n’a jamais été conçu pour stocker des données. Néanmoins ces
-logiciels sont puissants, versatiles, très pratiques, semblent simples d’emploi & permettent, sous certaines conditions, de stocker des tableaux simples. Un peu de réflexion & de travail préparatoire vous feront gagner beaucoup de temps.
-
-Dans tous les cas on ne travaille jamais seul, le data-manager ou le
-statisticien peuvent à tout moment vous conseiller.
-
-Pour mémoire le tableau qui arrive au statisticien est définitif, verrouillé, ne sera plus modifié donc
-toutes les saisies & queries sont terminées & complètement anonymisé.
+Un tableur comme Excel® est un outil de comptabilité analytique & n’a jamais été conçu pour stocker des données. Néanmoins ces logiciels sont puissants, versatiles, très pratiques, semblent simples d’emploi & permettent, sous certaines conditions, de stocker des tableaux simples. Un peu de réflexion & de travail préparatoire vous feront gagner beaucoup de temps.
 
 # Un seul tableau
 
@@ -59,18 +52,22 @@ mean(patients$age)
 
 Il donc évident qu’il doit s’agir d’un nom simple & court, pas la
 question posé au patient sur le questionnaire. Ce nom ne doit pas
-comporter d’accent, d’espace ou de caractère bizarre.
+comporter d’accent, d’espace ou de caractère bizarre (#$£~-). 
+
+Plusieurs normes existent, je vous conseille de suivre la norme **Petit serpent** :
+
+|Norme|Exemple|
+|:--:|:--:|
+|Grand chameau|AgePatient|
+|Petit chameau|agePatient|
+|Petit serpent|age_patient|
+|Grand serpent|Age_patient|
+
 
 # Titres des variables
 
 Chaque variable (donc chaque colonne) doit avoir un titre & un
 seul. Donc UNE & une seule ligne de titre. 
-
-Les noms des variables doivent idéalement suivent certaines règles pour avoir une cohérence. Il y a deux systèmes pratiques qui portent des noms imagés :
-
-- **Grand chameau** : chaque mot commence par une majuscule, pas d’espace entre les mots : `AgePatient`
-- **Petit serpent** : chaque mot est séparé par un underscore (tiret bas) : `age_patient`
-
 
 ## Tableau inutilisable
 
@@ -101,7 +98,7 @@ La comparaison des PA entre H1 & H2 (test de student) va zalors s’écrire :
 t.test(PA~heure, data = patients)
 ```
 
-Les deux formats sont acceptables. Le format long est souvent plus facile à utiliser mais la conversion d’un format à l’autre est très facile. 
+Les deux formats sont acceptables. Le format long est souvent plus facile à utiliser mais la conversion d’un format à l’autre est très facile  (voir les fonctions `pivot_longueur` ou `pivot_wider` de la librairie `tidyverse`).
 
 ## Du codage des variables
 
@@ -196,3 +193,9 @@ Linux par ex.).
 
 Une grande partie de ces conseils est très bien expliquée sur le
 [blog de Claire Della-Vedova](https://delladata.fr/) dont je me suis largement inspiré.
+
+:::{.callout-tip}
+## Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::

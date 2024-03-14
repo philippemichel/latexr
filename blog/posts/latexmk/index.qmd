@@ -39,7 +39,7 @@ Sous Debian ou dérivé, il faut installer `latexmk` avec la commande `sudo apt-
 
 # Configuration & Usage
 
-Ce script ets un peu ancien & va par défaut utilise latex pour générer du dvi. 
+Ce script est un peu ancien & va par défaut utilise latex pour générer du dvi. 
 
 La commande de base est simple. Pour produire un pdf à partir du fichier *foo.tex* il suffit de lancer la commande  :
 
@@ -48,7 +48,7 @@ La commande de base est simple. Pour produire un pdf à partir du fichier *foo.t
 ```
 Le `-c` permet de supprimer les fichiers temporaires.
 
-Soyons un peu moderne : pour utiliser LuaLaTeX il suffit de complèter :
+Soyons un peu moderne : pour utiliser LuaLaTeX il suffit de compléter :
 
 ```bash
 > latexmk -pdf -c - pdflua foo.tex
@@ -61,4 +61,8 @@ Il est possible de créer un fichier de configuration `.latexmkrc` pour éviter 
 > alias lmk='latexmk -pdf -c -pdflua'
 ```
 
+:::{.callout-tip}
+## Pour me joindre
 
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::

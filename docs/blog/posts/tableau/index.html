@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Philippe MICHEL">
-<meta name="description" content="Cpmment ne pas faire trop de bêtises avec Excel®">
+<meta name="description" content="Comment ne pas faire trop de bêtises avec Excel®">
 
 <title>\(\LaTeX \mathbb{R}\) - Organiser son tableau de données</title>
 <style>
@@ -182,7 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <h1 class="title">Organiser son tableau de données</h1>
                   <div>
         <div class="description">
-          Cpmment ne pas faire trop de bêtises avec Excel®
+          Comment ne pas faire trop de bêtises avec Excel®
         </div>
       </div>
                           <div class="quarto-categories">
@@ -320,8 +320,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Un tableur comme Excel® est un outil de comptabilité analytique &amp; n’a jamais été conçu pour stocker des données. Néanmoins ces logiciels sont puissants, versatiles, très pratiques, semblent simples d’emploi &amp; permettent, sous certaines conditions, de stocker des tableaux simples. Un peu de réflexion &amp; de travail préparatoire vous feront gagner beaucoup de temps.</p>
-<p>Dans tous les cas on ne travaille jamais seul, le data-manager ou le statisticien peuvent à tout moment vous conseiller.</p>
-<p>Pour mémoire le tableau qui arrive au statisticien est définitif, verrouillé, ne sera plus modifié donc toutes les saisies &amp; queries sont terminées &amp; complètement anonymisé.</p>
 <section id="un-seul-tableau" class="level1">
 <h1>Un seul tableau</h1>
 <p>Vos résultats doivent rentrer dans un seul tableau. Dans certains cas c’est impossible. Dans ce cas c’est un tableau par onglet (avec un nom clair pour l’onglet).</p>
@@ -378,19 +376,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>des Variables</h1>
 <section id="nom-des-variables" class="level2">
 <h2 class="anchored" data-anchor-id="nom-des-variables">Nom des variables</h2>
-<p>Le nom de la variable va être utiliser ensuite pour écrire le code. Par exemple pour calculer la moyenne de l’âge (variable <code>age</code> du tableau <code>patients</code>):</p>
+<p>Le nom de la variable va être utilisé pour écrire le code. Par exemple pour calculer la moyenne de l’âge (variable <code>age</code> du tableau <code>patients</code>):</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(patients<span class="sc">$</span>age)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Il donc évident qu’il doit s’agir d’un nom simple &amp; court, pas la question posé au patient sur le questionnaire. Ce nom ne doit pas comporter d’accent, d’espace ou de caractère bizarre.</p>
+<p>Il donc évident qu’il doit s’agir d’un nom simple &amp; court, pas la question posé au patient sur le questionnaire. Ce nom ne doit pas comporter d’accent, d’espace ou de caractère bizarre (#$£~-).</p>
+<p>Plusieurs normes existent, je vous conseille de suivre la norme <strong>Petit serpent</strong> :</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Norme</th>
+<th style="text-align: center;">Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Grand chameau</td>
+<td style="text-align: center;">AgePatient</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Petit chameau</td>
+<td style="text-align: center;">agePatient</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Petit serpent</td>
+<td style="text-align: center;">age_patient</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Grand serpent</td>
+<td style="text-align: center;">Age_patient</td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 <section id="titres-des-variables" class="level1">
 <h1>Titres des variables</h1>
 <p>Chaque variable (donc chaque colonne) doit avoir un titre &amp; un seul. Donc UNE &amp; une seule ligne de titre.</p>
-<p>Les noms des variables doivent idéalement suivent certaines règles pour avoir une cohérence. Il y a deux systèmes pratiques qui portent des noms imagés :</p>
-<ul>
-<li><strong>Grand chameau</strong> : chaque mot commence par une majuscule, pas d’espace entre les mots : <code>AgePatient</code></li>
-<li><strong>Petit serpent</strong> : chaque mot est séparé par un underscore (tiret bas) : <code>age_patient</code></li>
-</ul>
 <section id="tableau-inutilisable" class="level2">
 <h2 class="anchored" data-anchor-id="tableau-inutilisable">Tableau inutilisable</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -420,7 +440,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>La comparaison des PA entre H1 &amp; H2 (test de student) va zalors s’écrire :</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(PA<span class="sc">~</span>heure, <span class="at">data =</span> patients)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Les deux formats sont acceptables. Le format long est souvent plus facile à utiliser mais la conversion d’un format à l’autre est très facile.</p>
+<p>Les deux formats sont acceptables. Le format long est souvent plus facile à utiliser mais la conversion d’un format à l’autre est très facile (voir les fonctions <code>pivot_longueur</code> ou <code>pivot_wider</code> de la librairie <code>tidyverse</code>).</p>
 </section>
 <section id="du-codage-des-variables" class="level2">
 <h2 class="anchored" data-anchor-id="du-codage-des-variables">Du codage des variables</h2>
@@ -539,6 +559,19 @@ Un fichier non sauvegardé n’existe pas !
 <section id="remerciements" class="level1">
 <h1>Remerciements</h1>
 <p>Une grande partie de ces conseils est très bien expliquée sur le <a href="https://delladata.fr/">blog de Claire Della-Vedova</a> dont je me suis largement inspiré.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pour me joindre
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
+</div>
+</div>
 
 
 </section>

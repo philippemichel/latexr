@@ -1,0 +1,47 @@
+---
+title: "Lollipop"
+description: "Tout part en sucette ma bonne dame !"
+author: "Philippe MICHEL"
+categories:
+  - R
+  - graphique
+echo : true
+warning: false
+message: false
+---
+
+![](sucette.png)
+
+Les diagrammes produisant des barres comme `geom_bar` produisent des graphiques simples & clairs mais qui gardent un défaut : l’œil est attiré, entre autre, par la largeur des barres qui n'a, le plus souvent, aucune signification. D'où l’idée d'un graphique équivalent sans barre, juste des traits avec une petite boule en haut afin d'être bien visible soit une sucette, *lollipop* en anglais.
+
+Pour compliquer les choses nous allons mettre en évidence une catégorie, ici l’espèce `Gentoo` des manchots. 
+
+
+```{r}
+
+library(tidyverse)
+library(palmerpenguins)
+#
+penguins |>
+  drop_na(species) |>
+  count(species) |>
+  mutate(gentoo = ifelse(species == "Gentoo", TRUE, FALSE)) |>
+  #
+  ggplot() +
+  aes(x = fct_reorder(species, n,.desc = TRUE), y = n, fill = gentoo) +
+  geom_segment(
+    aes(
+      x = fct_reorder(species, n, .desc = TRUE),
+      xend = fct_reorder(species, n, .desc = TRUE),
+      y = 0,
+      yend = n
+    )) +
+  geom_point(
+    size = 5,
+    shape = 21
+  )
+```
+
+Comme d'habitude le graphique est brut de décoffrage sans fioriture ni réglage fin.
+
+

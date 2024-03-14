@@ -17,11 +17,11 @@ Les "gros" IDE comme Eclipse ont des modules pour **R** ou $\LaTeX$ mais ne sont
 
 # R
 
-On oublie **RCommander**, fournit avec toute distribution R, c'est une catastrophe.  Il reste trois solutions 
+On oublie **RCommander**, fournit avec toute distribution R, c'est une catastrophe.  Il reste trois solutions :
 
 ## RStudio
 
-Utilisé par plus de 80 % des utilisateurs réguliers deR & près de 100 % des utilisateurs occasionnels [RStudio](https://posit.co/) est un IDE très spécialisé dans **R** très bien conçu & relativement intuitif. Le support de `Quarto` est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l'éditeur de texte au sens strict est un peu basique en **R** & franchement simplissime pour du $\LaTeX$. 
+Utilisé par plus de 80 % des utilisateurs réguliers deR & près de 100 % des utilisateurs occasionnels [RStudio](https://posit.co/) est un IDE très spécialisé dans **R** très bien conçu & relativement intuitif. Le support de `Quarto` est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l'éditeur de texte au sens strict est un peu basique en **R** & franchement simpliste pour du $\LaTeX$. 
 
 ## Visual Studio Code (VSC)
 
@@ -38,12 +38,11 @@ L'IDE de Microsoft est un outil remarquable pour écrire du **R** (natif ou Quar
 
 ## Emacs + ESS ![](emacs.jpeg){width=5%}
 
-
-Bien entendu [Emacs](https://posit.co/) demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) & ses défauts (il faut réellement des mains de pianiste & six doigts par main !). On utilisera le package [ESS (Emacs Speaks Statistics)](https://ess.r-project.org/) pour avoir un environnement de travail complet pour R. 
+Bien entendu [Emacs](https://posit.co/) demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) & ses défauts (il faut réellement des mains de pianiste & six doigts par main !). On utilisera le package [ESS (Emacs Speaks Statistics)](https://ess.r-project.org/) pour avoir un environnement de travail complet pour R. Je l'utilise quand je travaille longtemps sur un seul fichier. 
 
 ## Mon usage
 
-J'ai vraiment du mal à me décidé. J'utilise RStudio ou VSC en routine selon mon humeur du jour. Si je dois travailler toute la journée sur un seul fichier (ou presque), je ressort mon Emacs. Pour créer un package je dois avouer que j'apprécie le coté "clickodrome" de RStudio.
+J'ai vraiment du mal à me décidé. J'utilise RStudio ou Emacs selon mon humeur du jour. Si je dois travailler toute la journée sur un seul fichier (ou presque), je ressort mon Emacs. Pour créer un package je dois avouer que j'apprécie le coté "clickodrome" de RStudio.
 
 Et depuis quelques mois j'ai découvert [Copilot](https://github.com/features/copilot), l'IA de GitHub, qui apporte une aide énorme même si tout n'est pas encore parfait (sur RStudio & VSC).
 
@@ -73,11 +72,11 @@ Ces éditeurs spécifiques à Linux (Dessinés respectivement pour les bureaux G
 ## Un fichier non sauvegardé n'existe pas
 :::
 
-Je ne le répéterai jamais assez : sauvegardez vos fichiers. En local (disque dur externe, serveur etc.) ET en ligne (Dropbox, Google Drive par ex).    
+Je ne le répéterai jamais assez : sauvegardez vos fichiers. En local (disque dur externe, serveur etc.) ET en ligne (Dropbox, Google Drive par ex).   
 
 ## Serveur de version
 
-Même si vous travaillez seul versionner vos travaux vous servira rarement certe, mais ce jour là vous serez bien content de pouvoir revenir avant vos bêtises !
+Même si vous travaillez seul versionner vos travaux vous servira rarement certes, mais ce jour là vous serez bien content de pouvoir revenir avant vos bêtises !
 
 Deux avantages secondaires non négligeables : 
 
@@ -88,16 +87,17 @@ Deux avantages secondaires non négligeables :
 
 Même si **R** est un remarquable grapheur il vous faudra de temps en temps reprendre des dessins.  
 
-- **Dessin vectoriel** Un graphique **R** sauvegradé en pdf peut être repris , corrigé etc. via un logiciel de dessin vectoriel comme Inkscape par ex. Chaque tetxe, trait en figure est un élément séparé que vous pouvez travailler.
+- **Dessin vectoriel** Un graphique **R** sauvegradé en pdf peut être repris , corrigé etc. via un logiciel de dessin vectoriel comme Inkscape par ex. Chaque texte, trait en figure est un élément séparé que vous pouvez travailler.
 
 - **Dessin matriciel** Moins indispensable mais pour retravailler une image ou autre...
 
 ## Autre
 
-- Une suite bureautique
+- Une suite bureautique & quelques autres logiciels classiques? 
 
-<hr>
-# Pour me joindre
+:::{.callout-tip}
+## Pour me joindre
 
 Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::
 

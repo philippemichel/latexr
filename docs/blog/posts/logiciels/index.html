@@ -275,7 +275,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#dessin" id="toc-dessin" class="nav-link" data-scroll-target="#dessin">Dessin</a></li>
   <li><a href="#autre" id="toc-autre" class="nav-link" data-scroll-target="#autre">Autre</a></li>
   </ul></li>
-  <li><a href="#pour-me-joindre" id="toc-pour-me-joindre" class="nav-link" data-scroll-target="#pour-me-joindre">Pour me joindre</a></li>
   </ul>
 </nav>
     </div>
@@ -290,10 +289,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Les “gros” IDE comme Eclipse ont des modules pour <strong>R</strong> ou <span class="math inline">\(\LaTeX\)</span> mais ne sont pas développés pour. Si vous les utilisez déjà pour du Java par ex. OK, allez y, vous l’avez dans les doigts, profitez-en. Sinon ce n’est pas un bon choix.</p>
 <section id="r" class="level1">
 <h1>R</h1>
-<p>On oublie <strong>RCommander</strong>, fournit avec toute distribution R, c’est une catastrophe. Il reste trois solutions</p>
+<p>On oublie <strong>RCommander</strong>, fournit avec toute distribution R, c’est une catastrophe. Il reste trois solutions :</p>
 <section id="rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="rstudio">RStudio</h2>
-<p>Utilisé par plus de 80 % des utilisateurs réguliers deR &amp; près de 100 % des utilisateurs occasionnels <a href="https://posit.co/">RStudio</a> est un IDE très spécialisé dans <strong>R</strong> très bien conçu &amp; relativement intuitif. Le support de <code>Quarto</code> est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l’éditeur de texte au sens strict est un peu basique en <strong>R</strong> &amp; franchement simplissime pour du <span class="math inline">\(\LaTeX\)</span>.</p>
+<p>Utilisé par plus de 80 % des utilisateurs réguliers deR &amp; près de 100 % des utilisateurs occasionnels <a href="https://posit.co/">RStudio</a> est un IDE très spécialisé dans <strong>R</strong> très bien conçu &amp; relativement intuitif. Le support de <code>Quarto</code> est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l’éditeur de texte au sens strict est un peu basique en <strong>R</strong> &amp; franchement simpliste pour du <span class="math inline">\(\LaTeX\)</span>.</p>
 </section>
 <section id="visual-studio-code-vsc" class="level2">
 <h2 class="anchored" data-anchor-id="visual-studio-code-vsc">Visual Studio Code (VSC)</h2>
@@ -311,11 +310,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="emacs-ess" class="level2">
 <h2 class="anchored" data-anchor-id="emacs-ess">Emacs + ESS <img src="emacs.jpeg" class="img-fluid" style="width:5.0%"></h2>
-<p>Bien entendu <a href="https://posit.co/">Emacs</a> demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) &amp; ses défauts (il faut réellement des mains de pianiste &amp; six doigts par main !). On utilisera le package <a href="https://ess.r-project.org/">ESS (Emacs Speaks Statistics)</a> pour avoir un environnement de travail complet pour R.</p>
+<p>Bien entendu <a href="https://posit.co/">Emacs</a> demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) &amp; ses défauts (il faut réellement des mains de pianiste &amp; six doigts par main !). On utilisera le package <a href="https://ess.r-project.org/">ESS (Emacs Speaks Statistics)</a> pour avoir un environnement de travail complet pour R. Je l’utilise quand je travaille longtemps sur un seul fichier.</p>
 </section>
 <section id="mon-usage" class="level2">
 <h2 class="anchored" data-anchor-id="mon-usage">Mon usage</h2>
-<p>J’ai vraiment du mal à me décidé. J’utilise RStudio ou VSC en routine selon mon humeur du jour. Si je dois travailler toute la journée sur un seul fichier (ou presque), je ressort mon Emacs. Pour créer un package je dois avouer que j’apprécie le coté “clickodrome” de RStudio.</p>
+<p>J’ai vraiment du mal à me décidé. J’utilise RStudio ou Emacs selon mon humeur du jour. Si je dois travailler toute la journée sur un seul fichier (ou presque), je ressort mon Emacs. Pour créer un package je dois avouer que j’apprécie le coté “clickodrome” de RStudio.</p>
 <p>Et depuis quelques mois j’ai découvert <a href="https://github.com/features/copilot">Copilot</a>, l’IA de GitHub, qui apporte une aide énorme même si tout n’est pas encore parfait (sur RStudio &amp; VSC).</p>
 </section>
 </section>
@@ -357,7 +356,7 @@ Un fichier non sauvegardé n’existe pas
 </section>
 <section id="serveur-de-version" class="level2">
 <h2 class="anchored" data-anchor-id="serveur-de-version">Serveur de version</h2>
-<p>Même si vous travaillez seul versionner vos travaux vous servira rarement certe, mais ce jour là vous serez bien content de pouvoir revenir avant vos bêtises !</p>
+<p>Même si vous travaillez seul versionner vos travaux vous servira rarement certes, mais ce jour là vous serez bien content de pouvoir revenir avant vos bêtises !</p>
 <p>Deux avantages secondaires non négligeables :</p>
 <ul>
 <li>Ça fait une sauvegarde</li>
@@ -368,23 +367,31 @@ Un fichier non sauvegardé n’existe pas
 <h2 class="anchored" data-anchor-id="dessin">Dessin</h2>
 <p>Même si <strong>R</strong> est un remarquable grapheur il vous faudra de temps en temps reprendre des dessins.</p>
 <ul>
-<li><p><strong>Dessin vectoriel</strong> Un graphique <strong>R</strong> sauvegradé en pdf peut être repris , corrigé etc. via un logiciel de dessin vectoriel comme Inkscape par ex. Chaque tetxe, trait en figure est un élément séparé que vous pouvez travailler.</p></li>
+<li><p><strong>Dessin vectoriel</strong> Un graphique <strong>R</strong> sauvegradé en pdf peut être repris , corrigé etc. via un logiciel de dessin vectoriel comme Inkscape par ex. Chaque texte, trait en figure est un élément séparé que vous pouvez travailler.</p></li>
 <li><p><strong>Dessin matriciel</strong> Moins indispensable mais pour retravailler une image ou autre…</p></li>
 </ul>
 </section>
 <section id="autre" class="level2">
 <h2 class="anchored" data-anchor-id="autre">Autre</h2>
 <ul>
-<li>Une suite bureautique</li>
+<li>Une suite bureautique &amp; quelques autres logiciels classiques?</li>
 </ul>
-<hr>
-</section>
-</section>
-<section id="pour-me-joindre" class="level1">
-<h1>Pour me joindre</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pour me joindre
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

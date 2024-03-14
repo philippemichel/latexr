@@ -12,16 +12,6 @@ execute:
 
 ![](reprod.png){width=15%}
  
- 
-::: {.callout-tip}
-## En travaux
-
-Cette page est encore un peu vide. 
-
-Les exemples de code vont suivre.
-:::
-
-
 
 # Introduction
 
@@ -55,7 +45,7 @@ Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à d
 En jouant sur les réglages (simples) on peut avoir une belle version avec les résultats (tableaux, graphiques...) pour rendre à son client ou collègue mais aussi une plus complète avec le code, les numéros de version des packages utilisés etc.
 
 Le seul commandement à respecter est d'avoir des chuncks brefs : une figure égale un chunk, un tableau égale un chunk etc. 
-Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez à relancer à chaque fois que ce chunk court donc simple. 
+Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez à relancer à chaque fois que ce chunk court donc simple & lisible.
 
 ## Un seul script sera autonome
 

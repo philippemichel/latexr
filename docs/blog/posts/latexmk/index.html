@@ -338,15 +338,28 @@ Un défaut
 </section>
 <section id="configuration-usage" class="level1">
 <h1>Configuration &amp; Usage</h1>
-<p>Ce script ets un peu ancien &amp; va par défaut utilise latex pour générer du dvi.</p>
+<p>Ce script est un peu ancien &amp; va par défaut utilise latex pour générer du dvi.</p>
 <p>La commande de base est simple. Pour produire un pdf à partir du fichier <em>foo.tex</em> il suffit de lancer la commande :</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> latexmk <span class="ex">-pdf</span> <span class="at">-c</span> foo.tex</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Le <code>-c</code> permet de supprimer les fichiers temporaires.</p>
-<p>Soyons un peu moderne : pour utiliser LuaLaTeX il suffit de complèter :</p>
+<p>Soyons un peu moderne : pour utiliser LuaLaTeX il suffit de compléter :</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> latexmk <span class="ex">-pdf</span> <span class="at">-c</span> <span class="at">-</span> pdflua foo.tex</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>L’option <code>-c</code> permet de supprimer les fichiers temporaires.</p>
 <p>Il est possible de créer un fichier de configuration <code>.latexmkrc</code> pour éviter de taper les options à chaque fois. cela peut être utile si vous cumuler les options, pour ma part je n’en ai pas l’usage. J’ai juste créer un alias :</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> alias <span class="va">lmk</span><span class="op">=</span><span class="st">'latexmk -pdf -c -pdflua'</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pour me joindre
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
+</div>
+</div>
 
 
 </section>

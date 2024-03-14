@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Philippe MICHEL">
-<meta name="description" content="Un graphique usuel">
+<meta name="description" content="Tout part en sucette ma bonne dame !">
 
-<title>\(\LaTeX \mathbb{R}\) - Pyramide des âges</title>
+<title>\(\LaTeX \mathbb{R}\) - Lollipop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,9 +101,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="\(\LaTeX \mathbb{R}\) - Pyramide des âges">
-<meta property="og:description" content="Un graphique usuel">
-<meta property="og:image" content="index_files/figure-html/fig-pyramide-classique-1.png">
+<meta property="og:title" content="\(\LaTeX \mathbb{R}\) - Lollipop">
+<meta property="og:description" content="Tout part en sucette ma bonne dame !">
+<meta property="og:image" content="sucette.png">
 <meta property="og:site-name" content="DocPhilmStat">
 <meta property="og:locale" content="fr_FR">
 </head>
@@ -163,7 +163,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Pyramide des âges</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lollipop</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -175,16 +175,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Pyramide des âges</h1>
+    <div class="quarto-title column-page-right">
+      <h1 class="title">Lollipop</h1>
                   <div>
         <div class="description">
-          Un graphique usuel
+          Tout part en sucette ma bonne dame !
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">R</div>
-                <div class="quarto-category">Graphiques</div>
+                <div class="quarto-category">graphique</div>
               </div>
                   </div>
   </div>
@@ -283,91 +283,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#en-r-classique" id="toc-en-r-classique" class="nav-link active" data-scroll-target="#en-r-classique">En R classique</a></li>
-  <li><a href="#en-r-saveur-tidyverse" id="toc-en-r-saveur-tidyverse" class="nav-link" data-scroll-target="#en-r-saveur-tidyverse">En R saveur tidyverse</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-right" id="quarto-document-content">
 
 
 
 
-<p>Un des graphiques les plus classiques &amp; les normés en démographie ou en médecine est la pyramide des âges. Il s’agit d’un graphique en barres qui représente la répartition de la population par âge et par sexe. Sa réalisation en R peut être en R classique ou en R saveur tidyverse.</p>
+<p><img src="sucette.png" class="img-fluid"></p>
+<p>Les diagrammes produisant des barres comme <code>geom_bar</code> produisent des graphiques simples &amp; clairs mais qui gardent un défaut : l’œil est attiré, entre autre, par la largeur des barres qui n’a, le plus souvent, aucune signification. D’où l’idée d’un graphique équivalent sans barre, juste des traits avec une petite boule en haut afin d’être bien visible soit une sucette, <em>lollipop</em> en anglais.</p>
+<p>Pour compliquer les choses nous allons mettre en évidence une catégorie, ici l’espèce <code>Gentoo</code> des manchots.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(epiDisplay)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(apyramid)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>pat <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/patients.csv"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate_if</span>(is.character, as.factor) </span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="en-r-classique" class="level2">
-<h2 class="anchored" data-anchor-id="en-r-classique">En R classique</h2>
-<p>On utilise le package <code>epiDisplay</code> qui contient une fonction fort pratique :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>epiDisplay<span class="sc">::</span><span class="fu">pyramid</span>(pat<span class="sc">$</span>age, pat<span class="sc">$</span>sexe, </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>        <span class="at">main =</span> <span class="st">"Pyramide des âges"</span>, </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">binwidth =</span> <span class="dv">10</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.gender =</span> <span class="fu">c</span>(<span class="st">"pink"</span>, <span class="st">"lightblue"</span>))</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">gentoo =</span> <span class="fu">ifelse</span>(species <span class="sc">==</span> <span class="st">"Gentoo"</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">#</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">fct_reorder</span>(species, n,<span class="at">.desc =</span> <span class="cn">TRUE</span>), <span class="at">y =</span> n, <span class="at">fill =</span> gentoo) <span class="sc">+</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>      <span class="at">x =</span> <span class="fu">fct_reorder</span>(species, n, <span class="at">.desc =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>      <span class="at">xend =</span> <span class="fu">fct_reorder</span>(species, n, <span class="at">.desc =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>      <span class="at">yend =</span> n</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    )) <span class="sc">+</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">5</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">shape =</span> <span class="dv">21</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-pyramide-classique" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="index_files/figure-html/fig-pyramide-classique-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Pyramide des âges en R classique</figcaption>
-</figure>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-</div>
-</section>
-<section id="en-r-saveur-tidyverse" class="level2">
-<h2 class="anchored" data-anchor-id="en-r-saveur-tidyverse">En R saveur tidyverse</h2>
-<p>Pour rester simple je ne vais pas fignoler la présentation du graphique. Dans un premier temps nous allons créer une variable catégorielle qui représentera les âges par tranche de 10 ans. Pour cela nous allons utiliser la fonction <code>cut</code> du package <code>dplyr</code>. Puis tracer le graphique grâce à la fonction <code>age_pyramid</code> du package <code>apyramid</code>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>pat <span class="sc">|&gt;</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">agerec =</span> <span class="fu">cut</span>(age,</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>, <span class="dv">60</span>, <span class="dv">70</span>, <span class="dv">80</span>, <span class="dv">90</span>),</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"&lt; 20"</span>, <span class="st">"21-30"</span>, <span class="st">"31,40"</span>, <span class="st">"41-50"</span>, <span class="st">"51-60"</span>, <span class="st">"61-70"</span>, <span class="st">"71,80"</span>, <span class="st">"&gt; 80"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>))<span class="sc">|&gt;</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">agerec =</span> <span class="fu">as.factor</span>(agerec)) <span class="sc">|&gt;</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Tracé du graphique</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">age_pyramid</span>(<span class="at">age_group =</span> <span class="st">"agerec"</span>,</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">split_by =</span> <span class="st">"sexe"</span>,</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">pal =</span> <span class="fu">c</span>(<span class="st">"pink"</span>, <span class="st">"lightblue"</span>) )</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div id="fig-pyramide-tidyverse" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="index_files/figure-html/fig-pyramide-tidyverse-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Figure&nbsp;2: Pyramide des âges en R saveur tidyverse</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p><img src="pyr2.png" class="img-fluid" style="width:1.0%"></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Pour me joindre
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur <a href="https://twitter.com/PhiippeMICHEL">Twitter</a> &amp; je vous répondrai dans les plus brefs délais.</p>
-</div>
-</div>
+<p>Comme d’habitude le graphique est brut de décoffrage sans fioriture ni réglage fin.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
