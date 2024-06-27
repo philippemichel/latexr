@@ -23,7 +23,7 @@ kable(format = "html", align = "l") %>%
   row_spec(2:4, bold = F, color = "black", background = "#CCC6FF")
 ```
 
-**10 % de réduction pour les premiers clients (jusqu'à la fin mai 2024)**
+**10 % de réduction pour les premiers clients (jusqu'à la fin 2024)**
 
 
 Comme vous le devinez je préfère travailler sur un projet du début à la fin. C'est plus intéressant pour vous & pour moi.  Mais je peux aussi vous aider sur une partie seulement.
@@ -32,7 +32,7 @@ Comme vous le devinez je préfère travailler sur un projet du début à la fin.
 ::: {.callout-caution}
 ## 
 
-"Appeler un statisticien après que l’expérience est terminée, c’est comme lui demander de faire une autopsie ; il pourra seulement déterminer la cause de l’échec de l’expérience."
+"Appeler un statisticien après que l’expérience est terminée, c’est comme lui demander de faire une autopsie; il pourra seulement déterminer la cause de l’échec de l’expérience."
 
 Ronald A. Fisher, FRS (1890-1962)
 :::

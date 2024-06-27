@@ -12,14 +12,12 @@ Au début de votre travail, pour vous aider à définir votre étude : le type d
 
 ## Analyse statistique
 
-Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. N'oubliez pas que les PUPH qui vont vous juger passent par un labo de statistiques pour tous leurs travaux.
+Une fois les données collectées, il faut les analyser. C'est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages... Et surtout il faut interpréter les résultats. Ça ne s'improvise pas, c'est un métier. N'oubliez pas que les PUPH qui vont vous juger passent le plus souvent par un labo de statistiques pour tous leurs travaux !
 
 
 # Mes limites
 
-Si je me permets de vous proposer mes services c'est que j'ai une bonne [formation en statistiques & Une grosse expérience](presentation.html) de ce type de travail.
-
-Mais tout seul dans mon coin je ne vais pas gérer un PHRC ou une étude interventionnelle avec du médicament. 
+Si je me permets de vous proposer mes services c'est que j'ai une bonne [formation en statistiques & Une grosse expérience](presentation.html) de ce type de travail. Mais tout seul dans mon coin je ne vais pas gérer un PHRC ou une étude interventionnelle avec du médicament. 
 
 Je n'interviens donc que sur des études [RIPH-3](moz-extension://12959df1-7aeb-4e99-a041-ebf819bc5934/content/web/viewer.html?file=https%3A%2F%2Fsfar.org%2Fwp-content%2Fuploads%2F2018%2F10%2F3-Recherche-clinique-en-anesthesie-reanimation-la-loi-Jarde-en-pratique.pdf) ou RNIPH. Je peux éventuellement faire uniquement la partie statistique d'une RIPH-2 mais pas la partie méthodologique.
 
@@ -33,7 +31,7 @@ Je peux assurer des formations en petit groupe à $\mathbb{R}$ :
 
 :::{callout-tip}
 Il s'agit de formations sur la technique, sur le langage $\mathbb{R}$, pas de cours de statistiques !
-:::"
+:::
 
 Formations en présentiel (toujours préférable) ou à distance.
 

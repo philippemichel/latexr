@@ -82,7 +82,7 @@ Tout cela vous donnera une bonne base pour rédiger votre partie *Matériel et M
 
 Toutes ces données il va falloir les stocker. Deux solutions simples existent : 
 
-- Un formulaire en ligne type [Google Forms®](https://www.google.fr/intl/fr/forms/about/) ou [LymeSurvey®](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n'est pas conforme  à la loi HIPAA donc ne devrai pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n'est pas anonyme, on peut retrouver de qui il s'agit).
+- Un formulaire en ligne type [Google Forms®](https://www.google.fr/intl/fr/forms/about/) ou [LymeSurvey®](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n'est pas conforme  à la loi HIPAA donc ne devrait pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n'est pas anonyme, on peut retrouver de qui il s'agit).
 - Un tableur (type Excel®). Ça peut paraître simple mais c'est plein de pièges & la saisie peut être longue & source d'erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.
 
 ::: {.callout-tip}
@@ -96,7 +96,7 @@ Pour un tableur je peux soit le créer complètement (mauvaise solution) soit si
 ::: {.callout-warning}
 ## Attention !
 
-Il ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d'autorisation au CPP. Là je ne peux rien pour vous si ce n'est vous aider à rédiger la demande pour le CPP qui ce résume (presque) à l'Introduction & les Matériel et Méthodes. Votre service (surtout en CHU) doit avoir un modèle pré-établit dans ses tiroirs.
+Il ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d'autorisation au CPP. Là je ne peux rien pour vous si ce n'est vous aider à rédiger la demande pour le CPP qui se résume (presque) à l'Introduction & les Matériel et Méthodes. Votre service (surtout en CHU) doit avoir un modèle pré-établit dans ses tiroirs.
 
 Et ne perdez pas de temps : il est hors de question d'inclure le moindre patient dans l’étude avant d'avoir l'accord du CPP.
 :::

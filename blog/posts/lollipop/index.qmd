@@ -22,17 +22,18 @@ Pour compliquer les choses nous allons mettre en évidence une catégorie, ici l
 library(tidyverse)
 library(palmerpenguins)
 #
-penguins |>
+penguins |> 
   drop_na(species) |>
-  count(species) |>
-  mutate(gentoo = ifelse(species == "Gentoo", TRUE, FALSE)) |>
+  count(species) |> 
+  mutate(gentoo = ifelse(species == "Gentoo", TRUE, FALSE)) |> # Pour colorer la valeur "Gentoo"
+  mutate(species = fct_reorder(species, n, .desc = TRUE)) |> # Réordonne species selon n
   #
-  ggplot() +
-  aes(x = fct_reorder(species, n,.desc = TRUE), y = n, fill = gentoo) +
+  ggplot() + 
+ aes(x = species,y = n, fill = gentoo) +
   geom_segment(
     aes(
-      x = fct_reorder(species, n, .desc = TRUE),
-      xend = fct_reorder(species, n, .desc = TRUE),
+      x = species,
+      xend = species,
       y = 0,
       yend = n
     )) +
