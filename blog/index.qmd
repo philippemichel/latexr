@@ -10,7 +10,7 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-Pour être franc, je me fais un aide-mémoire que je partage avec vous.
+Pour être simple, je me fais un aide-mémoire que je partage avec vous.
 
 :::{.callout-tip}
 ## Pour me joindre

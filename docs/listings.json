@@ -2,13 +2,14 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/posts/lollipop/index.html",
-      "/blog/posts/logiciels/index.html",
-      "/blog/posts/tableau/index.html",
-      "/blog/posts/axex/index.html",
-      "/blog/posts/reprod/index.html",
       "/blog/posts/pyramide/index.html",
-      "/blog/posts/latexmk/index.html"
+      "/blog/posts/tableau/index.html",
+      "/blog/posts/reprod/index.html",
+      "/blog/posts/axex/index.html",
+      "/blog/posts/lollipop/index.html",
+      "/blog/posts/latexmk/index.html",
+      "/blog/posts/acronymes/index.html",
+      "/blog/posts/logiciels/index.html"
     ]
   }
 ]

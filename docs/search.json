@@ -18,33 +18,21 @@
     "href": "index.html",
     "title": "Ma proposition",
     "section": "",
-    "text": "Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.\nLes statistiques c’est un métier et il est normal de ne pas être à l’aise avec. C’est pourquoi je vous propose de vous accompagner dans votre travail & cela au début & à la fin du long processus d’écriture) :",
-    "crumbs": [
-      "Home",
-      "Ma proposition"
-    ]
+    "text": "Vous avez une thèse, un mémoire à écrire & la partie statistique vous effraie ? Je vous comprends.\nLes statistiques c’est un métier et il est normal de ne pas être à l’aise avec. C’est pourquoi je vous propose de vous accompagner dans votre travail & cela au début & à la fin du long processus d’écriture) :"
   },
   {
     "objectID": "index.html#méthodologie",
     "href": "index.html#méthodologie",
     "title": "Ma proposition",
     "section": "Méthodologie",
-    "text": "Méthodologie\nAu début de votre travail, pour vous aider à définir votre étude : le type d’étude, le nombre de sujets à inclure, les variables à étudier…",
-    "crumbs": [
-      "Home",
-      "Ma proposition"
-    ]
+    "text": "Méthodologie\nAu début de votre travail, pour vous aider à définir votre étude : le type d’étude, le nombre de sujets à inclure, les variables à étudier…"
   },
   {
     "objectID": "index.html#analyse-statistique",
     "href": "index.html#analyse-statistique",
     "title": "Ma proposition",
     "section": "Analyse statistique",
-    "text": "Analyse statistique\nUne fois les données collectées, il faut les analyser. C’est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages… Et surtout il faut interpréter les résultats. Ça ne s’improvise pas, c’est un métier. N’oubliez pas que les PUPH qui vont vous juger passent le plus souvent par un labo de statistiques pour tous leurs travaux !",
-    "crumbs": [
-      "Home",
-      "Ma proposition"
-    ]
+    "text": "Analyse statistique\nUne fois les données collectées, il faut les analyser. C’est là que ça se complique. Il faut choisir les bons tests, les bons graphiques, les bons réglages… Et surtout il faut interpréter les résultats. Ça ne s’improvise pas, c’est un métier. N’oubliez pas que les PUPH qui vont vous juger passent le plus souvent par un labo de statistiques pour tous leurs travaux !"
   },
   {
     "objectID": "presentation.html",
@@ -70,36 +58,21 @@
     "href": "chronologie.html",
     "title": "Déroulé de votre étude",
     "section": "",
-    "text": "Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même compter un an au minimum.\nVoyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse.",
-    "crumbs": [
-      "Home",
-      "DocPhilmStat",
-      "Déroulé de votre étude"
-    ]
+    "text": "Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même compter un an au minimum.\nVoyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse."
   },
   {
     "objectID": "chronologie.html#base-de-données",
     "href": "chronologie.html#base-de-données",
     "title": "Déroulé de votre étude",
     "section": "Base de données",
-    "text": "Base de données\nToutes ces données il va falloir les stocker. Deux solutions simples existent :\n\nUn formulaire en ligne type Google Forms® ou LymeSurvey® par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrait pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouver de qui il s’agit).\nUn tableur (type Excel®). Ça peut paraître simple mais c’est plein de pièges & la saisie peut être longue & source d’erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.\n\n\n\n\n\n\n\nMon apport\n\n\n\nPour un formulaire en ligne je peux me charger de le configurer.\nPour un tableur je peux soit le créer complètement (mauvaise solution) soit simplement vérifier ou améliorer votre travail.\n\n\n\n\n\n\n\n\nAttention !\n\n\n\nIl ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d’autorisation au CPP. Là je ne peux rien pour vous si ce n’est vous aider à rédiger la demande pour le CPP qui se résume (presque) à l’Introduction & les Matériel et Méthodes. Votre service (surtout en CHU) doit avoir un modèle pré-établit dans ses tiroirs.\nEt ne perdez pas de temps : il est hors de question d’inclure le moindre patient dans l’étude avant d’avoir l’accord du CPP.",
-    "crumbs": [
-      "Home",
-      "DocPhilmStat",
-      "Déroulé de votre étude"
-    ]
+    "text": "Base de données\nToutes ces données il va falloir les stocker. Deux solutions simples existent :\n\nUn formulaire en ligne type Google Forms® ou LymeSurvey® par ex.). C’est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n’est pas conforme à la loi HIPAA donc ne devrait pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, on peut retrouver de qui il s’agit).\nUn tableur (type Excel®). Ça peut paraître simple mais c’est plein de pièges & la saisie peut être longue & source d’erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.\n\n\n\n\n\n\n\nMon apport\n\n\n\nPour un formulaire en ligne je peux me charger de le configurer.\nPour un tableur je peux soit le créer complètement (mauvaise solution) soit simplement vérifier ou améliorer votre travail.\n\n\n\n\n\n\n\n\nAttention !\n\n\n\nIl ne faut pas oublier la partie administrative : déclaration à la CNIL & demande d’autorisation au CPP. Là je ne peux rien pour vous si ce n’est vous aider à rédiger la demande pour le CPP qui se résume (presque) à l’Introduction & les Matériel et Méthodes. Votre service (surtout en CHU) doit avoir un modèle pré-établit dans ses tiroirs.\nEt ne perdez pas de temps : il est hors de question d’inclure le moindre patient dans l’étude avant d’avoir l’accord du CPP."
   },
   {
     "objectID": "chronologie.html#recueil-des-données",
     "href": "chronologie.html#recueil-des-données",
     "title": "Déroulé de votre étude",
     "section": "recueil des données",
-    "text": "recueil des données\nLà, c’est à vous de bosser.",
-    "crumbs": [
-      "Home",
-      "DocPhilmStat",
-      "Déroulé de votre étude"
-    ]
+    "text": "recueil des données\nLà, c’est à vous de bosser."
   },
   {
     "objectID": "blog/about.html",
@@ -113,12 +86,7 @@
     "href": "blog/index.html",
     "title": "Trucs LaTeX & R",
     "section": "",
-    "text": "Pour être franc, je me fais un aide-mémoire que je partage avec vous.\n\n\n\n\n\n\nPour me joindre\n\n\n\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Trier par\n       Ordre par défaut\n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n\n\n\n\n\n\n\n\nLollipop\n\n\n\nR\n\n\ngraphique\n\n\n\nTout part en sucette ma bonne dame !\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nÉDITEURS DE TEXTE\n\n\n\nlatex\n\n\nR\n\n\nOrganisation du travail\n\n\n\nÉditeurs de texte & autres logiciels\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nComment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nDes labels trop longs\n\n\n\nR\n\n\nGraphiques\n\n\n\n\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nReproductible\n\n\n\nR\n\n\n\nComment refaire ses calculs deux ans plus tard\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nPyramide des âges\n\n\n\nR\n\n\nGraphiques\n\n\n\nUn graphique usuel\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant\n\n Retour au sommet",
-    "crumbs": [
-      "Home",
-      "Blog",
-      "Trucs LaTeX & R"
-    ]
+    "text": "Pour être simple, je me fais un aide-mémoire que je partage avec vous.\n\n\n\n\n\n\nPour me joindre\n\n\n\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Trier par\n       Ordre par défaut\n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nPyramide des âges\n\n\n\nR\n\n\nGraphiques\n\n\n\nUn graphique usuel\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganiser son tableau de données\n\n\n\nR\n\n\nOrganisation du travail\n\n\n\nComment ne pas faire trop de bêtises avec Excel®\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproductible\n\n\n\nR\n\n\n\nComment refaire ses calculs deux ans plus tard\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nDes labels trop longs\n\n\n\nR\n\n\nGraphiques\n\n\n\n\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLollipop\n\n\n\nR\n\n\ngraphique\n\n\n\nTout part en sucette ma bonne dame !\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaTeXmk\n\n\n\nlatex\n\n\n\nAutomatiser la compilation de LaTeX avec latexmk\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcronymes\n\n\n\nlatex\n\n\n\nGérer les acronymes avec table etc.\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÉDITEURS DE TEXTE\n\n\n\nlatex\n\n\nR\n\n\nOrganisation du travail\n\n\n\nÉditeurs de texte & autres logiciels\n\n\n\nPhilippe MICHEL\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "blog/posts/logiciels/index.html",
@@ -364,5 +332,12 @@
     "title": "Lollipop",
     "section": "",
     "text": "Les diagrammes produisant des barres comme geom_bar produisent des graphiques simples & clairs mais qui gardent un défaut : l’œil est attiré, entre autre, par la largeur des barres qui n’a, le plus souvent, aucune signification. D’où l’idée d’un graphique équivalent sans barre, juste des traits avec une petite boule en haut afin d’être bien visible soit une sucette, lollipop en anglais.\nPour compliquer les choses nous allons mettre en évidence une catégorie, ici l’espèce Gentoo des manchots.\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n#\npenguins |&gt;\n  drop_na(species) |&gt;\n  count(species) |&gt;\n  mutate(gentoo = ifelse(species == \"Gentoo\", TRUE, FALSE)) |&gt;\n  #\n  ggplot() +\n  aes(x = fct_reorder(species, n,.desc = TRUE), y = n, fill = gentoo) +\n  geom_segment(\n    aes(\n      x = fct_reorder(species, n, .desc = TRUE),\n      xend = fct_reorder(species, n, .desc = TRUE),\n      y = 0,\n      yend = n\n    )) +\n  geom_point(\n    size = 5,\n    shape = 21\n  )\n\n\n\n\n\n\n\n\nComme d’habitude le graphique est brut de décoffrage sans fioriture ni réglage fin.\n\n\n\n Retour au sommet"
+  },
+  {
+    "objectID": "blog/posts/acronymes/index.html",
+    "href": "blog/posts/acronymes/index.html",
+    "title": "Acronymes",
+    "section": "",
+    "text": "Dans tous les métiers & en particulier en médecine on utilise beaucoup de sigles, abréviations etc. qu’on appellera ici acronymes. Dans un texte bien conçu la première apparition de l’acronyme est précédée de son développement (Arythmie compète par fibrillation auriculaire (ACFA)). Ensuite, on peut utiliser l’acronyme seul : Ce patient présente une ACFA. Mais si le lecteur n’est pas familiarisé avec votre jargon, il peut être utile de rappeler sa signification. Il se reportera alors à une tabled es acronymes (en PDF ou htlm un lien direct est bien pratique).\n\nEn-tête\nVoyons voir le code nécessaire :\n\\usepackage{hyperref} % À charger avant glossaries-extra\n\\usepackage[acronym, % On charge le package pour les acronymes\n            toc, % pour avoir la table des acronymes dans la table des matières\n            nomain, % On utilise le package que pour les acronymes pas pour des définitions.  \n            automake, % lance le makeindex à chaque compilation\n            hyperfirst=false, % On ne met pas de lien sur la première occurence\n]{glossaries-extra} \n\\usepackage{glossaries-babel} % Titres etc. en français\n\\setabbreviationstyle{long-short} % Style de présentation\n\\makeglossaries % Pour créer la table des acronymes\n\\loadglsentries{listacro} % On charge le fichier listacro.tex qui contient les définitions\nLa fonction \\setabbreviationstyle définit le style de présentation des acronymes. Ici, long-short signifie que la première apparition de l’acronyme sera précédée de son développement. On peut aussi utiliser short-long pour que ce soit l’acronyme qui précède son développement. Les options short-long-sc permet de mettre les acronymes en petites capitales.\n\n\nFichier de définitions\nLe fichier listacro.tex contient les définitions des acronymes. Voici un exemple de ce fichier :\n\\newacronym{acfa}{ACFA}{arythmie complète par fibrillation auriculaire}\n\\newacronym{ivd }{IVD}{insuffisance ventriculaire droite}\n\n\nDans le texte\nLes appels dans le texte se feront comme suit :\nLe patient présente une \\gls{acfa}.\nAvec les variantes :\n\n\\gls{acfa} pour l’acronyme\n\\Gls{acfa} pour la première lettre en majuscule\n\\glspl{acfa} pour le pluriel\n\\Glspl{acfa} pour le pluriel avec la première lettre en majuscule\n\n\n\nConclusion\nToute la doc (très complète) est disponible ici. À noter, cette extension permet aussi de gérer une liste de définition (comme un dictionnaire).\n\n\n\n\n\n\nPour me joindre\n\n\n\nUn simple mail à docphilmstat@gmail.com ou un message sur Twitter & je vous répondrai dans les plus brefs délais."
   }
 ]
