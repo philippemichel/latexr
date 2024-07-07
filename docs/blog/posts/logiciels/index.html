@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
 </style>
@@ -58,18 +58,15 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "correspondances de plus dans ce document",
     "search-clear-button-title": "Effacer",
     "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer",
-    "search-label": "Recherche"
+    "search-submit-button-title": "Envoyer"
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="\(\LaTeX \mathbb{R}\) - ÉDITEURS DE TEXTE">
 <meta property="og:description" content="Éditeurs de texte &amp; autres logiciels">
-<meta property="og:image" content="emacs.jpeg">
 <meta property="og:site-name" content="DocPhilmStat">
 <meta property="og:locale" content="fr_FR">
 </head>
@@ -88,52 +85,47 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title"><span class="math inline">\(\LaTeX \mathbb{R}\)</span></span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../../index.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../../../index.html" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../chronologie.html" rel="" target="">
+    <a class="nav-link" href="../../../chronologie.html">
  <span class="menu-text">Déroulé de votre étude</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../tarifs.html" rel="" target="">
+    <a class="nav-link" href="../../../tarifs.html">
  <span class="menu-text">Tarifs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../presentation.html" rel="" target="">
+    <a class="nav-link" href="../../../presentation.html">
  <span class="menu-text">Qui suis-je ?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../materiel.html" rel="" target="">
+    <a class="nav-link" href="../../../materiel.html">
  <span class="menu-text">Matériel &amp; Logiciels</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html" rel="" target="">
+    <a class="nav-link" href="../../../about.html">
  <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
-</div>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">ÉDITEURS DE TEXTE</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">ÉDITEURS DE TEXTE</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
       </button>
     </div>
   </nav>
@@ -142,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">ÉDITEURS DE TEXTE</h1>
+      <h1 class="title d-none d-lg-block">ÉDITEURS DE TEXTE</h1>
                   <div>
         <div class="description">
           Éditeurs de texte &amp; autres logiciels
@@ -173,74 +165,65 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Recherche"></div>
+        <div id="quarto-search" class="" title="Search"></div>
         </div>
-        </div>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ma proposition</span></a>
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">Ma proposition</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">DocPhilmStat</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">DocPhilmStat</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../chronologie.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Déroulé de votre étude</span></a>
+  <a href="../../../chronologie.html" class="sidebar-item-text sidebar-link">Déroulé de votre étude</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../presentation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Qui suis-je ?</span></a>
+  <a href="../../../presentation.html" class="sidebar-item-text sidebar-link">Qui suis-je ?</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../tarifs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tarifs</span></a>
+  <a href="../../../tarifs.html" class="sidebar-item-text sidebar-link">Tarifs</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../materiel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Matériel &amp; Logiciels</span></a>
+  <a href="../../../materiel.html" class="sidebar-item-text sidebar-link">Matériel &amp; Logiciels</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">À propos</span></a>
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">À propos</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Blog</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../blog/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Trucs LaTeX &amp; R</span></a>
+  <a href="../../../blog/index.html" class="sidebar-item-text sidebar-link">Trucs LaTeX &amp; R</a>
   </div>
 </li>
       </ul>
@@ -248,7 +231,6 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -292,11 +274,11 @@ ul.task-list li input[type="checkbox"] {
 <p>On oublie <strong>RCommander</strong>, fournit avec toute distribution R, c’est une catastrophe. Il reste trois solutions :</p>
 <section id="rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="rstudio">RStudio</h2>
-<p>Utilisé par plus de 80 % des utilisateurs réguliers deR &amp; près de 100 % des utilisateurs occasionnels <a href="https://posit.co/">RStudio</a> est un IDE très spécialisé dans <strong>R</strong> très bien conçu &amp; relativement intuitif. Le support de <code>Quarto</code> est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l’éditeur de texte au sens strict est un peu basique en <strong>R</strong> &amp; franchement simpliste pour du <span class="math inline">\(\LaTeX\)</span>.</p>
+<p>Utilisé par plus de 80 % des utilisateurs réguliers de <strong>R</strong> &amp; près de 100 % des utilisateurs occasionnels <a href="https://posit.co/">RStudio</a> est un IDE très spécialisé dans <strong>R</strong> très bien conçu &amp; relativement intuitif. Le support de <code>Quarto</code> est très bien intégré (normal, c’est la même boite qui développe les deux produits). Il est disponible en version gratuite (RStudio Desktop) ou payante (RStudio Pro) pour les entreprises. La version gratuite est largement suffisante pour un usage personnel ou universitaire. Des défauts ? l’éditeur de texte au sens strict est un peu basique en <strong>R</strong> &amp; franchement simpliste pour du <span class="math inline">\(\LaTeX\)</span>.</p>
 </section>
 <section id="visual-studio-code-vsc" class="level2">
 <h2 class="anchored" data-anchor-id="visual-studio-code-vsc">Visual Studio Code (VSC)</h2>
-<p>L’IDE de Microsoft est un outil remarquable pour écrire du <strong>R</strong> (natif ou Quarto) après un peu de configuration (les tutos pullulent en particulier sur Youtube). La saisie est bien aidée si on a installé les bons packages. Pour ma part j’utilise :</p>
+<p>L’IDE de Microsoft est un outil remarquable pour écrire du <strong>R</strong> (brut ou Quarto) après un peu de configuration (les tutos pullulent en particulier sur Youtube). La saisie est bien aidée si on a installé les bons packages. Pour ma part j’utilise :</p>
 <ul>
 <li><strong>R</strong></li>
 <li><strong>Quarto</strong></li>
@@ -310,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="emacs-ess" class="level2">
 <h2 class="anchored" data-anchor-id="emacs-ess">Emacs + ESS <img src="emacs.jpeg" class="img-fluid" style="width:5.0%"></h2>
-<p>Bien entendu <a href="https://posit.co/">Emacs</a> demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) &amp; ses défauts (il faut réellement des mains de pianiste &amp; six doigts par main !). On utilisera le package <a href="https://ess.r-project.org/">ESS (Emacs Speaks Statistics)</a> pour avoir un environnement de travail complet pour R. Je l’utilise quand je travaille longtemps sur un seul fichier.</p>
+<p>Bien entendu <code>[Emacs](https://www.gnu.org/software/emacs/)</code> demeure une valeur sûre avec ses qualités (le meilleur éditeur de texte au monde) &amp; ses défauts (il faut réellement des mains de pianiste &amp; six doigts par main !). On utilisera le package <a href="https://ess.r-project.org/">ESS (Emacs Speaks Statistics)</a> pour avoir un environnement de travail complet pour <strong>R</strong>. Je l’utilise quand je travaille longtemps sur un seul fichier.</p>
 </section>
 <section id="mon-usage" class="level2">
 <h2 class="anchored" data-anchor-id="mon-usage">Mon usage</h2>
@@ -332,19 +314,19 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="gedit-kate" class="level2">
 <h2 class="anchored" data-anchor-id="gedit-kate">Gedit, Kate</h2>
-<p>Ces éditeurs spécifiques à Linux (Dessinés respectivement pour les bureaux Gnome &amp; KDE) ne m’ont pas convaincu : simplistes, pas d’aides à la saisie sauf configuration perso, je dois avouer ne pas avoir beaucoup pousser mes essais.</p>
+<p>Ces éditeurs spécifiques à Linux (Dessinés respectivement pour les bureaux Gnome &amp; KDE) ne m’ont pas convaincu : simplistes, pas d’aides à la saisie sauf configuration perso, je dois avouer ne pas avoir beaucoup pousser mes essais. Mais certains LaTeXiens très pointus les utilisent.</p>
 </section>
 </section>
 <section id="autres-logiciels-utiles" class="level1">
 <h1>Autres logiciels utiles</h1>
 <section id="sauvegarde" class="level2">
 <h2 class="anchored" data-anchor-id="sauvegarde">Sauvegarde</h2>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-warning callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
+<div class="callout-caption-container flex-fill">
 Un fichier non sauvegardé n’existe pas
 </div>
 </div>
@@ -352,7 +334,7 @@ Un fichier non sauvegardé n’existe pas
 
 </div>
 </div>
-<p>Je ne le répéterai jamais assez : sauvegardez vos fichiers. En local (disque dur externe, serveur etc.) ET en ligne (Dropbox, Google Drive par ex).</p>
+<p>Je ne le répéterai jamais assez : sauvegardez vos fichiers. En local (disque dur externe, serveur etc.) Et en ligne (Dropbox, Google Drive par ex).</p>
 </section>
 <section id="serveur-de-version" class="level2">
 <h2 class="anchored" data-anchor-id="serveur-de-version">Serveur de version</h2>
@@ -360,7 +342,7 @@ Un fichier non sauvegardé n’existe pas
 <p>Deux avantages secondaires non négligeables :</p>
 <ul>
 <li>Ça fait une sauvegarde</li>
-<li>La création d’un site web statique est quasiment automatique (comme le site que vous êtes en train de lire &amp; je vous en remercie).</li>
+<li>La création d’un site web statique est quasiment automatique (comme le site que vous êtes en train de lire ce dont je vous remercie).</li>
 </ul>
 </section>
 <section id="dessin" class="level2">
@@ -374,14 +356,14 @@ Un fichier non sauvegardé n’existe pas
 <section id="autre" class="level2">
 <h2 class="anchored" data-anchor-id="autre">Autre</h2>
 <ul>
-<li>Une suite bureautique &amp; quelques autres logiciels classiques?</li>
+<li>Une suite bureautique &amp; quelques autres logiciels classiques ?</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-tip callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
+<div class="callout-caption-container flex-fill">
 Pour me joindre
 </div>
 </div>
@@ -537,23 +519,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
   });
   clipboard.on('success', function(e) {
@@ -618,92 +586,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -747,9 +629,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2024, philippe MICHEL</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

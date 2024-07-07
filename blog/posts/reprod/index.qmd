@@ -19,9 +19,9 @@ Après quelques années de travail en statistiques j'ai été confronté plusieu
 
 - "j'ai rajouté dix cas, tu peux me refaire les stats ?"
 - "tu te souviens de l'analyse qu'on a faite il y a deux ans ? il faudrait la refaire en ajoutant..."
-- "Sympa ta présentation des résultats, on pourrai en faire un surveillance mensuelle" (de la part du chef, impossible dire non)
+- "Sympa ta présentation des résultats, on pourrait en faire un surveillance mensuelle" (de la part du chef, impossible dire non)
 
-À l'époque je travaillait avec des scripts R soigneusement stockés dans mes dossiers avec souvent plusieurs versions de chaque etc. 
+À l'époque je travaillait avec des scripts **R** soigneusement stockés dans mes dossiers avec souvent plusieurs versions de chaque etc. 
 
 En direct, lors de écriture des scripts il me fallait en extraire les résultats (chiffres, tableaux, graphiques etc.) pour les incorporer dans le rapport final à grands coups de copier/coller.
 
@@ -37,14 +37,13 @@ Donc plusieurs problèmes qui ont chacun des solutions au bout du compte assez s
 
 # Les solutions
 
-
 ## Générer des rapports quasi-automatiquement avec mes scripts bien rangés.
 
 Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à dire un fichier en Markdown qui contient des bouts de code appelés "chunks". On compile & on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu'elle garde la même structure).
 
 En jouant sur les réglages (simples) on peut avoir une belle version avec les résultats (tableaux, graphiques...) pour rendre à son client ou collègue mais aussi une plus complète avec le code, les numéros de version des packages utilisés etc.
 
-Le seul commandement à respecter est d'avoir des chuncks brefs : une figure égale un chunk, un tableau égale un chunk etc. 
+Le seul commandement à respecter est d'avoir des chunks brefs : une figure égale un chunk, un tableau égale un chunk etc. 
 Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez à relancer à chaque fois que ce chunk court donc simple & lisible.
 
 ## Un seul script sera autonome

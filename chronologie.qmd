@@ -6,13 +6,13 @@ subtitle: "Au travail !"
 
 Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même compter un an au minimum. 
 
-Voyons en détail les différentes étapes qui correspondent plus ou moins aux sections de tout article ou thèse. 
+Voyons en détail les différentes étapes qui correspondent peu ou prou aux sections de tout article ou thèse. 
 
 
 ::: {.callout-note}
 ## Exemple
 
-Nous allons prendre comme exemple un travail su le BPCO aux urgences. 
+Nous allons prendre comme exemple un travail sur l’orientation des patients BPCO aux urgences. 
 
 La question posée est *"Est-ce que la SpO~2~ est un bon marqueur de la sévérité de la BPCO aux urgences ?"* (spoiler : c'est un très mauvais critère).
 :::
@@ -73,7 +73,7 @@ C'est à vous de définir votre type d'étude selon les possibilités locales et
 
 Ensuite je peux vous aider à rédiger le protocole, à définir les variables, à les coder etc. 
 
-Bien entendu je peux calculer le nombre des cas & rédiger la plan d'analyse statistique. 
+Bien entendu je peux calculer le nombre des cas & rédiger le plan d'analyse statistique. 
 :::
 
 Tout cela vous donnera une bonne base pour rédiger votre partie *Matériel et Méthodes*.

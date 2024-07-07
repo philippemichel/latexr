@@ -3,6 +3,8 @@ title: "Matériel & Logiciels"
 ---
  Petite présentation de mon matériel & des logiciels que j'utilise. 
  
+ Page a priori sans aucun intérêt mais si vous êtes curieux..
+ 
 # Matériel
  
  De nos jours n'importe quel ordinateur récent fera l'affaire pour des études cliniques (au max quelques milliers de cas pour une centaine de variables). Si vous travaillez sur du génome (quelques millions de cas) le problème est différent. 

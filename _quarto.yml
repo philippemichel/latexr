@@ -4,8 +4,7 @@ project:
 lang: fr
 website:
   image: violons.png
-  title: "$\\LaTeX \\mathbb{R}$"
- # back-to-top-navigation: true
+  title: "DocPhilmStat"
   search:
     location: sidebar
     type: textbox
@@ -59,7 +58,5 @@ format:
         - sandstone
         - custom.scss
       dark: cyborg
-    css: styles.css
-
-    fontsize: 1.6em
+    fontsize: 1.2em
     toc: true
