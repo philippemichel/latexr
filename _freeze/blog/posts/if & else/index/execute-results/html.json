@@ -1,0 +1,15 @@
+{
+  "hash": "8aac60daeadb6d3713f8e54c042065f2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"If & Else\"\ndescription: \"Faire un choix c'est toujours difficile\"\nauthor: \"Philippe MICHEL\"\ncategories:\n  - R\nwarning: false\n---\n\n\n\nPetit problème pour les jeunes parents( avant l'échographie) : choisir un prénom pour le futur bébé. Nous allons les aider grâce à **R**.\n\nPlusieurs possibilités. La première qui vient à l'esprit est une structure `if/else` qu'on connait tous car présente dans beaucoup de langages : \n\n\n::: {.cell}\n\n```{.r .cell-code}\nsexe <- \"F\"\n\nif(sexe == \"F\"){\n  prenom  <- \"Jean\"\n} else {\n  prenom <- \"Marie\"\n}\n```\n:::\n\n\nEfficace mais un peu lourd. On peut faire plus simple avec la fonction `ifelse`.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nprenom <- ifelse(sexe == \"G\", \"Jean\", \"Marie\")\n```\n:::\n\n\nTrès bien mais toujours un peu binaire. Prévoyons donc tous les cas possibles avec la fonction `case_when` du package `dplyr` qui permet de faire des tests plus complexes.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(dplyr)\n\nprenom <- case_when(\n  sexe == \"M\" ~ \"Jean\",\n  sexe == \"F\" ~ \"Marie\",\n  .default = \"Dominique\"\n)\n```\n:::\n\n\nCette fonction permet d'avoir autant de conditions que l'on veut. On peut aussi ajouter une condition par défaut avec `.default`. \n\nPS : *Oui, je suis un vieux boomer.*\n\n\n:::{.callout-tip}\n## Pour me joindre\n\nUn simple mail à <a href=\"mailto:docphilmstat@gmail.com\">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

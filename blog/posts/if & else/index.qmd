@@ -1,0 +1,57 @@
+---
+title: "If & Else"
+description: "Faire un choix c'est toujours difficile"
+author: "Philippe MICHEL"
+categories:
+  - R
+warning: false
+---
+
+
+Petit problème pour les jeunes parents( avant l'échographie) : choisir un prénom pour le futur bébé. Nous allons les aider grâce à **R**.
+
+Plusieurs possibilités. La première qui vient à l'esprit est une structure `if/else` qu'on connait tous car présente dans beaucoup de langages : 
+
+```{r}
+#| label: ifouelse
+
+sexe <- "F"
+
+if(sexe == "F"){
+  prenom  <- "Jean"
+} else {
+  prenom <- "Marie"
+}
+```
+
+Efficace mais un peu lourd. On peut faire plus simple avec la fonction `ifelse`.
+
+```{r}
+#| label: ifelse
+prenom <- ifelse(sexe == "G", "Jean", "Marie")
+```
+
+Très bien mais toujours un peu binaire. Prévoyons donc tous les cas possibles avec la fonction `case_when` du package `dplyr` qui permet de faire des tests plus complexes.
+
+```{r}
+#| label: casewhen
+
+library(dplyr)
+
+prenom <- case_when(
+  sexe == "M" ~ "Jean",
+  sexe == "F" ~ "Marie",
+  .default = "Dominique"
+)
+```
+
+Cette fonction permet d'avoir autant de conditions que l'on veut. On peut aussi ajouter une condition par défaut avec `.default`. 
+
+PS : *Oui, je suis un vieux boomer.*
+
+
+:::{.callout-tip}
+## Pour me joindre
+
+Un simple mail à <a href="mailto:docphilmstat@gmail.com">docphilmstat@gmail.com</a> ou un message sur [Twitter](https://twitter.com/PhiippeMICHEL) & je vous répondrai dans les plus brefs délais.
+:::
