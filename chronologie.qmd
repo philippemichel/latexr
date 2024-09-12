@@ -127,9 +127,7 @@ Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiquement �
 
 - Je travaille vite : pour une analyse statistique simple je peux rendre un rapport dans la semaine. De votre coté vous vous devez d'être réactif si je vous demande des précisions. 
 
-- Comme vous pouvez le deviner en lisant ce site si je maîtrise à peu près correctement la technique le coté esthétique m'échappe complètement. Les graphiques que je vais vous rendre seront, je l’espère, clairs & informatifs mais ni très originaux ni fignolés dans l'esthétique. 
-
-Maintenant, si vous le souhaitez, je peux modifier certaines choses par ex. mettre une image en fond (très moche à mon avis) ou remplacer les rectangles des histogrammes par des figures etc. À vous de voir.
+- Comme vous pouvez le deviner en lisant ce site si je maîtrise à peu près correctement la technique le coté esthétique m'échappe complètement. Les graphiques que je vais vous rendre seront, je l’espère, clairs & informatifs mais ni très originaux ni fignolés dans l'esthétique. Maintenant, si vous le souhaitez, je peux modifier certaines choses par ex. mettre une image en fond (très moche à mon avis) ou remplacer les rectangles des histogrammes par des figures etc. À vous de voir.
 
 - De base j'utilise des échelles de couleurs compatibles avec les troubles de la vision des couleurs.
 :::
