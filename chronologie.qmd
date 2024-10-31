@@ -4,7 +4,7 @@ subtitle: "Au travail !"
 ---
 
 
-Pour une étude clinique correcte il faut prévoir environ 5 ans. Rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite mais il faut tout de même compter un an au minimum. 
+Pour une étude clinique correcte il faut prévoir environ 5 ans. Mais rassurez-vous pour une thèse, sur un travail simple, on peut aller beaucoup plus vite. Il faut tout de même compter un an au minimum. 
 
 Voyons en détail les différentes étapes qui correspondent peu ou prou aux sections de tout article ou thèse. 
 
@@ -34,7 +34,7 @@ Il s'agit là de vous approprier le sujet. C'est un travail personnel, je ne peu
 
 # Matériel et Méthodes
 
-C'est la partie la plus importante de votre travail. Vous allez décrire votre population, vos critères d'inclusion et d'exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc. Mais aussi la plus rébarbative à lire & la plus complexe à écrire.
+C'est la partie la plus importante, la plus technique, la plus rébarbative de votre travail. Vous allez devoir décrire votre population, vos critères d'inclusion et d'exclusion, vos méthodes statistiques, vos tests, vos hypothèses, vos variables, etc.
 
 La première étape est de définir exactement le design de votre travail : rétrospectif ? Interventionnel ? 
 
@@ -64,7 +64,7 @@ tibble(
 ```
 
 
-Le seul calcul qui doit être fait à ce stade est le nombre de cas nécessaires. On se base sur la bibliographie & des méthodes statistiques. 
+Le seul calcul qui doit être fait à ce stade est le nombre de cas nécessaires. On se base sur la bibliographie & des méthodes statistiques variées qui vont d'un simple calcul de puissance à des méthodes de bootstrap par ex. 
 
 ::: {.callout-tip}
 ## Mon apport
@@ -80,9 +80,9 @@ Tout cela vous donnera une bonne base pour rédiger votre partie *Matériel et M
 
 ## Base de données
 
-Toutes ces données il va falloir les stocker. Deux solutions simples existent : 
+Toutes ces données il va falloir les stocker. Deux solutions simples existent (pour des études monocentriques) : 
 
-- Un formulaire en ligne type [Google Forms®](https://www.google.fr/intl/fr/forms/about/) ou [LymeSurvey®](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais n'est pas conforme  à la loi HIPAA donc ne devrait pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n'est pas anonyme, on peut retrouver de qui il s'agit).
+- Un formulaire en ligne type [Google Forms®](https://www.google.fr/intl/fr/forms/about/) ou [LymeSurvey®](https://www.limesurvey.org/fr) par ex.). C'est simple, rapide, gratuit mais attention à la sécurité : Google Form® est conforme au RGDP mais pas à la loi HIPAA donc ne devrait pas être utilisé pour des données de santé. Si les données sont complètement anonymisés ça peut passer (Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n'est pas anonyme, on peut retrouver de qui il s'agit).
 - Un tableur (type Excel®). Ça peut paraître simple mais c'est plein de pièges & la saisie peut être longue & source d'erreurs. Quelques trucs & techniques permettent de pallier à beaucoup de ces erreurs.
 
 ::: {.callout-tip}
@@ -90,7 +90,7 @@ Toutes ces données il va falloir les stocker. Deux solutions simples existent :
 
 Pour un formulaire en ligne je peux me charger de le configurer. 
 
-Pour un tableur je peux soit le créer complètement (mauvaise solution) soit simplement vérifier ou améliorer votre travail. 
+Pour un tableur je peux soit le créer complètement (mauvaise solution) soit simplement vérifier voire améliorer votre travail. 
 :::
 
 ::: {.callout-warning}
@@ -119,7 +119,7 @@ Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiquement �
 
 # Discussion
 
-À  vous de travailler. Je peux éventuellement relire mais l'avis de votre directeur de thèse ou d'un collègue sera plus pertinent.
+À vous de travailler. Je peux éventuellement relire mais l'avis de votre directeur de thèse ou d'un collègue sera plus pertinent.
 
 # Divers
 
@@ -129,7 +129,7 @@ Là, pas de détail, je fais tout. Et le rapport rendu correspond pratiquement �
 
 - Comme vous pouvez le deviner en lisant ce site si je maîtrise à peu près correctement la technique le coté esthétique m'échappe complètement. Les graphiques que je vais vous rendre seront, je l’espère, clairs & informatifs mais ni très originaux ni fignolés dans l'esthétique. Maintenant, si vous le souhaitez, je peux modifier certaines choses par ex. mettre une image en fond (très moche à mon avis) ou remplacer les rectangles des histogrammes par des figures etc. À vous de voir.
 
-- De base j'utilise des échelles de couleurs compatibles avec les troubles de la vision des couleurs.
+- De base j'utilise des échelles de couleurs compatibles avec les troubles de la vision des couleurs. De toute façon vous pouvez me demander de changer la couleur ou autre de n'importe quel élément. C'est votre étude, vos choix.
 :::
 
 :::{.callout-tip}

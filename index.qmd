@@ -4,13 +4,12 @@ title:  "Les stats de votre thèse"
 
 Vous avez une thèse, un mémoire (DESC, IPA...) à écrire & la partie statistique vous effraie ? Je vous comprends. Les statistiques c'est un métier et il est normal de ne pas être à l'aise avec. N'oubliez pas que les PUPH qui vont vous juger passent le plus souvent par un labo de statistiques pour tous leurs travaux !
  
- 
 C'est pourquoi je vous propose de vous accompagner dans votre travail & cela au début & à la fin du [long processus d'écriture](chronologie.html) aussi bien pour la partie méthodologique que pour l'analyse statistique.
 
 
 
 
-# Formations
+## Formations
 
 Je peux assurer des formations en petit groupe à **R** (voire à $\LaTeX$):
 

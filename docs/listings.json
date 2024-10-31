@@ -3,6 +3,7 @@
     "listing": "/blog/index.html",
     "items": [
       "/blog/posts/lollipop/index.html",
+      "/blog/posts/anonymes/index.html",
       "/blog/posts/logiciels/index.html",
       "/blog/posts/if & else/index.html",
       "/blog/posts/tableau/index.html",

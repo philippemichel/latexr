@@ -12,7 +12,7 @@ message: false
 
 ![](sucette.png)
 
-Les diagrammes produisant des barres comme `geom_bar` produisent des graphiques simples & clairs mais qui gardent un défaut : l’œil est attiré, entre autre, par la largeur des barres qui n'a, le plus souvent, aucune signification. D'où l’idée d'un graphique équivalent sans barre, juste des traits avec une petite boule en haut afin d'être bien visible soit une sucette, *lollipop* en anglais.
+Les diagrammes produisant des barres rectangulaires comme `geom_bar` produisent des graphiques simples & clairs mais qui gardent un défaut : l’œil est attiré, entre autre, par la largeur des barres qui n'a, le plus souvent, aucune signification. D'où l’idée d'un graphique équivalent sans barre, juste des traits avec une petite boule en haut afin d'être bien visible soit une sucette, *lollipop* en anglais.
 
 Pour compliquer les choses nous allons mettre en évidence une catégorie, ici l’espèce `Gentoo` des manchots. 
 

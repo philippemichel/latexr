@@ -1,0 +1,45 @@
+---
+title: "Anonymes"
+description: "Des données vraiment sécurisées"
+author: "Philippe MICHEL"
+categories:
+  - R
+  - Organisation du travail
+---
+
+![](masque.png)
+
+On pense souvent qu'il suffit de ne pas mettre le nom & le prénom des patients pour que les données soient anonymes. Ce n'est pas aussi simple. Un homme né le 12/03/47 pesant 76 Kg & hospitalisé du 12 au 17/03/23 en Médecine B ce n’est pas anonyme, il suffit de croiser ces informations avec les registres de l’hôpital pour retrouver son identité.
+
+Donc limitons les données critiques. 
+
+## Code du patient
+
+Il est toujours pratique d'avoir une variable  `ìdentité` pour retrouver facilement le dossier d'un patient. La combine la plus fréquente est d'avoir un code avec les initiales du patient & un nombre. Par exemple, pour Jean Dupont, on pourrait avoir `JD002`. Mais ce système est tout de même une brèche majeure. Avec une liste des patients de l'hôpital il est facile de retrouver qui se cache derrière `JD002`.
+
+Donc la colonne `identité` doit être un code aléatoire. Un simple numéro d'ordre par exemple. Et à coté, sur une feuille de papier ou un tableau informatique présent sur un autre ordinateur (idéalement non relié à un quelconque réseau), on aura la correspondance. M. Jean Dupont sera donc `002`. 
+
+## Date de naissance
+
+Parmi les patients de votre hôpital il y en a peu nés le 23/10/1948. Donc c'est un faille majeure. La recommandation est de ne noter que le mois & l'année (sauf, bien entendu pour des études portant sur des très jeunes enfants).  Donc on notera 10/1948.
+
+## Adresse, téléphone etc. 
+
+Votre étude implique de rappeler les patients à six mois. Il vous faut donc les noms & numéro de téléphone (ou email...) mais ces informations sont très sensibles. Il est donc recommandé de les stocker dans un fichier (voire ordinateur) séparé avec comme seule correspondance le numéro d'identification du cas (`002` pour notre ami Jean Dupont). 
+
+Ce fichier sera au mieux local (pas de Google Form), idéalement crypté, protégé par un mot de passe & déclaré à la CNIL avec la justification de son existence & surtout détruit dès la fin de l'étude (contrairement au fichier de données qui doit être conservé 15 ans).
+
+N'oublions pas que les données concernant les préférences sexuelles, l'origine ethnique ou la religion sont des données très sensibles qui doivent être stockées avec les mêmes précautions . Le plus simple est toujours de ne collecter que les données vraiment essentielles. 
+
+## Données hospitalières
+
+La durée de séjour peut être une variable importante de votre étude. Donc vous allez noter les jours d'admission & de sortie du service. Encore une grosse faille de sécurité (il n'y a pas beaucoup de patients qui sont entrés le 12/03/47 & sortis le 17/03/23). 
+
+Donc soit on traite ces données comme les noms & adresses (voir le paragraphe précédent) soit on les transforme immédiatement en durée de séjour.
+
+## La machine
+
+Imaginons un piratage de Google Form (très peu probable, j'en conviens). Vous serez responsable de la fuite de vos données médicales. Donc sur ces serveurs aucune, vraiment aucune donnée sensible. 
+
+Sur votre ordinateur (ça se vole un ordinateur), le fichier doit être protégé par un mot de passe &, idéalement, le disque dur doit être crypté (facile à faire sur Linux , [Mac](https://support.apple.com/fr-fr/guide/disk-utility/dskutl35612/mac) ou même [Windows](https://support.microsoft.com/fr-fr/windows/chiffrement-d-appareil-dans-windows-cf7e2b6f-3e70-4882-9532-18633605b7df)).
+
