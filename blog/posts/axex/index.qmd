@@ -13,7 +13,7 @@ Vous avez un beau graphique mmais les labels (souvent sur l'axe des X) sont trop
 :::{.callout-note}
 Les graphiques qui suivent sont volontairement très simple afin d'avoir le code le plus court possible. 
 
-J'utilise ici la base de données `penguins` où j'ai juste créer des labels immondes; très très longs.
+J'utilise ici la base de données `penguins` où j'ai juste créer des labels immondes, très très longs.
 :::
 
 ```{r}
@@ -21,8 +21,9 @@ J'utilise ici la base de données `penguins` où j'ai juste créer des labels im
 
 library(ggplot2)
 library(palmerpenguins)
-levels(penguins$species) <- paste0(levels(penguins$species)," ",
-                                   levels(penguins$species)," ",levels(penguins$species)," ",levels(penguins$species))
+levels(penguins$species) <- 
+  paste0(levels(penguins$species)," ",
+        levels(penguins$species)," ",levels(penguins$species)," ",levels(penguins$species))
 ```
 
 ```{r}

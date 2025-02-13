@@ -19,7 +19,7 @@ Après quelques années de travail en statistiques j'ai été confronté plusieu
 
 - "j'ai rajouté dix cas, tu peux me refaire les stats ?"
 - "tu te souviens de l'analyse qu'on a faite il y a deux ans ? il faudrait la refaire en ajoutant..."
-- "Sympa ta présentation des résultats, on pourrait en faire un surveillance mensuelle" (de la part du chef, impossible dire non)
+- "Sympa ta présentation des résultats, on pourrait en faire un surveillance mensuelle" (de la part du chef, impossible de dire non)
 
 À l'époque je travaillait avec des scripts **R** soigneusement stockés dans mes dossiers avec souvent plusieurs versions de chaque etc. 
 
@@ -39,16 +39,16 @@ Donc plusieurs problèmes qui ont chacun des solutions au bout du compte assez s
 
 ## Générer des rapports quasi-automatiquement avec mes scripts bien rangés.
 
-Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à dire un fichier en Markdown qui contient des bouts de code appelés "chunks". On compile & on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu'elle garde la même structure).
+Facile dés qu'on utilise Rmarkdown ou [Quarto](https://quarto.org/). c'est à dire un fichier en Markdown qui contient votre texte mais surtout du code découpé au morceaux appelés "chunks". On compile & on sort un beau rapport en pdf, html ou autre. On ne fait pas plus simple ! Et quand on reprend le travail tout est là, dans le même fichier. On peut le relancer avec une base de données qui a grossi (tant qu'elle garde la même structure).
 
 En jouant sur les réglages (simples) on peut avoir une belle version avec les résultats (tableaux, graphiques...) pour rendre à son client ou collègue mais aussi une plus complète avec le code, les numéros de version des packages utilisés etc.
 
 Le seul commandement à respecter est d'avoir des chunks brefs : une figure égale un chunk, un tableau égale un chunk etc. 
-Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez à relancer à chaque fois que ce chunk court donc simple & lisible.
+Comme ça quand vous travailler à fignoler un graphique par exemple vous n'avez à relancer à chaque fois que ce chunk court donc simple & lisible. Ce qui fait pour un résultat simple un chunck de calculs pour la mise en forme des données etc., un chunck pour le tableau & un dernier pour le graphique. 
 
 ## Un seul script sera autonome
 
-Un truc pas indispensable mais que je trouve bien pratique.  Le plus gros chunk que vous aurez à écrire est celui qui charge les données & les met en forme : préciser les NA, avoir des noms de variables utilisables, décider qui est numérique ou factoriel, régler l'ordre des niveaux dans les variables vectorielles, traduire les dates etc.
+Un truc pas indispensable mais que je trouve bien pratique. Le plus gros chunk que vous aurez à écrire est celui qui charge les données & les met en forme : préciser les NA, avoir des noms de variables utilisables, décider qui est numérique ou factoriel, régler l'ordre des niveaux dans les variables vectorielles, traduire les dates etc.
 
 De plus si vous avez plusieurs rapports à rédiger avec le même jeux de données il vous faudra le recopier au début de chaque travail. Sans oublier que si un import à partir d'un cvs est quasi instantané, un import depuis une base de données ou un tableau Excel peut être long.
 
@@ -71,7 +71,7 @@ Et dans vos rapports vous n'aurez qu'à commencer par :
 df <- readRDS("data.rds")
 ```
 
-Mais n'oubliez pas, outre les sauvegardes, d'utiliser un gestionnaire de version (Git ou autre) & d'avoir une gestion des fichiers un peu réfléchie, ne pas avoir plusieurs versions du même document dans le même dossier par ex.
+N'oubliez pas, outre les sauvegardes, d'utiliser un gestionnaire de version (Git ou autre) & d'avoir une gestion des fichiers un peu réfléchie, ne pas avoir plusieurs versions du même document dans le même dossier par ex.
 
 
 :::{.callout-tip}

@@ -8,7 +8,7 @@ warning: false
 ---
 
 
-Petit problème pour les jeunes parents( avant l'échographie) : choisir un prénom pour le futur bébé. Nous allons les aider grâce à **R**.
+Petit problème pour les jeunes parents (avant l'échographie) : choisir un prénom pour le futur bébé. Nous allons les aider grâce à **R**.
 
 Plusieurs possibilités. La première qui vient à l'esprit est une structure `if/else` qu'on connait tous car présente dans beaucoup de langages : 
 
@@ -45,7 +45,7 @@ prenom <- case_when(
 )
 ```
 
-Cette fonction permet d'avoir autant de conditions que l'on veut. On peut aussi ajouter une condition par défaut avec `.default`. 
+Cette fonction permet d'avoir autant de conditions que l'on veut. On peut (doit) ajouter une condition par défaut avec `.default`. 
 
 PS : *Oui, je suis un vieux boomer.*
 
